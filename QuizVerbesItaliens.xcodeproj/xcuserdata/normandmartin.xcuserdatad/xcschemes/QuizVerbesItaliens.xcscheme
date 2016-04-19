@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8E7F05F31C2F2C37003A6F21"
-               BuildableName = "QuizVerbesItaliensTests.xctest"
+               BuildableName = "QuizVerbesItaliens.xctest"
                BlueprintName = "QuizVerbesItaliensTests"
                ReferencedContainer = "container:QuizVerbesItaliens.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8E7F05FE1C2F2C38003A6F21"
-               BuildableName = "QuizVerbesItaliensUITests.xctest"
+               BuildableName = "QuizVerbesItaliens.xctest"
                BlueprintName = "QuizVerbesItaliensUITests"
                ReferencedContainer = "container:QuizVerbesItaliens.xcodeproj">
             </BuildableReference>
