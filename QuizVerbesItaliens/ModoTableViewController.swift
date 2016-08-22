@@ -71,9 +71,12 @@ class ModoTableViewController: UITableViewController {
    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("verbCell")!
-
-
         cell.textLabel?.text = self.item[indexPath.section][indexPath.row]
+        let backItem = UIBarButtonItem()
+        backItem.title = ""
+        navigationItem.backBarButtonItem = backItem // This will show in the next view controller being pushed
+
+        
         return cell
     }
 

@@ -29,11 +29,9 @@ class VerbTestViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var vedereStatistica: UIButton!
     @IBOutlet weak var altro: UIButton!
     @IBOutlet weak var modeDuVerbe: UILabel!
-
     var modeChoixVerbe: String = ""
     var mode = ""
     var up = true
-
     
     override func viewDidLoad() {
                 super.viewDidLoad()
@@ -41,11 +39,11 @@ class VerbTestViewController: UIViewController, UITextFieldDelegate {
         
         // Setting up notification to detect when appa goes into the background
         let notificationCenter = NSNotificationCenter.defaultCenter()
-        notificationCenter.addObserver(self, selector: "appMovedToBackground", name: UIApplicationWillResignActiveNotification, object: nil)
+        notificationCenter.addObserver(self, selector: #selector(VerbTestViewController.appMovedToBackground), name: UIApplicationWillResignActiveNotification, object: nil)
         
         // Setting up notification to detect rotation
         let notificationCenter2 = NSNotificationCenter.defaultCenter()
-            notificationCenter2.addObserver(self, selector: "rotated", name: UIDeviceOrientationDidChangeNotification, object: nil)
+            notificationCenter2.addObserver(self, selector: #selector(VerbTestViewController.rotated), name: UIDeviceOrientationDidChangeNotification, object: nil)
         
         modeChoixVerbe = mode + " \(modeChoixVerbe)"
         retrieveVerbes()
@@ -215,6 +213,7 @@ class VerbTestViewController: UIViewController, UITextFieldDelegate {
             return goodResponse
         }
       chooseVerb()
+
     }
 // The next function checks if the response of the user is true or false. It also counts the good and bad responses and saves it in the NSUserDefault.
     func textFieldShouldReturn(response: UITextField) -> Bool {
@@ -235,8 +234,8 @@ class VerbTestViewController: UIViewController, UITextFieldDelegate {
 // Adding the total good responses for both the verb and the time of the verb
             statReponse = reponse.arrayForKey(verbeConjugueTotal!) as! [Int]
             statReponseTemps = reponse.arrayForKey(tempsTotal) as! [Int]
-            ++statReponse[0]
-            ++statReponseTemps[0]
+            statReponse[0] += 1
+            statReponseTemps[0] += 1
             reponse.setObject(statReponse, forKey: verbeConjugueTotal!)
             reponse.setObject(statReponseTemps, forKey: tempsTotal)
             correction.text = "Buonissimo!"
@@ -258,8 +257,8 @@ class VerbTestViewController: UIViewController, UITextFieldDelegate {
             }
             statReponse = reponse.arrayForKey(verbeConjugueTotal!) as! [Int]
             statReponseTemps = reponse.arrayForKey(tempsTotal) as! [Int]
-            ++statReponse[1]
-            ++statReponseTemps[1]
+            statReponse[1] += 1
+            statReponseTemps[1] += 1
             reponse.setObject(statReponse, forKey: verbeConjugueTotal!)
             reponse.setObject(statReponseTemps, forKey: tempsTotal)
 // Adding sound for bad response and changing text to red
@@ -277,20 +276,6 @@ class VerbTestViewController: UIViewController, UITextFieldDelegate {
         
     }
     
-    // Calling the display of the next view with statistical results
-    @IBAction func vedereStatistica(sender: AnyObject) {
-        
-    
-    }
-    // Transfering data to next view
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "showStatisticView" {
-            let verbeStatistic = segue.destinationViewController as! StatitsticViewController
-            verbeStatistic.verbesStatistics = infinitif
-            verbeStatistic.tempsStatistics = tempsVerbe
 
-
-    }
-    }
 
 }

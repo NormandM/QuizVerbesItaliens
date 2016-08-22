@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E25F4951D64FD3600E6AFBF /* VerbeChoisiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E25F4941D64FD3600E6AFBF /* VerbeChoisiTableViewController.swift */; };
+		8E25F4971D66248000E6AFBF /* VerbeFinalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E25F4961D66248000E6AFBF /* VerbeFinalTableViewController.swift */; };
+		8E25F49B1D665A4F00E6AFBF /* initialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E25F49A1D665A4F00E6AFBF /* initialViewController.swift */; };
 		8E3E40301C6A758A00918E7A /* Sound in Resources */ = {isa = PBXBuildFile; fileRef = 8E3E402F1C6A758A00918E7A /* Sound */; };
 		8E3E40411C6A804C00918E7A /* Error Warning.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8E3E40401C6A804C00918E7A /* Error Warning.wav */; };
 		8E3E40431C6A805300918E7A /* Incoming Text 01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8E3E40421C6A805300918E7A /* Incoming Text 01.wav */; };
@@ -21,6 +24,7 @@
 		8E7F06041C2F2C39003A6F21 /* QuizVerbesItaliensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F06031C2F2C39003A6F21 /* QuizVerbesItaliensUITests.swift */; };
 		8E7F06141C2F2E46003A6F21 /* DataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F06131C2F2E46003A6F21 /* DataStructure.swift */; };
 		8E7F06161C306AB2003A6F21 /* ItalianVerbPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E7F06151C306AB1003A6F21 /* ItalianVerbPlist.plist */; };
+		8EF409F71D67926300F05245 /* ListeOfVerbesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF409F61D67926300F05245 /* ListeOfVerbesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E25F4941D64FD3600E6AFBF /* VerbeChoisiTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerbeChoisiTableViewController.swift; sourceTree = "<group>"; };
+		8E25F4961D66248000E6AFBF /* VerbeFinalTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerbeFinalTableViewController.swift; sourceTree = "<group>"; };
+		8E25F49A1D665A4F00E6AFBF /* initialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = initialViewController.swift; sourceTree = "<group>"; };
 		8E3E402F1C6A758A00918E7A /* Sound */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sound; sourceTree = "<group>"; };
 		8E3E40401C6A804C00918E7A /* Error Warning.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Error Warning.wav"; path = "Sound/Error Warning.wav"; sourceTree = "<group>"; };
 		8E3E40421C6A805300918E7A /* Incoming Text 01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Incoming Text 01.wav"; path = "Sound/Incoming Text 01.wav"; sourceTree = "<group>"; };
@@ -61,6 +68,7 @@
 		8E7F06051C2F2C39003A6F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = QuizVerbesItaliensUITests/Info.plist; sourceTree = SOURCE_ROOT; };
 		8E7F06131C2F2E46003A6F21 /* DataStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStructure.swift; sourceTree = "<group>"; };
 		8E7F06151C306AB1003A6F21 /* ItalianVerbPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ItalianVerbPlist.plist; path = ../../Italian/Italian/ItalianVerbPlist.plist; sourceTree = "<group>"; };
+		8EF409F61D67926300F05245 /* ListeOfVerbesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListeOfVerbesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,9 +134,13 @@
 			isa = PBXGroup;
 			children = (
 				8E7F06131C2F2E46003A6F21 /* DataStructure.swift */,
-				8E7F05E51C2F2C35003A6F21 /* VerbTestViewController.swift */,
+				8E25F49A1D665A4F00E6AFBF /* initialViewController.swift */,
 				8E7398A41C512AD9003A5B3F /* ModoTableViewController.swift */,
+				8E7F05E51C2F2C35003A6F21 /* VerbTestViewController.swift */,
 				8E544BEE1C42CD08009AC474 /* StatitsticViewController.swift */,
+				8EF409F61D67926300F05245 /* ListeOfVerbesViewController.swift */,
+				8E25F4941D64FD3600E6AFBF /* VerbeChoisiTableViewController.swift */,
+				8E25F4961D66248000E6AFBF /* VerbeFinalTableViewController.swift */,
 				8E7F05E71C2F2C36003A6F21 /* Main.storyboard */,
 				8E7F05EC1C2F2C36003A6F21 /* LaunchScreen.storyboard */,
 				8E3E403F1C6A801500918E7A /* Sounds */,
@@ -299,10 +311,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EF409F71D67926300F05245 /* ListeOfVerbesViewController.swift in Sources */,
 				8E7398A51C512AD9003A5B3F /* ModoTableViewController.swift in Sources */,
 				8E544BEF1C42CD08009AC474 /* StatitsticViewController.swift in Sources */,
 				8E7F06141C2F2E46003A6F21 /* DataStructure.swift in Sources */,
+				8E25F4971D66248000E6AFBF /* VerbeFinalTableViewController.swift in Sources */,
 				8E7F05E61C2F2C35003A6F21 /* VerbTestViewController.swift in Sources */,
+				8E25F4951D64FD3600E6AFBF /* VerbeChoisiTableViewController.swift in Sources */,
+				8E25F49B1D665A4F00E6AFBF /* initialViewController.swift in Sources */,
 				8E7F05E41C2F2C35003A6F21 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

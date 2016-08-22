@@ -33,8 +33,8 @@ var item = [[verbAre, verbEre, verbIre], [indPresent, indImperfetto, indPassatoP
 
 class StatitsticViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
-    var verbesStatistics: [String] = []
-    var tempsStatistics: [String] = []
+    var verbesStatistics: [String] = infinitif
+    var tempsStatistics: [String] = tempsVerbe
     var temps: [String] = []
     var verbeStatistic: String = ""
     var tempsStatistic: String = ""
@@ -59,12 +59,11 @@ class StatitsticViewController: UIViewController, UITableViewDataSource, UITable
     }
     
     override func viewDidLoad() {
-        super.viewDidLoad()
+
         var a: Int = 0
         var e: Int = 0
         var i: Int = 0
         self.navigationItem.title = "Statistiche per gruppi"
-
         let reponse = NSUserDefaults.standardUserDefaults()
         // Retrieving Statistics for groups: are, ere, ire
         for verbeStatistic in verbesStatistics {
@@ -81,19 +80,19 @@ class StatitsticViewController: UIViewController, UITableViewDataSource, UITable
                         bonneReponseAr = bonneReponseAr + statReponse[0]
                         mauvaiseReponseAr = mauvaiseReponseAr + statReponse[1]
                         verbAre =  "are: \(round(bonneReponseAr / (bonneReponseAr + mauvaiseReponseAr) * 100))%"
-                        ++a
+                        a += 1
                     }else if lastCharacters == "e" {
                         bonneReponseEr = bonneReponseEr + statReponse[0]
                         mauvaiseReponseEr = mauvaiseReponseEr + statReponse[1]
                         verbEre =  "ere: \(round(bonneReponseEr / (bonneReponseEr + mauvaiseReponseEr) * 100))%"
-                        ++e
+                        e += 1
                     }else if lastCharacters == "i" {
                         bonneReponseIr = bonneReponseIr + statReponse[0]
                         mauvaiseReponseIr = mauvaiseReponseIr + statReponse[1]
                         verbIre =  "ire: \(round(bonneReponseIr / (bonneReponseIr + mauvaiseReponseIr) * 100))%"
-                        ++i
+                        i += 1
                     }
-        
+
                     
                 }
                  
