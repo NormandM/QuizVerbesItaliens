@@ -238,19 +238,22 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Normand Martin";
 				TargetAttributes = {
 					8E7F05DF1C2F2C35003A6F21 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = X6D769Z7F4;
+						LastSwiftMigration = 0800;
 					};
 					8E7F05F31C2F2C37003A6F21 = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 						TestTargetID = 8E7F05DF1C2F2C35003A6F21;
 					};
 					8E7F05FE1C2F2C38003A6F21 = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 						TestTargetID = 8E7F05DF1C2F2C35003A6F21;
 					};
 				};
@@ -387,8 +390,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -431,8 +436,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -451,6 +458,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -466,6 +474,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = NM.QuizVerbesItaliens;
 				PRODUCT_NAME = QuizVerbesItaliens;
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -481,6 +490,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = NM.QuizVerbesItaliens;
 				PRODUCT_NAME = QuizVerbesItaliens;
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -493,6 +503,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NM.QuizVerbesItaliensTests;
 				PRODUCT_NAME = QuizVerbesItaliens;
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizVerbesItaliens.app/QuizVerbesItaliens";
 			};
 			name = Debug;
@@ -505,6 +516,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NM.QuizVerbesItaliensTests;
 				PRODUCT_NAME = QuizVerbesItaliens;
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizVerbesItaliens.app/QuizVerbesItaliens";
 			};
 			name = Release;
@@ -516,6 +528,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NM.QuizVerbesItaliensUITests;
 				PRODUCT_NAME = QuizVerbesItaliens;
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = QuizVerbesItaliens;
 				USES_XCTRUNNER = YES;
 			};
@@ -528,6 +541,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NM.QuizVerbesItaliensUITests;
 				PRODUCT_NAME = QuizVerbesItaliens;
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = QuizVerbesItaliens;
 				USES_XCTRUNNER = YES;
 			};
