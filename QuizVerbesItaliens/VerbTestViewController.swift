@@ -8,7 +8,7 @@
 
 import UIKit
 import AudioToolbox
-var soundURL: NSURL?
+var soundURL: URL?
 var soundID:SystemSoundID = 0
 
 var infinitif: [String] = []
@@ -18,6 +18,7 @@ var personneVerbeCount: Int = 0
 var dictVerbes: [String: [String:[String: String]]] = ["": ["":["": ""]]]
 var goodResponse: String = ""
 var tempsTest: String = ""
+
 
 class VerbTestViewController: UIViewController, UITextFieldDelegate {
     
@@ -33,17 +34,18 @@ class VerbTestViewController: UIViewController, UITextFieldDelegate {
     var mode = ""
     var up = true
     
+
     override func viewDidLoad() {
                 super.viewDidLoad()
         self.navigationItem.title = "Rispondere"
         
         // Setting up notification to detect when appa goes into the background
-        let notificationCenter = NSNotificationCenter.defaultCenter()
-        notificationCenter.addObserver(self, selector: #selector(VerbTestViewController.appMovedToBackground), name: UIApplicationWillResignActiveNotification, object: nil)
+        let notificationCenter = NotificationCenter.default
+        notificationCenter.addObserver(self, selector: #selector(VerbTestViewController.appMovedToBackground), name: NSNotification.Name.UIApplicationWillResignActive, object: nil)
         
         // Setting up notification to detect rotation
-        let notificationCenter2 = NSNotificationCenter.defaultCenter()
-            notificationCenter2.addObserver(self, selector: #selector(VerbTestViewController.rotated), name: UIDeviceOrientationDidChangeNotification, object: nil)
+        let notificationCenter2 = NotificationCenter.default
+            notificationCenter2.addObserver(self, selector: #selector(VerbTestViewController.rotated), name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil)
         
         modeChoixVerbe = mode + " \(modeChoixVerbe)"
         retrieveVerbes()
@@ -71,19 +73,19 @@ class VerbTestViewController: UIViewController, UITextFieldDelegate {
     
     
     // the 3 next function moves the KeyBoards when keyboard appears or hides
-    func textFieldDidBeginEditing(textField: UITextField) {
+    func textFieldDidBeginEditing(_ textField: UITextField) {
         animateViewMoving(true, moveValue: 50)
     }
-    func textFieldDidEndEditing(textField: UITextField) {
+    func textFieldDidEndEditing(_ textField: UITextField) {
         animateViewMoving(false, moveValue: 50)
     }
-    func animateViewMoving (up:Bool, moveValue :CGFloat){
-        let movementDuration:NSTimeInterval = 0.3
+    func animateViewMoving (_ up:Bool, moveValue :CGFloat){
+        let movementDuration:TimeInterval = 0.3
         let movement:CGFloat = ( up ? -moveValue : moveValue)
         UIView.beginAnimations( "animateView", context: nil)
         UIView.setAnimationBeginsFromCurrentState(true)
         UIView.setAnimationDuration(movementDuration )
-        self.view.frame = CGRectOffset(self.view.frame, 0,  movement)
+        self.view.frame = self.view.frame.offsetBy(dx: 0,  dy: movement)
         UIView.commitAnimations()
     }
 
@@ -94,34 +96,42 @@ class VerbTestViewController: UIViewController, UITextFieldDelegate {
         var tChoisi: [String] = []
         correction.text = ""
         response.text = ""
-        if let plistPath = NSBundle.mainBundle().pathForResource("ItalianVerbPlist", ofType: "plist"),
+        if let plistPath = Bundle.main.path(forResource: "ItalianVerbPlist", ofType: "plist"),
             let verbeDictionary = NSDictionary(contentsOfFile: plistPath){
-                let listeDeVerbe = ListedeVerbe(verbeDictionary: verbeDictionary)
+                let listeDeVerbe = ListedeVerbe(verbeDictionary: verbeDictionary as! [String : [String : AnyObject]])
                 dictVerbes = listeDeVerbe.dictVerbes
                 infinitif = listeDeVerbe.infinitif
                 tempsVerbe = listeDeVerbe.tempsVerbe
                 personneVerbe = listeDeVerbe.personneVerbe
                 
-           //Next lines finds out if the user selected the verb to be in are, ere or ire
+           //MARK: Next lines finds out if the user selected the verb to be in are, ere or ire
                 for infinitifVerb in infinitif {
-                    let suffixeVerbe = infinitifVerb[infinitifVerb.endIndex.predecessor().predecessor().predecessor()]
+                    print(modeChoixVerbe)
+                    let indexChar = infinitifVerb.characters.count
+                    let suffixeVerbe = infinitifVerb[infinitifVerb.index(infinitifVerb.startIndex, offsetBy: indexChar - 3)]
+  
                     if modeChoixVerbe == "TERMINAZIONI DEI VERBI are" {
+                        
                         if suffixeVerbe == "a" {
                             vChoix.append(infinitifVerb)
                         }
-                    }else if modeChoixVerbe == "TERMINAZIONE DEI VERBI ere" {
+                    }else if modeChoixVerbe == "TERMINAZIONI DEI VERBI ere" {
+                        
                         if suffixeVerbe == "e" {
                             vChoix.append(infinitifVerb)
+                            
                         }
-                    }else if modeChoixVerbe == "TERMINAZIONE DEI VERBI ire" {
+                    }else if modeChoixVerbe == "TERMINAZIONI DEI VERBI ire" {
                         if suffixeVerbe == "i" {
                             vChoix.append(infinitifVerb)
                         }
                     }else  {
-                        vChoix = infinitif
+                       vChoix = infinitif
                     }
+
                 }
-            
+            print(vChoix)
+           // print(infinitif)
             // Next lines finds out what tense of verbs the user selected
                 if modeChoixVerbe == "INDICATIVO Presente" {
                     tChoisi = ["Indicativo Presente"]
@@ -162,6 +172,7 @@ class VerbTestViewController: UIViewController, UITextFieldDelegate {
         
         // this function randomly selects a verb from the plist taking into account the user's selection: are, ere, ire or tense of verb
         func randomVerbe() -> [String] {
+
             let infinitifRandom = Int(arc4random_uniform(UInt32(vChoix.count)))
             let tempsVerbeRandom = Int(arc4random_uniform(UInt32(tChoisi.count)))
             let verbeChoisi = vChoix[infinitifRandom]
@@ -182,7 +193,7 @@ class VerbTestViewController: UIViewController, UITextFieldDelegate {
         }
         
         // Function chooseVerb breaks up the Array so the selected verb, tense and person can be displayed.
-        func chooseVerb() -> String {
+        @discardableResult func chooseVerb() -> String {
             let verbeElection = randomVerbe()
             let infinitifTest = verbeElection[0]
             let tempsTest = verbeElection[1]
@@ -190,12 +201,12 @@ class VerbTestViewController: UIViewController, UITextFieldDelegate {
             let leVerbeChoisiVerbe =  dictVerbes[infinitifTest]
             
             if let leVerbeChoisiTemps = leVerbeChoisiVerbe?[tempsTest],let leVerbeChoisiPersonne = leVerbeChoisiTemps[personneTest]{
-                verbeAConjuguer.text = infinitifTest.uppercaseString
+                verbeAConjuguer.text = infinitifTest.uppercased()
                 personneDuVerbe.text = personneTest
                 goodResponse = leVerbeChoisiPersonne
                 
                 // splitting temps du verbe to have it in two distinct labels: modeDuVerbe and tempsDuVerbe
-                let result = tempsTest.componentsSeparatedByString(" ")
+                let result = tempsTest.components(separatedBy: " ")
                 
                 modeDuVerbe.text = result[0]
                 if result.count == 3 {
@@ -216,55 +227,55 @@ class VerbTestViewController: UIViewController, UITextFieldDelegate {
 
     }
 // The next function checks if the response of the user is true or false. It also counts the good and bad responses and saves it in the NSUserDefault.
-    func textFieldShouldReturn(response: UITextField) -> Bool {
+    func textFieldShouldReturn(_ response: UITextField) -> Bool {
 // For these 2 arrays the first Int represents good answer, the second a bad answer.
         var statReponse: [Int] = [0,0]
         var statReponseTemps: [Int] = [0,0]
         let tempsTotal = modeDuVerbe.text! + " " + tempsDuVerbe.text!
-        let verbeConjugueTotal = verbeAConjuguer.text?.lowercaseString
+        let verbeConjugueTotal = verbeAConjuguer.text?.lowercased()
         if response.text == goodResponse {
-            let reponse = NSUserDefaults.standardUserDefaults()
+            let reponse = UserDefaults.standard
 // Making sure the values in NUserDefaults are not nil
-            if reponse.arrayForKey(verbeConjugueTotal!) == nil {
-                reponse.setObject([0, 0], forKey: verbeConjugueTotal!)
+            if reponse.array(forKey: verbeConjugueTotal!) == nil {
+                reponse.set([0, 0], forKey: verbeConjugueTotal!)
             }
-            if reponse.arrayForKey(tempsTotal) == nil {
-                reponse.setObject([0, 0], forKey: tempsTotal)
+            if reponse.array(forKey: tempsTotal) == nil {
+                reponse.set([0, 0], forKey: tempsTotal)
             }
 // Adding the total good responses for both the verb and the time of the verb
-            statReponse = reponse.arrayForKey(verbeConjugueTotal!) as! [Int]
-            statReponseTemps = reponse.arrayForKey(tempsTotal) as! [Int]
+            statReponse = reponse.array(forKey: verbeConjugueTotal!) as! [Int]
+            statReponseTemps = reponse.array(forKey: tempsTotal) as! [Int]
             statReponse[0] += 1
             statReponseTemps[0] += 1
-            reponse.setObject(statReponse, forKey: verbeConjugueTotal!)
-            reponse.setObject(statReponseTemps, forKey: tempsTotal)
+            reponse.set(statReponse, forKey: verbeConjugueTotal!)
+            reponse.set(statReponseTemps, forKey: tempsTotal)
             correction.text = "Buonissimo!"
 // Adding sound for good response and changing text to blue
-            let filePath = NSBundle.mainBundle().pathForResource("Incoming Text 01", ofType: "wav")
-            soundURL = NSURL(fileURLWithPath: filePath!)
-            AudioServicesCreateSystemSoundID(soundURL!, &soundID)
+            let filePath = Bundle.main.path(forResource: "Incoming Text 01", ofType: "wav")
+            soundURL = URL(fileURLWithPath: filePath!)
+            AudioServicesCreateSystemSoundID(soundURL! as CFURL, &soundID)
             AudioServicesPlaySystemSound(soundID)
             correction.textColor = UIColor(red: 0/255, green: 255/255, blue: 0/255, alpha: 1.0)
 
         }else{
 // Adding the total bad responses for both the verb and the time of the verb
-            let reponse = NSUserDefaults.standardUserDefaults()
-            if reponse.arrayForKey(verbeConjugueTotal!) == nil {
-                reponse.setObject([0, 0], forKey: verbeConjugueTotal!)
+            let reponse = UserDefaults.standard
+            if reponse.array(forKey: verbeConjugueTotal!) == nil {
+                reponse.set([0, 0], forKey: verbeConjugueTotal!)
             }
-            if reponse.arrayForKey(tempsTotal) == nil {
-                reponse.setObject([0, 0], forKey: tempsTotal)
+            if reponse.array(forKey: tempsTotal) == nil {
+                reponse.set([0, 0], forKey: tempsTotal)
             }
-            statReponse = reponse.arrayForKey(verbeConjugueTotal!) as! [Int]
-            statReponseTemps = reponse.arrayForKey(tempsTotal) as! [Int]
+            statReponse = reponse.array(forKey: verbeConjugueTotal!) as! [Int]
+            statReponseTemps = reponse.array(forKey: tempsTotal) as! [Int]
             statReponse[1] += 1
             statReponseTemps[1] += 1
-            reponse.setObject(statReponse, forKey: verbeConjugueTotal!)
-            reponse.setObject(statReponseTemps, forKey: tempsTotal)
+            reponse.set(statReponse, forKey: verbeConjugueTotal!)
+            reponse.set(statReponseTemps, forKey: tempsTotal)
 // Adding sound for bad response and changing text to red
-            let filePath = NSBundle.mainBundle().pathForResource("Error Warning", ofType: "wav")
-            soundURL = NSURL(fileURLWithPath: filePath!)
-            AudioServicesCreateSystemSoundID(soundURL!, &soundID)
+            let filePath = Bundle.main.path(forResource: "Error Warning", ofType: "wav")
+            soundURL = URL(fileURLWithPath: filePath!)
+            AudioServicesCreateSystemSoundID(soundURL! as CFURL, &soundID)
             AudioServicesPlaySystemSound(soundID)
             correction.textColor = UIColor(red: 255/255, green: 17/255, blue: 93/255, alpha: 1.0)
             

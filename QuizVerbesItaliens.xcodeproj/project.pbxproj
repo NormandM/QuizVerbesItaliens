@@ -244,16 +244,16 @@
 					8E7F05DF1C2F2C35003A6F21 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = X6D769Z7F4;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0810;
 					};
 					8E7F05F31C2F2C37003A6F21 = {
 						CreatedOnToolsVersion = 7.2;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0810;
 						TestTargetID = 8E7F05DF1C2F2C35003A6F21;
 					};
 					8E7F05FE1C2F2C38003A6F21 = {
 						CreatedOnToolsVersion = 7.2;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0810;
 						TestTargetID = 8E7F05DF1C2F2C35003A6F21;
 					};
 				};
@@ -474,7 +474,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = NM.QuizVerbesItaliens;
 				PRODUCT_NAME = QuizVerbesItaliens;
 				PROVISIONING_PROFILE = "";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -490,7 +490,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = NM.QuizVerbesItaliens;
 				PRODUCT_NAME = QuizVerbesItaliens;
 				PROVISIONING_PROFILE = "";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -503,7 +503,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NM.QuizVerbesItaliensTests;
 				PRODUCT_NAME = QuizVerbesItaliens;
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizVerbesItaliens.app/QuizVerbesItaliens";
 			};
 			name = Debug;
@@ -516,7 +516,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NM.QuizVerbesItaliensTests;
 				PRODUCT_NAME = QuizVerbesItaliens;
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizVerbesItaliens.app/QuizVerbesItaliens";
 			};
 			name = Release;
@@ -528,7 +528,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NM.QuizVerbesItaliensUITests;
 				PRODUCT_NAME = QuizVerbesItaliens;
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = QuizVerbesItaliens;
 				USES_XCTRUNNER = YES;
 			};
@@ -541,7 +541,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NM.QuizVerbesItaliensUITests;
 				PRODUCT_NAME = QuizVerbesItaliens;
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = QuizVerbesItaliens;
 				USES_XCTRUNNER = YES;
 			};

@@ -15,14 +15,14 @@ struct ListedeVerbe {
     let personneVerbe: [String]
     let dictVerbes: [String: [String:[String: String]]]
 
-    init(verbeDictionary: NSDictionary) {
+    init(verbeDictionary: [String: [String: AnyObject]]) {
         dictVerbes = verbeDictionary["verbe"] as! [String: [String:[String: String]]]
         
-        infinitif = verbeDictionary["verbe"]?.allKeys as! [String]
+        infinitif = (verbeDictionary["verbe"] as AnyObject).allKeys as! [String]
         
-        tempsVerbe = verbeDictionary["verbe"]?["essere"]??.allKeys as! [String]
+        tempsVerbe = (verbeDictionary["verbe"]?["essere"] as AnyObject).allKeys as! [String]
         
-        personneVerbe = verbeDictionary["verbe"]?["essere"]??["Indicativo Futuro semplice"]??.allKeys as! [String]
+        personneVerbe = (verbeDictionary["verbe"]?["essere"]?["Indicativo Futuro semplice"] as AnyObject).allKeys as! [String]
 
             }
 

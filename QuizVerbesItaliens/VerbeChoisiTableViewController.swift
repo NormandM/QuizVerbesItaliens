@@ -25,10 +25,10 @@ class VerbeChoisiTableViewController: UITableViewController {
 
     }
     // Changing backgroung colors of the header of sections
-    override func tableView(tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
+    override func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
         let header: UITableViewHeaderFooterView = view as! UITableViewHeaderFooterView //recast your view as a UITableViewHeaderFooterView
         header.contentView.backgroundColor = UIColor(red: 151/255, green: 156/255, blue: 159/255, alpha: 1.0) //make the background color light blue
-        header.textLabel!.textColor = UIColor.whiteColor() //make the text white
+        header.textLabel!.textColor = UIColor.white //make the text white
         header.alpha = 1.0 //make the header transparent
         
     }
@@ -39,32 +39,32 @@ class VerbeChoisiTableViewController: UITableViewController {
         super.didReceiveMemoryWarning()
         
     }
-    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         
         return sectionListe[section]
     }
 
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         return sectionListe.count
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return item[section].count
     }
 
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel!.text = self.item[indexPath.section][indexPath.row]
         return cell
     }
     
 // NAVIGATION:
-   override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showLeVerbeFinal2" {
-            if let indexPath = self.tableView.indexPathForSelectedRow, leTemps = tableView.cellForRowAtIndexPath(indexPath)?.textLabel?.text {
+            if let indexPath = self.tableView.indexPathForSelectedRow, let leTemps = tableView.cellForRow(at: indexPath)?.textLabel?.text {
                 if item[indexPath.section].count == 8{
                     nomSection = "Indicativo"
                 }else if item[indexPath.section].count == 4 {
@@ -80,7 +80,7 @@ class VerbeChoisiTableViewController: UITableViewController {
                 backItem.title = ""
                 navigationItem.backBarButtonItem = backItem // This will show in the next view controller being pushed
             
-            let controller = segue.destinationViewController as! VerbeFinalTableViewController
+            let controller = segue.destination as! VerbeFinalTableViewController
            controller.selectionVerbe = verbeTotal
            
             }

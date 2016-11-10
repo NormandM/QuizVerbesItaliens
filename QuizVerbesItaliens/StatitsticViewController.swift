@@ -51,10 +51,10 @@ class StatitsticViewController: UIViewController, UITableViewDataSource, UITable
 
     
     // Changing backgroung colors of the header of sections
-    func tableView(tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
+    func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
         let header: UITableViewHeaderFooterView = view as! UITableViewHeaderFooterView //recast your view as a UITableViewHeaderFooterView
         header.contentView.backgroundColor = UIColor(red: 151/255, green: 156/255, blue: 159/255, alpha: 1.0) //make the background color light blue
-        header.textLabel!.textColor = UIColor.whiteColor() //make the text white
+        header.textLabel!.textColor = UIColor.white //make the text white
         header.alpha = 1.0 
     }
     
@@ -64,16 +64,17 @@ class StatitsticViewController: UIViewController, UITableViewDataSource, UITable
         var e: Int = 0
         var i: Int = 0
         self.navigationItem.title = "Statistiche per gruppi"
-        let reponse = NSUserDefaults.standardUserDefaults()
+        let reponse = UserDefaults.standard
         // Retrieving Statistics for groups: are, ere, ire
         for verbeStatistic in verbesStatistics {
         // Making sure any Nil result is replaced by 0
-            if reponse.arrayForKey(verbeStatistic) == nil {
-                reponse.setObject([0, 0], forKey: verbeStatistic)
+            if reponse.array(forKey: verbeStatistic) == nil {
+                reponse.set([0, 0], forKey: verbeStatistic)
 
             }else {
-                let statReponse = reponse.arrayForKey(verbeStatistic) as! [Double]
-                let lastCharacters = verbeStatistic[verbeStatistic.endIndex.predecessor().predecessor().predecessor()]
+                let statReponse = reponse.array(forKey: verbeStatistic) as! [Double]
+                let indexChar = verbeStatistic.characters.count
+                let  lastCharacters = verbeStatistic[verbeStatistic.index(verbeStatistic.startIndex, offsetBy: indexChar - 3)]
           // If the group doest not have 0 results retrieve the data by the different groups
                 if statReponse[0] + statReponse[1] != 0 {
                     if lastCharacters == "a" {
@@ -112,10 +113,10 @@ class StatitsticViewController: UIViewController, UITableViewDataSource, UITable
         // Retrieveing results for differente Verb Tense
         for tempsStatistic in tempsStatistics {
             // Making sure any Nil result is replaced by 0
-            if reponse.arrayForKey(tempsStatistic) == nil {
-                reponse.setObject([0,0], forKey: tempsStatistic)
+            if reponse.array(forKey: tempsStatistic) == nil {
+                reponse.set([0,0], forKey: tempsStatistic)
             }else{
-                let statTemps = reponse.arrayForKey(tempsStatistic) as! [Double]
+                let statTemps = reponse.array(forKey: tempsStatistic) as! [Double]
             // For each Verb tense if results are 0 displaying: "⎯⎯"
                 if statTemps[0] + statTemps[1] == 0{
                     temps = temps + [("\(tempsStatistic): ⎯⎯")]
@@ -138,23 +139,23 @@ class StatitsticViewController: UIViewController, UITableViewDataSource, UITable
        
     }
     // Identifying name of each section
-    func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         
         return sectionListe[section]
     }
     // Identifying the numer of sections
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    func numberOfSections(in tableView: UITableView) -> Int {
         return sectionListe.count
     }
     // Identifying numer of rows in each section
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
      
         return item[section].count
         
     }
     // Populating each line of the Table
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("verbCell2")!
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "verbCell2")!
         cell.textLabel!.text = self.item[indexPath.section][indexPath.row]
         return cell
     }
@@ -165,10 +166,10 @@ class StatitsticViewController: UIViewController, UITableViewDataSource, UITable
     }
     // The purpose of this button is to reset all data to 0
     @IBAction func rimettereAZaero() {
-        let reponse = NSUserDefaults.standardUserDefaults()
+        let reponse = UserDefaults.standard
         
         for verbeStatistic in verbesStatistics {
-            reponse.setObject([0, 0], forKey: verbeStatistic)
+            reponse.set([0, 0], forKey: verbeStatistic)
             }
         
         verbAre = "are: ⎯⎯"
@@ -177,7 +178,7 @@ class StatitsticViewController: UIViewController, UITableViewDataSource, UITable
         temps = [""]
         
         for tempsStatistic in tempsStatistics {
-            reponse.setObject([0,0], forKey: tempsStatistic)
+            reponse.set([0,0], forKey: tempsStatistic)
             temps = temps + [("\(tempsStatistic): ⎯⎯")]
         }
         temps.removeFirst()
@@ -187,9 +188,9 @@ class StatitsticViewController: UIViewController, UITableViewDataSource, UITable
         loadView()
     }
 // This function arranges the Verbe Tense in the same way they are found in the Plist
-    func statCalc() -> AnyObject {
+    @discardableResult func statCalc() -> AnyObject {
         for temp in temps {
-            let tempSepare = temp.componentsSeparatedByString(" ")
+            let tempSepare = temp.components(separatedBy: " ")
             if tempSepare[0] == "Indicativo"{
                 if tempSepare[1] == "Presente:" {
                     indPresent = tempSepare[1] + " " + tempSepare[2]
@@ -230,7 +231,7 @@ class StatitsticViewController: UIViewController, UITableViewDataSource, UITable
             }
         }
     //Returns an array composed of all the groups
-      return item
+      return item as AnyObject
     }
     
 }
