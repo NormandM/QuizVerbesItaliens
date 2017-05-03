@@ -139,8 +139,5 @@ class QuizOptionsController: UITableViewController {
         }
 
     }
-    override func unwind(for unwindSegue: UIStoryboardSegue, towardsViewController subsequentVC: UIViewController) {
-        print("action")
-    }
 
 }

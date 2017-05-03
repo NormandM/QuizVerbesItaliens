@@ -17,7 +17,6 @@
 		8E1D3DED1EB51FB200482BC9 /* StatistiqueTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D3DEC1EB51FB200482BC9 /* StatistiqueTableViewController.swift */; };
 		8E1D3DEF1EB51FFA00482BC9 /* DataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D3DEE1EB51FFA00482BC9 /* DataStructure.swift */; };
 		8E1D3DF71EB5202100482BC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1D3DF61EB5202100482BC9 /* Main.storyboard */; };
-		8E1D3DF91EB5208600482BC9 /* ItalianVerbsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E1D3DF81EB5208600482BC9 /* ItalianVerbsList.plist */; };
 		8E3E40301C6A758A00918E7A /* Sound in Resources */ = {isa = PBXBuildFile; fileRef = 8E3E402F1C6A758A00918E7A /* Sound */; };
 		8E3E40411C6A804C00918E7A /* Error Warning.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8E3E40401C6A804C00918E7A /* Error Warning.wav */; };
 		8E3E40431C6A805300918E7A /* Incoming Text 01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8E3E40421C6A805300918E7A /* Incoming Text 01.wav */; };
@@ -30,6 +29,7 @@
 		8EB3E8E21EB53C100042B592 /* VerbesFrancais.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3E8E01EB53C100042B592 /* VerbesFrancais.xcdatamodeld */; };
 		8EB3E8E51EB53CE00042B592 /* ItemVerbe+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3E8E31EB53CE00042B592 /* ItemVerbe+CoreDataClass.swift */; };
 		8EB3E8E61EB53CE00042B592 /* ItemVerbe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3E8E41EB53CE00042B592 /* ItemVerbe+CoreDataProperties.swift */; };
+		8EB3E9781EBA41B00042B592 /* ItalianVerbsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EB3E9771EBA41B00042B592 /* ItalianVerbsList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +60,6 @@
 		8E1D3DEC1EB51FB200482BC9 /* StatistiqueTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatistiqueTableViewController.swift; sourceTree = "<group>"; };
 		8E1D3DEE1EB51FFA00482BC9 /* DataStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStructure.swift; sourceTree = "<group>"; };
 		8E1D3DF61EB5202100482BC9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		8E1D3DF81EB5208600482BC9 /* ItalianVerbsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ItalianVerbsList.plist; sourceTree = "<group>"; };
 		8E25F49A1D665A4F00E6AFBF /* initialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = initialViewController.swift; sourceTree = "<group>"; };
 		8E3E402F1C6A758A00918E7A /* Sound */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sound; sourceTree = "<group>"; };
 		8E3E40401C6A804C00918E7A /* Error Warning.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Error Warning.wav"; path = "Sound/Error Warning.wav"; sourceTree = "<group>"; };
@@ -79,6 +78,7 @@
 		8EB3E8E11EB53C100042B592 /* VerbesFrancais.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VerbesFrancais.xcdatamodel; sourceTree = "<group>"; };
 		8EB3E8E31EB53CE00042B592 /* ItemVerbe+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ItemVerbe+CoreDataClass.swift"; path = "../ItemVerbe+CoreDataClass.swift"; sourceTree = "<group>"; };
 		8EB3E8E41EB53CE00042B592 /* ItemVerbe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ItemVerbe+CoreDataProperties.swift"; path = "../ItemVerbe+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8EB3E9771EBA41B00042B592 /* ItalianVerbsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ItalianVerbsList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,7 +157,7 @@
 				8E1D3DE81EB51F9D00482BC9 /* QuizController.swift */,
 				8E1D3DEA1EB51FA800482BC9 /* ResultViewController.swift */,
 				8E1D3DEC1EB51FB200482BC9 /* StatistiqueTableViewController.swift */,
-				8E1D3DF81EB5208600482BC9 /* ItalianVerbsList.plist */,
+				8EB3E9771EBA41B00042B592 /* ItalianVerbsList.plist */,
 				8E3E403F1C6A801500918E7A /* Sounds */,
 				8E3E402F1C6A758A00918E7A /* Sound */,
 				8E7F05EA1C2F2C36003A6F21 /* Assets.xcassets */,
@@ -313,7 +313,7 @@
 			files = (
 				8E1D3DF71EB5202100482BC9 /* Main.storyboard in Resources */,
 				8E7F05EE1C2F2C36003A6F21 /* LaunchScreen.storyboard in Resources */,
-				8E1D3DF91EB5208600482BC9 /* ItalianVerbsList.plist in Resources */,
+				8EB3E9781EBA41B00042B592 /* ItalianVerbsList.plist in Resources */,
 				8E3E40301C6A758A00918E7A /* Sound in Resources */,
 				8E3E40431C6A805300918E7A /* Incoming Text 01.wav in Resources */,
 				8E3E40411C6A804C00918E7A /* Error Warning.wav in Resources */,

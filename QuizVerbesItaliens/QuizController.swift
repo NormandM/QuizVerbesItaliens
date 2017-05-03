@@ -124,7 +124,6 @@ class QuizController: UIViewController, NSFetchedResultsControllerDelegate {
         reponse.isEnabled = true
         selectionQuestion()
         
-        print(testCompltete)
     }
     override func viewDidAppear(_ animated: Bool) {
         if testCompltete == true && fenetre == false {
@@ -238,9 +237,9 @@ class QuizController: UIViewController, NSFetchedResultsControllerDelegate {
         temps.text = helper.capitalize(word: tempsFinal)
     
         bonneReponse.text = ""
- //       if verbeFinal == "pleuvoir" || verbeFinal == "falloir" {
- //           noPersonne = 3
- //       }
+        if verbeFinal == "bisognare"{
+            noPersonne = 3
+        }
         if noPersonne == 1{
             choixPersonne = "premier"
             reponseBonne = verbeFrancais.premier

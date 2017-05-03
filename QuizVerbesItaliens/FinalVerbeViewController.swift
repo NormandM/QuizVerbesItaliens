@@ -46,7 +46,6 @@ class FinalVerbeViewController: UIViewController {
             }
             n = n + 1
         }
-
         let verbeItalien = VerbeItalien(verbArray: arrayVerbe, n: noItem)
       
         let helper = Helper()
@@ -61,7 +60,7 @@ class FinalVerbeViewController: UIViewController {
         sixieme.text = verbeItalien.sixieme
         
         let personneVerbe = Personne(verbArray: verbeItalien)
-        if verbeItalien.verbe == "pleuvoir" || verbeItalien.verbe == "falloir" {
+        if verbeItalien.verbe == "bisognare" {
             first.text = "   "
             second.text = "  "
             third.text = personneVerbe.third
