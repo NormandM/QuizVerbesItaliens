@@ -36,7 +36,7 @@ class FinalVerbeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Verbo coniugato"
+        self.title = "Scegliere i tempi"
         masterConstraint.constant = 0.08 * screenSize.height
         var n = 0
         for verb in arrayVerbe{

@@ -77,12 +77,12 @@ class QuizController: UIViewController, NSFetchedResultsControllerDelegate {
     }
     // the 3 next function moves the KeyBoards when keyboard appears or hides
  
-        func textFieldDidBeginEditing(_ textField: UITextField) {
+        @objc func textFieldDidBeginEditing(_ textField: UITextField) {
             if UIDevice.current.userInterfaceIdiom == .pad && (UIDevice.current.orientation == .landscapeLeft || UIDevice.current.orientation == .landscapeRight){
             animateViewMoving(true, moveValue: 50)
             }
         }
-        func textFieldDidEndEditing(_ textField: UITextField) {
+        @objc func textFieldDidEndEditing(_ textField: UITextField) {
             if UIDevice.current.userInterfaceIdiom == .pad && (UIDevice.current.orientation == .landscapeLeft || UIDevice.current.orientation == .landscapeRight){
             animateViewMoving(false, moveValue: 50)
             }
@@ -164,8 +164,8 @@ class QuizController: UIViewController, NSFetchedResultsControllerDelegate {
         let indexTempsChoisi = Int(arc4random_uniform(UInt32(noTempsChoisi)))
         tempsChoisi = arraySelection[indexTempsChoisi]
         var n = 0
-        while tempsChoisi.characters.last == " "{
-            tempsChoisi = String(tempsChoisi.characters.dropLast(1))
+        while tempsChoisi.last == " "{
+            tempsChoisi = String(tempsChoisi.dropLast(1))
             n = n + 1
         }
         if n == 0 {
@@ -333,7 +333,7 @@ class QuizController: UIViewController, NSFetchedResultsControllerDelegate {
             
         }
     }
-    func textFieldShouldReturn(_ reponse: UITextField) -> Bool {
+    @objc func textFieldShouldReturn(_ reponse: UITextField) -> Bool {
         evaluationReponse()
         reponse.resignFirstResponder()
         checkButton.isEnabled = false

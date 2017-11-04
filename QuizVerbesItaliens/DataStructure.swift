@@ -153,8 +153,8 @@ open class DataController: NSObject {
 ///////////////////////////////
 class Helper {
     func capitalize(word: String) -> (String) {
-        let firstLetter =  String(word.characters.prefix(1)).capitalized
-        let otherLetters = String(word.characters.dropFirst())
+        let firstLetter =  String(word.prefix(1)).capitalized
+        let otherLetters = String(word.dropFirst())
         return(firstLetter + otherLetters)
     }
 }
