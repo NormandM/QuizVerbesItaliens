@@ -16,16 +16,9 @@ class OptionsViewController: UIViewController {
         if let plistPath = Bundle.main.path(forResource: "ItalianVerbsList", ofType: "plist"),
             let verbArray = NSArray(contentsOfFile: plistPath){
             arrayVerbe = verbArray as! [[String]]
-            
         }
-
+        self.navigationItem.setHidesBackButton(true, animated:true)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-
-    }
-    
 
     
     // MARK: - Navigation

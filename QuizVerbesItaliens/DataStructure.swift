@@ -36,6 +36,22 @@ struct VerbeItalien{
         sixieme = verbeChoisi[8]
     }
 }
+struct VerbeTrie {
+    let verbe: String
+    let mode: String
+    let temps: String
+    let verbeConjugue: String
+    let personne: String
+    let n: Int
+    init(allInfoList: [[String]], n: Int){
+        self.n = n
+        mode = allInfoList[n][0]
+        temps = allInfoList[n][1]
+        verbe = allInfoList[n][2]
+        verbeConjugue = allInfoList[n][3]
+        personne = allInfoList[n][4]
+    }
+}
 //////////////////////////////
 //// MARK: Struct to assign the right pronom
 //////////////////////////////
@@ -97,6 +113,87 @@ struct Personne{
         }
     }
 
+}
+struct PersonneTrie {
+    let verbeTrie: VerbeTrie
+    var first: String{
+        var firstReturn = ""
+        if verbeTrie.personne == "1" {
+            if verbeTrie.mode == "Congiuntivo"{
+                    firstReturn = "che io"
+            }else if verbeTrie.mode == "Imperativo"{
+                    firstReturn = ""
+            }else {firstReturn = "io"}
+        }
+        return firstReturn
+    }
+    var second: String{
+        var secondReturn = ""
+        if verbeTrie.personne == "2" {
+            if verbeTrie.mode == "Congiuntivo"{
+                secondReturn = "che tu"
+            }else if verbeTrie.mode == "Imperativo"{
+                secondReturn = "(tu)"
+            }else{
+                secondReturn = "tu"
+            }
+        }
+        return secondReturn
+    }
+    var third: String {
+        var thirdReturn = ""
+        if verbeTrie.personne == "3" {
+            if verbeTrie.mode == "Congiuntivo"{
+                thirdReturn = "che lui, lei"
+            }else if verbeTrie.mode == "Imperativo"{
+                thirdReturn = "(lui, lei)"
+            }else{
+                thirdReturn = "lui, lei"
+            }
+        }
+        return thirdReturn
+    }
+    var fourth: String{
+        var fourthReturn = ""
+        if verbeTrie.personne == "4" {
+            if verbeTrie.mode == "Congiuntivo"{
+                fourthReturn = "che noi"
+            }else if verbeTrie.mode == "Imperativo"{
+                fourthReturn = "(noi)"
+            }else{
+                fourthReturn = "noi"
+            }
+        }
+        return fourthReturn
+    }
+    var fifth: String{
+        var fifthReturn = ""
+        if verbeTrie.personne == "5" {
+            if verbeTrie.mode == "Congiuntivo"{
+                fifthReturn = "che voi"
+            }else if verbeTrie.mode == "Imperativo"{
+                fifthReturn = "(voi)"
+            }else{
+                fifthReturn = "voi"
+            }
+        }
+        return fifthReturn
+    }
+    var sixth: String {
+        var sixthReturn = ""
+        if verbeTrie.personne == "6" {
+            if verbeTrie.mode == "Congiuntivo"{
+                sixthReturn = "che loro"
+            }else if verbeTrie.mode == "Imperativo"{
+                sixthReturn = "(loro)"
+            }else{
+                sixthReturn = "loro"
+            }
+        }
+        return sixthReturn
+    }
+    
+    
 }
 
 /////////////////////////////////////

@@ -10,7 +10,9 @@ import UIKit
 
 class QuizOptionsController: UITableViewController {
     var arrayVerbe: [[String]] = []
+    var listeVerbes = [String]()
     var arraySelection: [String] = []
+    var verbeInfinitif: [String] = []
     var refIndexPath = [IndexPath]()
     var selectedTimeVerbes = NSMutableSet()
     var arr: NSMutableArray = []
@@ -28,14 +30,17 @@ class QuizOptionsController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        for array in arrayVerbe {
+            if listeVerbes.contains(array[2]){
+                
+            }else{
+                listeVerbes.append(array[2])
+            }
+        }
         self.title = "Scegliere i tempi"
 
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 
     // MARK: - Table view data source
 
@@ -103,17 +108,27 @@ class QuizOptionsController: UITableViewController {
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showQuestionFinal"{
-            
-            
+            verbeInfinitif = ["Tous les verbes"]
             let backItem = UIBarButtonItem()
             backItem.title = ""
             navigationItem.backBarButtonItem = backItem
-            
             let controller = segue.destination as! QuizController
             controller.arraySelection = arraySelection
             controller.arrayVerbe = arrayVerbe
-            
+            controller.verbeInfinitif = verbeInfinitif
+            controller.listeVerbe = listeVerbes
+
         }
+        if segue.identifier == "showSpecificVerb"{
+            let backItem = UIBarButtonItem()
+            backItem.title = ""
+            navigationItem.backBarButtonItem = backItem
+            let controller = segue.destination as! SpecificVerbViewController
+            controller.arraySelection = arraySelection
+            controller.arrayVerbe = arrayVerbe
+        }
+        
+        
     }
     func showAlert () {
         let alertController = UIAlertController(title: "È necessario scegliere almeno un tempo verbale.", message: nil, preferredStyle: .actionSheet)
@@ -125,6 +140,23 @@ class QuizOptionsController: UITableViewController {
         
         present(alertController, animated: true, completion: nil)
     }
+
+    func showAlert4 () {
+        
+        let alert = UIAlertController(title: "Verbi Italiani Quiz", message: "Scegli un'opzione", preferredStyle: UIAlertControllerStyle.alert)
+        
+        alert.addAction(UIAlertAction(title: "Tutti i verbi", style: UIAlertActionStyle.default, handler: {(alert: UIAlertAction!) in self.tousLesverbesAction()}))
+        alert.addAction(UIAlertAction(title: "Scegliere i verbi", style: UIAlertActionStyle.default, handler: {(alert: UIAlertAction!) in self.specifierUnVerbe()}))
+        
+        self.present(alert, animated: true, completion: nil)
+    }
+    func tousLesverbesAction() {
+        performSegue(withIdentifier: "showQuestionFinal", sender: UIBarButtonItem.self)
+    }
+    func specifierUnVerbe() {
+        performSegue(withIdentifier: "showSpecificVerb", sender: UIBarButtonItem.self)
+        
+    }
     func dismissAlert(_ sender: UIAlertAction) {
         
     }
@@ -135,7 +167,7 @@ class QuizOptionsController: UITableViewController {
         if i == 0{
             showAlert()
         }else{
-            performSegue(withIdentifier: "showQuestionFinal", sender: UIBarButtonItem.self)
+            showAlert4()
         }
 
     }

@@ -165,6 +165,7 @@ class StatistiqueTableViewController: UITableViewController {
 
         do {
             items = try managedObjectContext.fetch(fetchRequest) as! [ItemVerbe]
+            
         }catch let error as NSError {
             print("Error fetching Item objects: \(error.localizedDescription), \(error.userInfo)")
         }

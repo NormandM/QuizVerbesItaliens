@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import QuizVerbesItaliensTests
+@testable import QuizVerbesItaliens
 
 class QuizVerbesItaliensTests: XCTestCase {
     

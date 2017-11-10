@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>abitare</key>
+	<string>to live</string>
+	<key>aiutare</key>
+	<string>to help</string>
+	<key>alzare</key>
+	<string>to raise</string>
+	<key>amare</key>
+	<string>to love</string>
+	<key>andare</key>
+	<string>to go</string>
+	<key>aprire</key>
+	<string>to open</string>
+	<key>arrivare</key>
+	<string>to arrive</string>
+	<key>ascoltare</key>
+	<string>to listen</string>
+	<key>aspettare</key>
+	<string>to wait</string>
+	<key>avere</key>
+	<string>to have</string>
+	<key>bastare</key>
+	<string>to suffice</string>
+	<key>bere</key>
+	<string>to drink</string>
+	<key>bisognare</key>
+	<string>to need</string>
+	<key>cadere</key>
+	<string>to fall</string>
+	<key>cambiare</key>
+	<string>to change</string>
+	<key>cantare</key>
+	<string>to sing</string>
+	<key>capire</key>
+	<string>to understand</string>
+	<key>cercare</key>
+	<string>to seek</string>
+	<key>chiamare</key>
+	<string>to call</string>
+	<key>chiedere</key>
+	<string>to ask</string>
+	<key>chiudere</key>
+	<string>to close</string>
+	<key>cominciare</key>
+	<string>to begin</string>
+	<key>comprare</key>
+	<string>to buy</string>
+	<key>conoscere</key>
+	<string>to know</string>
+	<key>continuare</key>
+	<string>to continue</string>
+	<key>correre</key>
+	<string>to run</string>
+	<key>credere</key>
+	<string>to believe</string>
+	<key>cuocere</key>
+	<string>to cook</string>
+	<key>dare</key>
+	<string>to give</string>
+	<key>decidere</key>
+	<string>to decide</string>
+	<key>dimenticare</key>
+	<string>to forget</string>
+	<key>dire</key>
+	<string>to say</string>
+	<key>diventare</key>
+	<string>to become</string>
+	<key>divertire</key>
+	<string>to entertain</string>
+	<key>dormire</key>
+	<string>to sleep</string>
+	<key>dovere</key>
+	<string>to have to</string>
+	<key>entrare</key>
+	<string>to come in</string>
+	<key>essere</key>
+	<string>to be</string>
+	<key>fare</key>
+	<string>to do</string>
+	<key>fermare</key>
+	<string>to stop</string>
+	<key>finire</key>
+	<string>to finish</string>
+	<key>giocare</key>
+	<string>to play</string>
+	<key>guardare</key>
+	<string>to look</string>
+	<key>imparare</key>
+	<string>to learn</string>
+	<key>incontrare</key>
+	<string>to meet</string>
+	<key>lasciare</key>
+	<string>to leave</string>
+	<key>lavare</key>
+	<string>to wash</string>
+	<key>lavorare</key>
+	<string>to work</string>
+	<key>leggere</key>
+	<string>to read</string>
+	<key>mancare</key>
+	<string>to miss</string>
+	<key>mangiare</key>
+	<string>to eat</string>
+	<key>mettere</key>
+	<string>to put</string>
+	<key>morire</key>
+	<string>to die</string>
+	<key>nascere</key>
+	<string>to rise,  to be born</string>
+	<key>offrire</key>
+	<string>to offer</string>
+	<key>ottenere</key>
+	<string>to get</string>
+	<key>pagare</key>
+	<string>to pay</string>
+	<key>parlare</key>
+	<string>to speak</string>
+	<key>partire</key>
+	<string>to leave</string>
+	<key>passare</key>
+	<string>to pass</string>
+	<key>pensare</key>
+	<string>to think</string>
+	<key>perdere</key>
+	<string>to lose</string>
+	<key>piacere</key>
+	<string>to like, to enjoy</string>
+	<key>portare</key>
+	<string>to bring</string>
+	<key>potere</key>
+	<string>to be able to</string>
+	<key>preferire</key>
+	<string>to prefer</string>
+	<key>prendere</key>
+	<string>to take</string>
+	<key>preparare</key>
+	<string>to prepare</string>
+	<key>pulire</key>
+	<string>to clean</string>
+	<key>rendere</key>
+	<string>to return</string>
+	<key>restare</key>
+	<string>to stay</string>
+	<key>ricevere</key>
+	<string>to receive</string>
+	<key>ricordare</key>
+	<string>to remember</string>
+	<key>ridere</key>
+	<string>to laugh</string>
+	<key>rimanere</key>
+	<string>to stay</string>
+	<key>rispondere</key>
+	<string>to answer</string>
+	<key>ritornare</key>
+	<string>to return</string>
+	<key>riuscire</key>
+	<string>to succeed</string>
+	<key>salire</key>
+	<string>to go up</string>
+	<key>sapere</key>
+	<string>to know</string>
+	<key>scegliere</key>
+	<string>to choose</string>
+	<key>scendere</key>
+	<string>to go down</string>
+	<key>scrivere</key>
+	<string>to write</string>
+	<key>sedere</key>
+	<string>to sit down</string>
+	<key>seguire</key>
+	<string>to follow</string>
+	<key>sembrare</key>
+	<string>to seem</string>
+	<key>sentire</key>
+	<string>to feel</string>
+	<key>spegnere</key>
+	<string>to switch off</string>
+	<key>sperare</key>
+	<string>to hope</string>
+	<key>spiegare</key>
+	<string>to explain</string>
+	<key>stare</key>
+	<string>to stay, to be</string>
+	<key>studiare</key>
+	<string>to study</string>
+	<key>succedere</key>
+	<string>to happen</string>
+	<key>svegliare</key>
+	<string>to wake</string>
+	<key>telefonare</key>
+	<string>to make a phone call</string>
+	<key>tenere</key>
+	<string>to hold</string>
+	<key>tornare</key>
+	<string>to return</string>
+	<key>tradurre</key>
+	<string>to translate</string>
+	<key>trarre</key>
+	<string>to pull</string>
+	<key>trovare</key>
+	<string>to find</string>
+	<key>usare</key>
+	<string>to use</string>
+	<key>uscire</key>
+	<string>to go out</string>
+	<key>vedere</key>
+	<string>to see</string>
+	<key>vendere</key>
+	<string>to sell</string>
+	<key>venire</key>
+	<string>to come</string>
+	<key>vestire</key>
+	<string>to dress</string>
+	<key>viaggiare</key>
+	<string>to travel</string>
+	<key>vincere</key>
+	<string>to win</string>
+	<key>visitare</key>
+	<string>to visit</string>
+	<key>vivere</key>
+	<string>to live</string>
+	<key>volere</key>
+	<string>to want</string>
+</dict>
+</plist>
