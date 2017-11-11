@@ -35,9 +35,6 @@ class LogoViewController: UIViewController {
     }
     func completionAnimation() {
         let when = DispatchTime.now() + 0.5
-        //self.appsLabel2.text = self.appsLabel2.text! + "."
-        
-        
         DispatchQueue.main.asyncAfter(deadline: when + 1) {
             self.performSegue(withIdentifier: "showOption", sender: (Any).self)
         }
