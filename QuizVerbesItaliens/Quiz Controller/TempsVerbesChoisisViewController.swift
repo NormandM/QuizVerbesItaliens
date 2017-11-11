@@ -26,7 +26,7 @@ class TempsVerbesChoisisViewController: UIViewController, UITableViewDataSource,
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        titleLabel.text = "Vos choix pour le Quiz"
+        titleLabel.text = "Le sue scelte per il Quiz"
         titleLabel.backgroundColor = UIColor(red: 171/255, green: 203/255, blue: 235/255, alpha: 1.0)
         titleLabel.textColor = UIColor.white
         tableViewTemps.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
@@ -77,7 +77,7 @@ class TempsVerbesChoisisViewController: UIViewController, UITableViewDataSource,
             header = mode[section]
         }
         if tableView == self.tableViewVerbes{
-            header = "Infinitif"
+            header = "Infinitivo"
         }
         return header
     }

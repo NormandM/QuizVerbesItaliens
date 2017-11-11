@@ -118,19 +118,41 @@ class SpecificVerbViewController: UIViewController, UITableViewDataSource, UITab
     
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "showQuiz"{
-            let backItem = UIBarButtonItem()
-            backItem.title = ""
-            navigationItem.backBarButtonItem = backItem // This will show in the next view controller being pushed
-            let controller = segue.destination as! QuizController
-            controller.arrayVerbe = arrayVerbe
-            controller.arraySelection = arraySelection
-            controller.verbeInfinitif = verbesChoisi
-            controller.listeVerbe = listeVerbe
+        var okForSegue = true
+        let selection = Selection()
+        let modeEtTemps = selection.choixTempsEtMode(arraySelection: arraySelection)
+        for mode in modeEtTemps {
+            if mode.contains("Imperativo"){
+                if verbesChoisi.contains("potere") || verbesChoisi.contains("dovere") {
+                    showAlertPasDImperatif()
+                    okForSegue = false
+                }
+            }
+        }
+        if okForSegue {
+            if segue.identifier == "showQuiz"{
+                let backItem = UIBarButtonItem()
+                backItem.title = ""
+                navigationItem.backBarButtonItem = backItem // This will show in the next view controller being pushed
+                let controller = segue.destination as! QuizController
+                controller.arrayVerbe = arrayVerbe
+                controller.arraySelection = arraySelection
+                controller.verbeInfinitif = verbesChoisi
+                controller.listeVerbe = listeVerbe
+            }
         }
     }
     func showAlert () {
-        let alertController = UIAlertController(title: "If faut choisir au moins un verbe.", message: nil, preferredStyle: .alert)
+        let alertController = UIAlertController(title: "Se dove scegliere almeno un verbo.", message: nil, preferredStyle: .alert)
+        alertController.popoverPresentationController?.sourceView = self.view
+        alertController.popoverPresentationController?.sourceRect = tableView.rectForHeader(inSection: 1)
+        
+        let okAction = UIAlertAction(title: "OK", style: .cancel, handler: dismissAlert)
+        alertController.addAction(okAction)
+        present(alertController, animated: true, completion: nil)
+    }
+    func showAlertPasDImperatif() {
+        let alertController = UIAlertController(title: "Non esiste alcun imperativo per questi verbi:", message: "potere, dovere. Fare un'altra scelta", preferredStyle: .alert)
         alertController.popoverPresentationController?.sourceView = self.view
         alertController.popoverPresentationController?.sourceRect = tableView.rectForHeader(inSection: 1)
         

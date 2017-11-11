@@ -68,7 +68,7 @@ class Selection {
             let i = arrayVerbe.count
             while infinitifVerb < i {
                 let allVerbs = VerbeItalien(verbArray: arrayVerbe, n: infinitifVerb)
-                if modeChoisi == "Imperativo" && (allVerbs.verbe == "pouvoir" || allVerbs.verbe == "vouloir" || allVerbs.verbe == "devoir" || allVerbs.verbe == "falloir" || allVerbs.verbe == "pleuvoir" || allVerbs.verbe == "valoir") {
+                if modeChoisi == "Imperativo" && (allVerbs.verbe == "potere" || allVerbs.verbe == "dovere"){
                     // not appending
                 }else{
                     listeVerbe.append(allVerbs.verbe)

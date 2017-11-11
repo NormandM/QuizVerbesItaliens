@@ -209,9 +209,6 @@ class QuizController: UIViewController, NSFetchedResultsControllerDelegate {
             noPersonne = Int(verbeTrie.personne)!
             reponseBonne = verbeTrie.verbeConjugue
             bonneReponse.text = ""
-            if verbeFinal == "pleuvoir" || verbeFinal == "falloir" {
-                noPersonne = 3
-            }
             let question = Question()
             let questionFinale = question.finaleSpecifique(noPersonne: noPersonne, personneVerbe: personneVerbe)
             choixPersonne = questionFinale[0]
@@ -222,9 +219,6 @@ class QuizController: UIViewController, NSFetchedResultsControllerDelegate {
             let selection = Selection()
             totalProgress = 10
             let choixTempsEtMode = selection.questionAleatoire(arraySelection: arraySelection, arrayVerbe: arrayVerbe)
-            if verbeFinal == "pleuvoir" || verbeFinal == "falloir" {
-                noPersonne = 3
-            }
             let leChoixTempsEtMode = choixTempsEtMode.0
             tempsEtMode = choixTempsEtMode.1
             verbeFinal = (leChoixTempsEtMode[0] as? String)!

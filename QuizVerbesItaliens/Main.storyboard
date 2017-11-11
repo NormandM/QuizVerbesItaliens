@@ -110,7 +110,7 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                             <items>
                                 <barButtonItem style="plain" systemItem="flexibleSpace" id="q26-FZ-BjX"/>
-                                <barButtonItem title="Remettre les statistiques à 0" id="h1t-EE-4G1">
+                                <barButtonItem title="Cancellare tutte le statistiche" id="h1t-EE-4G1">
                                     <connections>
                                         <action selector="remettreAZero:" destination="0GJ-EO-iYI" id="1BA-IR-56B"/>
                                     </connections>
@@ -651,7 +651,7 @@
                                     <outlet property="delegate" destination="ckU-kW-buf" id="RQq-hI-ryB"/>
                                 </connections>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vos choix pour le Quiz" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DUP-HG-0Ho">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Le tue scelte per il Quiz" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DUP-HG-0Ho">
                                 <rect key="frame" x="0.0" y="40" width="320" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="4N0-YN-Aat"/>
@@ -660,7 +660,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Les Temps" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QHs-w8-VSj">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I Tempi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QHs-w8-VSj">
                                 <rect key="frame" x="0.0" y="110" width="152.5" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="by0-W3-Q3U"/>
@@ -669,7 +669,7 @@
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Les Verbes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="42w-XJ-zth">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I Verbi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="42w-XJ-zth">
                                 <rect key="frame" x="167.5" y="110" width="152.5" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="DP2-Op-oih"/>
@@ -968,6 +968,6 @@
         <image name="Statistiche" width="284" height="284"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="USv-zw-T0A"/>
+        <segue reference="pDR-xq-96o"/>
     </inferredMetricsTieBreakers>
 </document>
