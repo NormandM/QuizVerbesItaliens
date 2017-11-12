@@ -676,7 +676,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="BVY-fZ-4Tw"/>
-                                    <barButtonItem title="Terminé" id="Pce-L5-Roq">
+                                    <barButtonItem title="OK" id="Pce-L5-Roq">
                                         <connections>
                                             <action selector="termine:" destination="ckU-kW-buf" id="Dss-b9-ZaI"/>
                                         </connections>
