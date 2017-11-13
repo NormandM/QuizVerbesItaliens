@@ -9,8 +9,9 @@
 import UIKit
 import AudioToolbox
 import CoreData
+import GoogleMobileAds
 
-class QuizController: UIViewController, NSFetchedResultsControllerDelegate {
+class QuizController: UIViewController, NSFetchedResultsControllerDelegate,  GADBannerViewDelegate  {
     var tempsEtMode = [[String]]()
     var verbeInfinitif: [String] = []
     var indexChoisi: Int = 0
@@ -49,6 +50,13 @@ class QuizController: UIViewController, NSFetchedResultsControllerDelegate {
         
         return request
     }()
+    lazy var adBannerView: GADBannerView = {
+        let adBannerView = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait)
+        adBannerView.adUnitID = "ca-app-pub-1437510869244180/3360498117"
+        adBannerView.delegate = self
+        adBannerView.rootViewController = self
+        return adBannerView
+    }()
     
     var items: [ItemVerbe] = []
     
@@ -65,9 +73,10 @@ class QuizController: UIViewController, NSFetchedResultsControllerDelegate {
     let screenSize: CGRect = UIScreen.main.bounds
     @IBOutlet weak var masterConstraint: NSLayoutConstraint!
     @IBOutlet weak var tempsConstraint: NSLayoutConstraint!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        adBannerView.load(GADRequest())
+        navigationItem.titleView = adBannerView
         masterConstraint.constant = 0.10 * screenSize.height
         tempsConstraint.constant = 0.10 * screenSize.height
         testCompltete = false
@@ -190,7 +199,13 @@ class QuizController: UIViewController, NSFetchedResultsControllerDelegate {
 /////////////////////////////////////
 // MARK: ALL FUNCTIONS
 /////////////////////////////////////
-
+    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
+        print("Banner loaded successfully")
+    }
+    func adView(_ bannerView: GADBannerView, didFailToReceiveAdWithError error: GADRequestError) {
+        print("Fail to receive ads")
+        print(error)
+    }
     func selectionQuestion(){
         if verbeInfinitif != ["Tous les verbes"] {
             if allInfoList.count == 0{

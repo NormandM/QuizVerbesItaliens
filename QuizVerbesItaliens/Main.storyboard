@@ -912,7 +912,6 @@
                         <constraints>
                             <constraint firstItem="imw-ov-rNS" firstAttribute="top" secondItem="MKh-al-Pgv" secondAttribute="bottom" constant="1" id="08x-W8-z3L"/>
                             <constraint firstItem="imw-ov-rNS" firstAttribute="centerX" secondItem="vHq-WT-A1j" secondAttribute="centerX" id="Cly-Us-Gie"/>
-                            <constraint firstItem="wjk-Ac-GaL" firstAttribute="leading" secondItem="imw-ov-rNS" secondAttribute="trailing" constant="-10" id="Fm9-QP-8dD"/>
                             <constraint firstItem="wjk-Ac-GaL" firstAttribute="width" secondItem="imw-ov-rNS" secondAttribute="width" id="Fo6-Om-ICJ"/>
                             <constraint firstAttribute="trailing" secondItem="wjk-Ac-GaL" secondAttribute="trailing" constant="-190" id="GU0-LK-fCa"/>
                             <constraint firstItem="wjk-Ac-GaL" firstAttribute="height" secondItem="imw-ov-rNS" secondAttribute="height" id="N15-NR-Rd8"/>
