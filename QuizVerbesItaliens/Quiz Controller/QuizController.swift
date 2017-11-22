@@ -12,6 +12,7 @@ import CoreData
 import GoogleMobileAds
 
 class QuizController: UIViewController, NSFetchedResultsControllerDelegate,  GADBannerViewDelegate  {
+    var showWindow = false
     var tempsEtMode = [[String]]()
     var verbeInfinitif: [String] = []
     var indexChoisi: Int = 0
@@ -90,6 +91,12 @@ class QuizController: UIViewController, NSFetchedResultsControllerDelegate,  GAD
         }
         
     }
+    override func viewDidAppear(_ animated: Bool) {
+        if showWindow {
+            showAlert4()
+        }
+        showWindow = false
+    }
     // the 3 next function moves the KeyBoards when keyboard appears or hides
  
         @objc func textFieldDidBeginEditing(_ textField: UITextField) {
@@ -112,14 +119,6 @@ class QuizController: UIViewController, NSFetchedResultsControllerDelegate,  GAD
             UIView.commitAnimations()
         }
 
-
-    
-
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
 // MARK: NAVIGATION
    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -133,25 +132,10 @@ class QuizController: UIViewController, NSFetchedResultsControllerDelegate,  GAD
         controller.tempsEtMode = tempsEtMode
         controller.verbeInfinitif = verbeInfinitif
         controller.listeVerbe = listeVerbe
-    }
-    }
-    @IBAction func unwindToVC(segue: UIStoryboardSegue) {
-        progressInt = 0.0
-        progress = 0.0
-        goodResponse = 0
-        barreProgression.progress = 0.0
-        bonneReponse.text = ""
-        reponse.text = ""
-        checkButton.isEnabled = true
-        reponse.isEnabled = true
-        selectionQuestion()
-        
-    }
-    override func viewDidAppear(_ animated: Bool) {
-        if testCompltete == true && fenetre == false {
-            showAlert4()
         }
     }
+
+
     
     
  //////////////////////////////////////
@@ -188,6 +172,9 @@ class QuizController: UIViewController, NSFetchedResultsControllerDelegate,  GAD
         checkButton.isEnabled = true
         reponse.isEnabled = true
         selectionQuestion()
+        if fenetre == false {
+            showWindow = true
+        }
     }
     @IBAction func exemple(_ sender: Any) {
         showAlert()
@@ -264,7 +251,6 @@ class QuizController: UIViewController, NSFetchedResultsControllerDelegate,  GAD
                 if item.tempsVerbe == temps.text && item.modeVerbe == mode.text && item.verbeInfinitif == verbe.text?.lowercased(){
                     item.bonneReponse = item.bonneReponse + 1
                     didSave = true
-                    print(item.bonneReponse)
                 }
             }
 
@@ -327,7 +313,6 @@ class QuizController: UIViewController, NSFetchedResultsControllerDelegate,  GAD
     }
     func progressClaculation() {
         progressInt = progressInt + 1
-        
         progress = Float(progressInt)/Float(totalProgress)
         barreProgression.progress = progress
     }
@@ -379,6 +364,7 @@ class QuizController: UIViewController, NSFetchedResultsControllerDelegate,  GAD
         }
         UIApplication.shared.open(url, options: [:], completionHandler: completion)
     }
+
 
     
 }

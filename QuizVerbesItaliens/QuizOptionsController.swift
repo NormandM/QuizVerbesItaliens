@@ -142,7 +142,6 @@ class QuizOptionsController: UITableViewController {
     }
 
     func showAlert4 () {
-        
         let alert = UIAlertController(title: "Verbi Italiani Quiz", message: "Scegli un'opzione", preferredStyle: UIAlertControllerStyle.alert)
         
         alert.addAction(UIAlertAction(title: "Tutti i verbi", style: UIAlertActionStyle.default, handler: {(alert: UIAlertAction!) in self.tousLesverbesAction()}))

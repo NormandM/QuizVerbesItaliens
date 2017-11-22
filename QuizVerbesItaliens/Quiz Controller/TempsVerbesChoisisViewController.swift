@@ -36,8 +36,8 @@ class TempsVerbesChoisisViewController: UIViewController, UITableViewDataSource,
         }else{
             verbeInfinitiFinal = verbeInfinitif
         }
-
-        
+        print(verbeInfinitiFinal)
+        print(tempsEtMode)
         for temp in tempsEtMode {
             if mode.contains(temp[1]){
             }else{
@@ -74,6 +74,7 @@ class TempsVerbesChoisisViewController: UIViewController, UITableViewDataSource,
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         var header: String = ""
         if tableView == self.tableViewTemps {
+            
             header = mode[section]
         }
         if tableView == self.tableViewVerbes{
