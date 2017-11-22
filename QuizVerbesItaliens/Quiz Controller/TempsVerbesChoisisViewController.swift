@@ -36,8 +36,6 @@ class TempsVerbesChoisisViewController: UIViewController, UITableViewDataSource,
         }else{
             verbeInfinitiFinal = verbeInfinitif
         }
-        print(verbeInfinitiFinal)
-        print(tempsEtMode)
         for temp in tempsEtMode {
             if mode.contains(temp[1]){
             }else{
