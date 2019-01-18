@@ -4,6 +4,12 @@
 <dict>
 	<key>abitare</key>
 	<string>to live</string>
+	<key>accendere</key>
+	<string>to switch on</string>
+	<key>acciuffare</key>
+	<string>to  catch</string>
+	<key>accogliere</key>
+	<string>to receive</string>
 	<key>aiutare</key>
 	<string>to help</string>
 	<key>alzare</key>
@@ -12,22 +18,40 @@
 	<string>to love</string>
 	<key>andare</key>
 	<string>to go</string>
+	<key>annoiare</key>
+	<string>to bore</string>
+	<key>annuire</key>
+	<string>to nod</string>
+	<key>apparire</key>
+	<string>to appear</string>
+	<key>applaudire</key>
+	<string>to applaud</string>
+	<key>apprendere</key>
+	<string>to learn</string>
 	<key>aprire</key>
 	<string>to open</string>
 	<key>arrivare</key>
 	<string>to arrive</string>
+	<key>arrossire</key>
+	<string>to blush</string>
+	<key>asciugare</key>
+	<string>to dry</string>
 	<key>ascoltare</key>
 	<string>to listen</string>
 	<key>aspettare</key>
 	<string>to wait</string>
 	<key>avere</key>
 	<string>to have</string>
+	<key>ballare</key>
+	<string>to dance</string>
 	<key>bastare</key>
 	<string>to suffice</string>
 	<key>bere</key>
 	<string>to drink</string>
 	<key>bisognare</key>
 	<string>to need</string>
+	<key>bloccare</key>
+	<string>to block</string>
 	<key>cadere</key>
 	<string>to fall</string>
 	<key>cambiare</key>
@@ -36,26 +60,50 @@
 	<string>to sing</string>
 	<key>capire</key>
 	<string>to understand</string>
+	<key>cenare</key>
+	<string>to have dinner</string>
 	<key>cercare</key>
 	<string>to seek</string>
+	<key>cessare</key>
+	<string>to cease</string>
+	<key>chiacchierare</key>
+	<string>to chat</string>
 	<key>chiamare</key>
 	<string>to call</string>
 	<key>chiedere</key>
 	<string>to ask</string>
 	<key>chiudere</key>
 	<string>to close</string>
+	<key>cogliere</key>
+	<string>to take</string>
 	<key>cominciare</key>
 	<string>to begin</string>
+	<key>commettere</key>
+	<string>to commit</string>
+	<key>completare</key>
+	<string>to complete</string>
 	<key>comprare</key>
 	<string>to buy</string>
+	<key>condire</key>
+	<string>to spice</string>
+	<key>condurre</key>
+	<string>to conduct</string>
 	<key>conoscere</key>
 	<string>to know</string>
+	<key>conservare</key>
+	<string>to preserve</string>
 	<key>continuare</key>
 	<string>to continue</string>
 	<key>correre</key>
 	<string>to run</string>
+	<key>costruire</key>
+	<string>to build</string>
 	<key>credere</key>
 	<string>to believe</string>
+	<key>crescere</key>
+	<string>to grow up</string>
+	<key>cucinare</key>
+	<string>to cook</string>
 	<key>cuocere</key>
 	<string>to cook</string>
 	<key>dare</key>
@@ -66,6 +114,14 @@
 	<string>to forget</string>
 	<key>dire</key>
 	<string>to say</string>
+	<key>dirigere</key>
+	<string>to direct</string>
+	<key>discutere</key>
+	<string>to discuss</string>
+	<key>distrarre</key>
+	<string>to distract</string>
+	<key>distribuire</key>
+	<string>to distribute</string>
 	<key>diventare</key>
 	<string>to become</string>
 	<key>divertire</key>
@@ -76,6 +132,12 @@
 	<string>to have to</string>
 	<key>entrare</key>
 	<string>to come in</string>
+	<key>esitare</key>
+	<string>to hesitate</string>
+	<key>espellere</key>
+	<string>to excrete</string>
+	<key>esporre</key>
+	<string>to expose</string>
 	<key>essere</key>
 	<string>to be</string>
 	<key>fare</key>
@@ -84,14 +146,30 @@
 	<string>to stop</string>
 	<key>finire</key>
 	<string>to finish</string>
+	<key>fumare</key>
+	<string>to smoke</string>
 	<key>giocare</key>
 	<string>to play</string>
+	<key>girare</key>
+	<string>to turn</string>
+	<key>guadagnare</key>
+	<string>to gain</string>
 	<key>guardare</key>
 	<string>to look</string>
 	<key>imparare</key>
 	<string>to learn</string>
 	<key>incontrare</key>
 	<string>to meet</string>
+	<key>indossare</key>
+	<string>to wear</string>
+	<key>inghiottire</key>
+	<string>to swallow</string>
+	<key>ingrassare</key>
+	<string>to put on weight</string>
+	<key>insegnare</key>
+	<string>to teach</string>
+	<key>intervenire</key>
+	<string>to intervene</string>
 	<key>lasciare</key>
 	<string>to leave</string>
 	<key>lavare</key>
@@ -104,12 +182,26 @@
 	<string>to miss</string>
 	<key>mangiare</key>
 	<string>to eat</string>
+	<key>meritare</key>
+	<string>to deserve</string>
 	<key>mettere</key>
 	<string>to put</string>
+	<key>mordere</key>
+	<string>to bite</string>
 	<key>morire</key>
 	<string>to die</string>
+	<key>muovere</key>
+	<string>to move</string>
 	<key>nascere</key>
 	<string>to rise,  to be born</string>
+	<key>nascondere</key>
+	<string>to hide</string>
+	<key>nuotare</key>
+	<string>to swim</string>
+	<key>obbedire</key>
+	<string>to obey</string>
+	<key>odiare</key>
+	<string>to hate</string>
 	<key>offrire</key>
 	<string>to offer</string>
 	<key>ottenere</key>
@@ -124,44 +216,82 @@
 	<string>to pass</string>
 	<key>pensare</key>
 	<string>to think</string>
+	<key>percorrere</key>
+	<string>to run across</string>
 	<key>perdere</key>
 	<string>to lose</string>
 	<key>piacere</key>
 	<string>to like, to enjoy</string>
+	<key>piangere</key>
+	<string>to cry</string>
+	<key>piovere</key>
+	<string>to rain</string>
+	<key>porre</key>
+	<string>to place</string>
 	<key>portare</key>
 	<string>to bring</string>
 	<key>potere</key>
 	<string>to be able to</string>
+	<key>praticare</key>
+	<string>to practise</string>
 	<key>preferire</key>
 	<string>to prefer</string>
 	<key>prendere</key>
 	<string>to take</string>
 	<key>preparare</key>
 	<string>to prepare</string>
+	<key>presentare</key>
+	<string>to introduce</string>
+	<key>proporre</key>
+	<string>to propose</string>
 	<key>pulire</key>
 	<string>to clean</string>
+	<key>raccogliere</key>
+	<string>to collect</string>
+	<key>regnare</key>
+	<string>to reign</string>
 	<key>rendere</key>
 	<string>to return</string>
 	<key>restare</key>
 	<string>to stay</string>
 	<key>ricevere</key>
 	<string>to receive</string>
+	<key>recitare</key>
+	<string>to recite</string>
+	<key>riconoscere</key>
+	<string>to recognize</string>
 	<key>ricordare</key>
 	<string>to remember</string>
 	<key>ridere</key>
 	<string>to laugh</string>
+	<key>ridurre</key>
+	<string>to reduce</string>
+	<key>riflettere</key>
+	<string>to reflect</string>
 	<key>rimanere</key>
 	<string>to stay</string>
+	<key>ripassare</key>
+	<string>to revise</string>
+	<key>ripetere</key>
+	<string>to repeat</string>
 	<key>rispondere</key>
 	<string>to answer</string>
 	<key>ritornare</key>
 	<string>to return</string>
 	<key>riuscire</key>
 	<string>to succeed</string>
+	<key>rompere</key>
+	<string>to break</string>
+	<key>s(u)onare</key>
+	<string>to sound, to play</string>
 	<key>salire</key>
 	<string>to go up</string>
+	<key>saltare</key>
+	<string>to jump</string>
 	<key>sapere</key>
 	<string>to know</string>
+	<key>scappare</key>
+	<string>to run away</string>
 	<key>scegliere</key>
 	<string>to choose</string>
 	<key>scendere</key>
@@ -176,8 +306,24 @@
 	<string>to seem</string>
 	<key>sentire</key>
 	<string>to feel</string>
+	<key>servire</key>
+	<string>to serve</string>
+	<key>sforzare</key>
+	<string>to strain</string>
+	<key>smettere</key>
+	<string>to stop</string>
+	<key>sopprimere</key>
+	<string>to kill,  to abolish</string>
+	<key>sostenere</key>
+	<string>to sustain</string>
+	<key>sparare</key>
+	<string>to shoot</string>
+	<key>spaventare</key>
+	<string>to scare</string>
 	<key>spegnere</key>
 	<string>to switch off</string>
+	<key>spendere</key>
+	<string>to spend</string>
 	<key>sperare</key>
 	<string>to hope</string>
 	<key>spiegare</key>
@@ -188,18 +334,34 @@
 	<string>to study</string>
 	<key>succedere</key>
 	<string>to happen</string>
+	<key>superare</key>
+	<string>to overcome</string>
+	<key>suscitare</key>
+	<string>to arouse</string>
 	<key>svegliare</key>
 	<string>to wake</string>
+	<key>svolgere</key>
+	<string>to develop</string>
+	<key>tacere</key>
+	<string>to be silent</string>
 	<key>telefonare</key>
 	<string>to make a phone call</string>
 	<key>tenere</key>
 	<string>to hold</string>
+	<key>tirare</key>
+	<string>to pull</string>
 	<key>tornare</key>
 	<string>to return</string>
+	<key>tradire</key>
+	<string>to betray</string>
 	<key>tradurre</key>
 	<string>to translate</string>
 	<key>trarre</key>
 	<string>to pull</string>
+	<key>trascorrere</key>
+	<string>to spend</string>
+	<key>trasmettere</key>
+	<string>to broadcast</string>
 	<key>trovare</key>
 	<string>to find</string>
 	<key>usare</key>

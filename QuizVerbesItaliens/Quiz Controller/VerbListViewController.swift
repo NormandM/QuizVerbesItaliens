@@ -29,12 +29,10 @@ class VerbListViewController: UIViewController, UITableViewDataSource, UITableVi
         tableView.delegate = self
         tableView.dataSource = self
         searchBar.delegate = self
-        
-        let i = arrayVerbe.count
-        while randomVerb < i {
-            let allVerbs = VerbeItalien(verbArray: arrayVerbe, n: randomVerb)
-            listeVerbe.append(allVerbs.verbe)
-            randomVerb = randomVerb + 16
+        for verb in arrayVerbe {
+            if !listeVerbe.contains(verb[2]){
+                listeVerbe.append(verb[2])
+            }
         }
         func alpha (_ s1: String, s2: String) -> Bool {
             return s1 < s2
@@ -74,12 +72,6 @@ class VerbListViewController: UIViewController, UITableViewDataSource, UITableVi
         self.tableView.reloadData()
     }
     
-
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -101,11 +93,7 @@ class VerbListViewController: UIViewController, UITableViewDataSource, UITableVi
         
         return cell;
     }
-  
-
-
     // MARK: - Navigation
-
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showTempsVerbe"{
             if let indexPath = self.tableView.indexPathForSelectedRow, let verbeChoisi = tableView.cellForRow(at: indexPath)?.textLabel?.text {
@@ -119,7 +107,5 @@ class VerbListViewController: UIViewController, UITableViewDataSource, UITableVi
             }
         }
     }
-
- 
 
 }

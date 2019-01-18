@@ -29,11 +29,10 @@ class SpecificVerbViewController: UIViewController, UITableViewDataSource, UITab
         searchBar.delegate = self
         
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "OK", style: .plain, target: self, action: #selector(showQuiz))
-        let i = arrayVerbe.count
-        while randomVerb < i {
-            let allVerbs = VerbeItalien(verbArray: arrayVerbe, n: randomVerb)
-            listeVerbe.append(allVerbs.verbe)
-            randomVerb = randomVerb + 16
+        for verb in arrayVerbe {
+            if !listeVerbe.contains(verb[2]){
+                listeVerbe.append(verb[2])
+            }
         }
         func alpha (_ s1: String, s2: String) -> Bool {
             return s1 < s2

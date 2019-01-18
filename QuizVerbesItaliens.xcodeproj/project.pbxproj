@@ -21,9 +21,12 @@
 		8E1D3DEF1EB51FFA00482BC9 /* DataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D3DEE1EB51FFA00482BC9 /* DataStructure.swift */; };
 		8E1D3DF71EB5202100482BC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1D3DF61EB5202100482BC9 /* Main.storyboard */; };
 		8E4458691FAE606B0097489C /* SpecificVerbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4458681FAE606B0097489C /* SpecificVerbViewController.swift */; };
+		8E548DD421EA7CA20046C963 /* ContextuelItalien.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E548DD321EA7CA20046C963 /* ContextuelItalien.plist */; };
+		8E548E3821EBEA390046C963 /* ItalianVerbsListAA.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E548E3721EBEA390046C963 /* ItalianVerbsListAA.plist */; };
+		8E548F1921ED3CE10046C963 /* ItalianVerbsListAAA.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E548F1821ED3CE00046C963 /* ItalianVerbsListAAA.plist */; };
+		8E548F7921EE80800046C963 /* ItalianVerbsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E548F7821EE80800046C963 /* ItalianVerbsList.plist */; };
+		8E548FC021EE933B0046C963 /* FrenchToEnglish.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E548FBF21EE933B0046C963 /* FrenchToEnglish.plist */; };
 		8E7D26251FB91566003798E5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E7D26241FB91566003798E5 /* GoogleService-Info.plist */; };
-		8E7D26271FB91572003798E5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E7D26261FB91572003798E5 /* GoogleService-Info.plist */; };
-		8E7D26291FB9157B003798E5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E7D26281FB9157B003798E5 /* GoogleService-Info.plist */; };
 		8E7D262A1FB91FF7003798E5 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7D262B1FB91FF7003798E5 /* GoogleToolboxForMac.framework */; };
 		8E7D262C1FB91FFE003798E5 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7D262D1FB91FFE003798E5 /* GoogleToolboxForMac.framework */; };
 		8E7D262E1FB92007003798E5 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7D262F1FB92007003798E5 /* GoogleToolboxForMac.framework */; };
@@ -43,8 +46,7 @@
 		8EB3E8E21EB53C100042B592 /* VerbesFrancais.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3E8E01EB53C100042B592 /* VerbesFrancais.xcdatamodeld */; };
 		8EB3E8E51EB53CE00042B592 /* ItemVerbe+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3E8E31EB53CE00042B592 /* ItemVerbe+CoreDataClass.swift */; };
 		8EB3E8E61EB53CE00042B592 /* ItemVerbe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3E8E41EB53CE00042B592 /* ItemVerbe+CoreDataProperties.swift */; };
-		8EB3E9781EBA41B00042B592 /* ItalianVerbsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EB3E9771EBA41B00042B592 /* ItalianVerbsList.plist */; };
-		8ECFBC981FB3ED0000B8B93F /* FrenchToEnglish.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8ECFBC971FB3ED0000B8B93F /* FrenchToEnglish.plist */; };
+		8EB3E9781EBA41B00042B592 /* ItalianVerbsListA.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EB3E9771EBA41B00042B592 /* ItalianVerbsListA.plist */; };
 		8ECFBC9A1FB3FD3200B8B93F /* FrenchEnglish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECFBC991FB3FD3200B8B93F /* FrenchEnglish.swift */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +80,11 @@
 		8E1D3DEE1EB51FFA00482BC9 /* DataStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStructure.swift; sourceTree = "<group>"; };
 		8E1D3DF61EB5202100482BC9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8E4458681FAE606B0097489C /* SpecificVerbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificVerbViewController.swift; sourceTree = "<group>"; };
+		8E548DD321EA7CA20046C963 /* ContextuelItalien.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ContextuelItalien.plist; sourceTree = "<group>"; };
+		8E548E3721EBEA390046C963 /* ItalianVerbsListAA.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ItalianVerbsListAA.plist; sourceTree = "<group>"; };
+		8E548F1821ED3CE00046C963 /* ItalianVerbsListAAA.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ItalianVerbsListAAA.plist; sourceTree = "<group>"; };
+		8E548F7821EE80800046C963 /* ItalianVerbsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ItalianVerbsList.plist; sourceTree = "<group>"; };
+		8E548FBF21EE933B0046C963 /* FrenchToEnglish.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FrenchToEnglish.plist; sourceTree = "<group>"; };
 		8E7D26241FB91566003798E5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8E7D26261FB91572003798E5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8E7D26281FB9157B003798E5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -106,8 +113,7 @@
 		8EB3E8E11EB53C100042B592 /* VerbesFrancais.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VerbesFrancais.xcdatamodel; sourceTree = "<group>"; };
 		8EB3E8E31EB53CE00042B592 /* ItemVerbe+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ItemVerbe+CoreDataClass.swift"; path = "../ItemVerbe+CoreDataClass.swift"; sourceTree = "<group>"; };
 		8EB3E8E41EB53CE00042B592 /* ItemVerbe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ItemVerbe+CoreDataProperties.swift"; path = "../ItemVerbe+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		8EB3E9771EBA41B00042B592 /* ItalianVerbsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ItalianVerbsList.plist; sourceTree = "<group>"; };
-		8ECFBC971FB3ED0000B8B93F /* FrenchToEnglish.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FrenchToEnglish.plist; sourceTree = "<group>"; };
+		8EB3E9771EBA41B00042B592 /* ItalianVerbsListA.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ItalianVerbsListA.plist; sourceTree = "<group>"; };
 		8ECFBC991FB3FD3200B8B93F /* FrenchEnglish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrenchEnglish.swift; sourceTree = "<group>"; };
 		94930711F991120EB3900159 /* Pods_QuizVerbesItaliens.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizVerbesItaliens.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F611F9B6CAABC367EB6B75 /* Pods_QuizVerbesItaliensUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizVerbesItaliensUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,15 +199,16 @@
 		8E7F05E21C2F2C35003A6F21 /* QuizVerbesItaliens */ = {
 			isa = PBXGroup;
 			children = (
-				8E869BCA1FAFB96C0067E835 /* Quiz Controller */,
 				8E1D3DF61EB5202100482BC9 /* Main.storyboard */,
+				8E548E3721EBEA390046C963 /* ItalianVerbsListAA.plist */,
+				8E548FBF21EE933B0046C963 /* FrenchToEnglish.plist */,
+				8E548F7821EE80800046C963 /* ItalianVerbsList.plist */,
+				8E548F1821ED3CE00046C963 /* ItalianVerbsListAAA.plist */,
+				8E548DD321EA7CA20046C963 /* ContextuelItalien.plist */,
+				8EB3E9771EBA41B00042B592 /* ItalianVerbsListA.plist */,
+				8E869BCA1FAFB96C0067E835 /* Quiz Controller */,
 				8E4458681FAE606B0097489C /* SpecificVerbViewController.swift */,
-				8EB3E9771EBA41B00042B592 /* ItalianVerbsList.plist */,
 				8E1D3DEE1EB51FFA00482BC9 /* DataStructure.swift */,
-				8E1D3DDE1EB51F6800482BC9 /* OptionsViewController.swift */,
-				8E1D3DE01EB51F7200482BC9 /* VerbListViewController.swift */,
-				8E1D3DE21EB51F7E00482BC9 /* tempsDeVerbeTableViewController.swift */,
-				8E1D3DE41EB51F8A00482BC9 /* FinalVerbeViewController.swift */,
 				8E1D3DE61EB51F9100482BC9 /* QuizOptionsController.swift */,
 				8E1D3DEA1EB51FA800482BC9 /* ResultViewController.swift */,
 				8E1D3DEC1EB51FB200482BC9 /* StatistiqueTableViewController.swift */,
@@ -257,7 +264,10 @@
 		8E869BCA1FAFB96C0067E835 /* Quiz Controller */ = {
 			isa = PBXGroup;
 			children = (
-				8ECFBC971FB3ED0000B8B93F /* FrenchToEnglish.plist */,
+				8E1D3DDE1EB51F6800482BC9 /* OptionsViewController.swift */,
+				8E1D3DE01EB51F7200482BC9 /* VerbListViewController.swift */,
+				8E1D3DE21EB51F7E00482BC9 /* tempsDeVerbeTableViewController.swift */,
+				8E1D3DE41EB51F8A00482BC9 /* FinalVerbeViewController.swift */,
 				8E1D3DE81EB51F9D00482BC9 /* QuizController.swift */,
 				8E869BCB1FAFB9B50067E835 /* SelectionQuestion.swift */,
 				8E869BCD1FAFB9E20067E835 /* QuestionFinale.swift */,
@@ -352,7 +362,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Normand Martin";
 				TargetAttributes = {
 					8E7F05DF1C2F2C35003A6F21 = {
@@ -410,15 +420,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E548FC021EE933B0046C963 /* FrenchToEnglish.plist in Resources */,
 				8E1D3DF71EB5202100482BC9 /* Main.storyboard in Resources */,
 				8E7F05EE1C2F2C36003A6F21 /* LaunchScreen.storyboard in Resources */,
 				8E7D26251FB91566003798E5 /* GoogleService-Info.plist in Resources */,
-				8ECFBC981FB3ED0000B8B93F /* FrenchToEnglish.plist in Resources */,
+				8E548F1921ED3CE10046C963 /* ItalianVerbsListAAA.plist in Resources */,
+				8E548F7921EE80800046C963 /* ItalianVerbsList.plist in Resources */,
+				8E548DD421EA7CA20046C963 /* ContextuelItalien.plist in Resources */,
 				8E869BC81FAFB4890067E835 /* Incoming Text 01.wav in Resources */,
 				8E869BC41FAFB4810067E835 /* Acoustic Trio.wav in Resources */,
-				8EB3E9781EBA41B00042B592 /* ItalianVerbsList.plist in Resources */,
-				8E7D26271FB91572003798E5 /* GoogleService-Info.plist in Resources */,
-				8E7D26291FB9157B003798E5 /* GoogleService-Info.plist in Resources */,
+				8E548E3821EBEA390046C963 /* ItalianVerbsListAA.plist in Resources */,
+				8EB3E9781EBA41B00042B592 /* ItalianVerbsListA.plist in Resources */,
 				8E869BC61FAFB4850067E835 /* Error Warning.wav in Resources */,
 				8E7F05EB1C2F2C36003A6F21 /* Assets.xcassets in Resources */,
 			);
@@ -680,12 +692,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -734,12 +748,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

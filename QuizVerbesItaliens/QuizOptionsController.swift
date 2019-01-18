@@ -26,42 +26,25 @@ class QuizOptionsController: UITableViewController {
         header.alpha = 1.0 //make the header transparent
         
     }
-
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        for array in arrayVerbe {
-            if listeVerbes.contains(array[2]){
-                
-            }else{
-                listeVerbes.append(array[2])
+        for verb in arrayVerbe {
+            if !listeVerbes.contains(verb[2]){
+                listeVerbes.append(verb[2])
             }
         }
         self.title = "Scegliere i tempi"
-
     }
-
-
     // MARK: - Table view data source
-
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        
         return sectionListe[section]
     }
-    
-    
     override func numberOfSections(in tableView: UITableView) -> Int {
-        
         return sectionListe.count
     }
-    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
         return item[section].count
     }
-    
-
-
     // Next code is to enable checks for each cell selected
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
@@ -91,7 +74,6 @@ class QuizOptionsController: UITableViewController {
             if let text = cell2.textLabel?.text, let n = arraySelection.index(of: text){
                 arraySelection.remove(at: n)
             }
-            
         }
         else {
             // select
@@ -100,12 +82,8 @@ class QuizOptionsController: UITableViewController {
         }
         let cell = tableView.cellForRow(at: indexPath)!
         configure(cell, forRowAtIndexPath: indexPath)
-        
     }
-    
-
     // MARK: - Navigation
-
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showQuestionFinal"{
             verbeInfinitif = ["Tous les verbes"]
@@ -127,26 +105,20 @@ class QuizOptionsController: UITableViewController {
             controller.arraySelection = arraySelection
             controller.arrayVerbe = arrayVerbe
         }
-        
-        
     }
     func showAlert () {
         let alertController = UIAlertController(title: "È necessario scegliere almeno un tempo verbale.", message: nil, preferredStyle: .actionSheet)
         alertController.popoverPresentationController?.sourceView = self.view
         alertController.popoverPresentationController?.sourceRect = tableView.rectForHeader(inSection: 1)
-        
         let okAction = UIAlertAction(title: "OK", style: .cancel, handler: dismissAlert)
         alertController.addAction(okAction)
-        
         present(alertController, animated: true, completion: nil)
     }
 
     func showAlert4 () {
         let alert = UIAlertController(title: "Verbi Italiani Quiz", message: "Scegli un'opzione", preferredStyle: UIAlertControllerStyle.alert)
-        
         alert.addAction(UIAlertAction(title: "Tutti i verbi", style: UIAlertActionStyle.default, handler: {(alert: UIAlertAction!) in self.tousLesverbesAction()}))
         alert.addAction(UIAlertAction(title: "Scegliere i verbi", style: UIAlertActionStyle.default, handler: {(alert: UIAlertAction!) in self.specifierUnVerbe()}))
-        
         self.present(alert, animated: true, completion: nil)
     }
     func tousLesverbesAction() {
@@ -170,5 +142,4 @@ class QuizOptionsController: UITableViewController {
         }
 
     }
-
 }

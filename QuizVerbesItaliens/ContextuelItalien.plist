@@ -1,0 +1,3518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>Marco</string>
+		<string>mangia</string>
+		<string>mangiare</string>
+		<string>una mela.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>Carlos</string>
+		<string>parte</string>
+		<string>partire</string>
+		<string>domani.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>Io non</string>
+		<string>capisco</string>
+		<string>capire</string>
+		<string>.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>Loro</string>
+		<string>sono</string>
+		<string>essere</string>
+		<string>molto belle.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>Come</string>
+		<string>sta</string>
+		<string>stare</string>
+		<string>lo zio di Amedeo?</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>La balena</string>
+		<string>vive</string>
+		<string>vivere</string>
+		<string>in acque profonde.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>Voi</string>
+		<string>avete</string>
+		<string>avere</string>
+		<string>mal di testa.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>Tu</string>
+		<string>ti chiami</string>
+		<string>chiamarsi</string>
+		<string>Amélie?</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>Noi</string>
+		<string>ci vestiamo</string>
+		<string>vestirsi</string>
+		<string>molto rapidamente per non arrivare in ritardo!</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>Io</string>
+		<string>esco</string>
+		<string>uscire</string>
+		<string>per andare a trovare una mia amica.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>Marco</string>
+		<string>vive</string>
+		<string>vivere</string>
+		<string> in Italia.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>Luca e io</string>
+		<string>partiamo</string>
+		<string>partire</string>
+		<string>per Londra lunedì.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>Marina</string>
+		<string>guarda</string>
+		<string>guardare</string>
+		<string>spesso i bambini dalla finestra della camera.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>Spesso noi</string>
+		<string>torniamo</string>
+		<string>tornare</string>
+		<string>a casa insieme dopo la scuola.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>Sonia</string>
+		<string>segue</string>
+		<string>seguire</string>
+		<string>un corso elementare di tedesco.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>Quando la lezione</string>
+		<string>finisce</string>
+		<string>finire</string>
+		<string>torniamo a casa in autobus.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>Da quanto tempo vo</string>
+		<string>studiate</string>
+		<string>studiare</string>
+		<string>l&apos;italiano?</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>Noi</string>
+		<string>leggiamo</string>
+		<string>leggere</string>
+		<string> sempre il giornale al mattino.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>Mi dispiace, non</string>
+		<string>capisco</string>
+		<string>capire</string>
+		<string>l&apos;inglese.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>Tu cosa</string>
+		<string>prendi</string>
+		<string>prendere</string>
+		<string>?</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>Marco</string>
+		<string>prende</string>
+		<string>prendere</string>
+		<string>l&apos;autobus per recarsi in ufficio tutti i giorni.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>Maria</string>
+		<string>va</string>
+		<string>andare</string>
+		<string>in campagna con le sue amiche di scuola.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>I bambini</string>
+		<string>sono</string>
+		<string>essere</string>
+		<string>contenti di partire per il mare.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>La mamma</string>
+		<string>condisce</string>
+		<string>condire</string>
+		<string>la pasta per i suoi figli.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>Carlo e Cristina</string>
+		<string>svolgono</string>
+		<string>svolgere</string>
+		<string>i loro compiti scolastici con molta attenzione.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>Quella ragazza</string>
+		<string>è</string>
+		<string>essere</string>
+		<string>molto carina e simpatica.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>Essi</string>
+		<string>leggono</string>
+		<string>leggere</string>
+		<string>un libro molto utile e interessante.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>Noi</string>
+		<string>guardiamo</string>
+		<string>guardare</string>
+		<string>un documentario naturalistico trasmesso dalla televisione.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string>Io</string>
+		<string>studio</string>
+		<string>studiare</string>
+		<string>la lingua francese con dedizione ed entusiasmo.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PRESENTE</string>
+		<string></string>
+		<string>vanno</string>
+		<string>andare</string>
+		<string>al cinema perché hanno il pomeriggio libero.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string>L&apos;anno scorso avevo un cane che mi</string>
+		<string>obbediva</string>
+		<string>obbedire</string>
+		<string>ad ogni minimo ordine.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string>Mentre mio marito </string>
+		<string>guardava</string>
+		<string>guardare</string>
+		<string>la televisione, io sono andata a preparare una camomilla per riposare meglio.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string>Come si cambia! Fino a pochi mesi fa, mia figlia</string>
+		<string>odiava</string>
+		<string>odiare</string>
+		<string>le verdure, ora non ne può fare a meno!</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string>Prima qui al posto del cinema c&apos;</string>
+		<string>era</string>
+		<string>essere</string>
+		<string>un magnifico teatro.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string>L&apos;altra sera io</string>
+		<string>indossavo</string>
+		<string>indossare</string>
+		<string>un vestito di raso nero.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string>Quella camicia mi</string>
+		<string>sembrava</string>
+		<string>sembrare</string>
+		<string>troppo stretta per il mio fidanzato perciò ne ho presa un&apos;altra.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string>Il mio sguardo</string>
+		<string>tradiva</string>
+		<string>tradire</string>
+		<string> il mio senso di colpa, in preda all&apos;angoscia ho confessato tutto: &apos;ho rotto io il vaso della nonna!&apos;</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string>Mentre io e mio fratello</string>
+		<string>compravamo</string>
+		<string>comprare</string>
+		<string>un regalo per la mamma, all&apos;improvviso l&apos;abbiamo vista entrare proprio nel negozio in cui eravamo noi. Fortunatamente non ci ha visto e siamo potuti uscire furtivamente!</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string>Mentre Marco</string>
+		<string>correva</string>
+		<string>correre</string>
+		<string>attraverso il parco, io mi sedetti su una panchina a leggere un libro.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string>Il bambino</string>
+		<string>faceva</string>
+		<string>fare</string>
+		<string> i capricci perciò io l&apos;ho distratto con un nuovo gioco.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string>Ora parlo francese ma, prima non</string>
+		<string>era</string>
+		<string>essere</string>
+		<string>così.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string>Mia nonna</string>
+		<string>guardava</string>
+		<string>guardare</string>
+		<string>la televisione tutte le sere.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string>Mio nonno non</string>
+		<string>fumava</string>
+		<string>fumare</string>
+		<string>molto.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string>Marco e Maria</string>
+		<string>leggevano</string>
+		<string>leggere</string>
+		<string>i giornali attentamente.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string>Il cane</string>
+		<string>dormiva</string>
+		<string>dormire</string>
+		<string>sul tappeto.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string>Ella</string>
+		<string>scriveva</string>
+		<string>scrivere</string>
+		<string>alla sua famiglia e ai suoi amici.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string>Carlo</string>
+		<string>arrivava</string>
+		<string>arrivare</string>
+		<string>sempre in ritardo a scuola.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string>Noi</string>
+		<string>studiavamo</string>
+		<string>studiare</string>
+		<string>la lingua francese con piacere.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string>Tu</string>
+		<string>capivi</string>
+		<string>capire</string>
+		<string>tutto!</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string>Loro</string>
+		<string>erano</string>
+		<string>essere</string>
+		<string>molto seri.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string>A ottant&apos;anni, mio nonno</string>
+		<string>suscitava</string>
+		<string>suscitare</string>
+		<string> sempre l&apos;ammirazione dei nipotini.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string>Per loro, quell&apos; uomo </string>
+		<string>aveva</string>
+		<string>avere</string>
+		<string>tutte le qualità.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string>Nonostante la sua età</string>
+		<string>conservava</string>
+		<string>conservare</string>
+		<string>la schiena molto dritta.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string></string>
+		<string>Poteva</string>
+		<string>Potere</string>
+		<string>camminare agilmente e senza bastone.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string> Del resto ogni giorno</string>
+		<string>percorreva</string>
+		<string>percorrere</string>
+		<string>quattro o cinque chilometri a piedi.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string>Tutti quelli che lo</string>
+		<string>vedevano</string>
+		<string>vedere</string>
+		<string>passare lo salutavano rispettosamente.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string></string>
+		<string>Rispondeva</string>
+		<string>Rispondere</string>
+		<string>con un sorriso, dandosi arie di saperla lunga.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string>Lui</string>
+		<string>pensava</string>
+		<string>pensare</string>
+		<string>che tutti gli onori</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string></string>
+		<string>se li meritava</string>
+		<string>meritarseli</string>
+		<string>per via del suo passato senza macchia.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>imperfetto</string>
+		<string>Come per incanto, la buona armonia</string>
+		<string>regnava</string>
+		<string>regnare</string>
+		<string>intorno a lui.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Marco</string>
+		<string>ha bevuto</string>
+		<string>bere</string>
+		<string>al bar.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Maria</string>
+		<string>è stata</string>
+		<string>essere</string>
+		<string>al mercato.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Il cane</string>
+		<string>ha morso</string>
+		<string>mordere</string>
+		<string>il ragazzo.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Sonia</string>
+		<string>è nata</string>
+		<string>nascere</string>
+		<string>oggi.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>I bambini </string>
+		<string>hanno nascosto</string>
+		<string>nascondere</string>
+		<string> i loro giocattoli.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Le ragazze</string>
+		<string>sono piaciute</string>
+		<string>piacere</string>
+		<string>alla famiglia.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Io</string>
+		<string>ho perso</string>
+		<string>perdere</string>
+		<string>le mie chiavi.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Tu</string>
+		<string>hai pianto</string>
+		<string>piangere</string>
+		<string>di gioia.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Voi</string>
+		<string>avete rotto</string>
+		<string>rompere</string>
+		<string>i giocattoli.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Le ragazze</string>
+		<string>sono scese</string>
+		<string>scendere</string>
+		<string>dal treno.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Elena e Maria</string>
+		<string>sono rimaste</string>
+		<string>rimanere</string>
+		<string>nella camera.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Io</string>
+		<string>ho scritto</string>
+		<string>scrivere</string>
+		<string>una lettera.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Voi</string>
+		<string>avete smesso</string>
+		<string>smettere</string>
+		<string>di fumare.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Loro</string>
+		<string>hanno soppresso</string>
+		<string>sopprimere</string>
+		<string>quest&apos;esercizio.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Voi</string>
+		<string>avete speso</string>
+		<string>spendere</string>
+		<string>molto.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>In questo villaggio</string>
+		<string>sono successe</string>
+		<string>succedere</string>
+		<string>cose strane.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Roberto</string>
+		<string>ha vinto</string>
+		<string>vincere</string>
+		<string>contro suo fratello.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Noi</string>
+		<string>abbiamo preso</string>
+		<string>prendere</string>
+		<string>il treno.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Le ragazze</string>
+		<string>sono venute</string>
+		<string>venire</string>
+		<string>tardi alla lezione.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Non tutti </string>
+		<string>hanno capito</string>
+		<string>capire</string>
+		<string>la lezione.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Tu</string>
+		<string>hai preso</string>
+		<string>prendere</string>
+		<string>un bel voto in matematica?</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Noi</string>
+		<string>abbiamo deciso</string>
+		<string>decidere</string>
+		<string>di studiare di più.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Mia madre</string>
+		<string>è nata</string>
+		<string>nascere</string>
+		<string>nel 1952.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Cosa</string>
+		<string>è successo</string>
+		<string>succedere</string>
+		<string>l&apos;altro giorno a scuola?</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>I ragazzi</string>
+		<string>sono partiti</string>
+		<string>partire</string>
+		<string>per le vacanze.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Le mie cugine</string>
+		<string>sono uscite</string>
+		<string>uscire</string>
+		<string>con gli amici.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Le professoresse</string>
+		<string>hanno tradotto</string>
+		<string>tradurre</string>
+		<string>delle poesie italiane.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Oggi la lezione</string>
+		<string>è finita</string>
+		<string>finire</string>
+		<string>presto. </string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Maria</string>
+		<string>ha ballato</string>
+		<string>ballare</string>
+		<string>tutta la sera.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Il ragazzo</string>
+		<string>ha spento</string>
+		<string>spegnere</string>
+		<string>la radio.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>passato remoto</string>
+		<string>Dante</string>
+		<string>ha scritto</string>
+		<string>scrivere</string>
+		<string> la &apos;Divina Commedia&apos;.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Domani</string>
+		<string>metterò</string>
+		<string>mettere</string>
+		<string>il vestito di lino.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Se te ne vai , mi</string>
+		<string>mancherai</string>
+		<string>mancare</string>
+		<string>.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>La scuola è finita, che facoltà</string>
+		<string>sceglierai</string>
+		<string>scegliere</string>
+		<string>?</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Se continuate a fare vita sedentaria,</string>
+		<string>ingrasserete</string>
+		<string>ingrassare</string>
+		<string>!</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>I nonni </string>
+		<string>verranno</string>
+		<string>venire</string>
+		<string>stasera.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Se sbatti la finestra, prima o poi il vetro si</string>
+		<string>romperà</string>
+		<string>rompere</string>
+		<string>!</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Roma ad agosto è deserta,</string>
+		<string>saranno</string>
+		<string>essere</string>
+		<string>tutti fuori.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string></string>
+		<string>Avrò</string>
+		<string>avere</string>
+		<string>la città tutta per me ... e i turisti pure.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Allora</string>
+		<string>farò</string>
+		<string>fare</string>
+		<string> la turista</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Così</string>
+		<string>praticherò</string>
+		<string>praticare</string>
+		<string>l&apos;inglese !</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Domani se</string>
+		<string>farà</string>
+		<string>fare</string>
+		<string> bello, andremo in spiaggia.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>I bambini</string>
+		<string>giocheranno</string>
+		<string>giocare</string>
+		<string>nel giardino.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Paula</string>
+		<string>verrà</string>
+		<string>venire</string>
+		<string>domani a casa mia.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Il mio amico mi</string>
+		<string>dirà</string>
+		<string>dire</string>
+		<string> la verità.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string></string>
+		<string>farà</string>
+		<string>fare</string>
+		<string>bello domani?</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Le ragazze</string>
+		<string>usciranno</string>
+		<string>uscire</string>
+		<string>questa sera.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Ragazzi!</string>
+		<string>giocherete</string>
+		<string>giocare</string>
+		<string>a pallone più tardi, ora rientrate!</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Loro</string>
+		<string>andranno</string>
+		<string>andare</string>
+		<string>in montagna la domenica.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Io</string>
+		<string>guarderò</string>
+		<string>guardare</string>
+		<string>il film più tardi.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Lui</string>
+		<string>salirà</string>
+		<string>salire</string>
+		<string>al terzo piano.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Tu</string>
+		<string>farai</string>
+		<string>fare</string>
+		<string>la merenda più tardi !</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Maria,</string>
+		<string>verrai</string>
+		<string>venire</string>
+		<string>questa sera?</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Laura, dopo il pranzo,</string>
+		<string>andremo</string>
+		<string>andare</string>
+		<string> a ballare?</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Ci</string>
+		<string>andrò</string>
+		<string>andare</string>
+		<string>se Maria viene con me.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>I tuoi cugini</string>
+		<string>verranno</string>
+		<string>venire</string>
+		<string>anche con noi a fare la passeggiata.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Domani, io stessa</string>
+		<string>potrò</string>
+		<string>potere</string>
+		<string>saperne di più e ci muoveremo di conseguenza.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Teresa, secondo me non hai molta scelta,</string>
+		<string>dovrai</string>
+		<string>dovere</string>
+		<string>fare come ti dice il cuore...</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Ma anche Gina</string>
+		<string>vorrà</string>
+		<string>volere</string>
+		<string> venire con noi, come ce ne disfaremo?</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Fra un mese, i miei cugini</string>
+		<string>potranno</string>
+		<string>potere</string>
+		<string>andare in vacanza e fars&apos;il viaggio che si sognano.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Ragazze, davanti al giudice</string>
+		<string>dovrete</string>
+		<string>dovere</string>
+		<string>sostenere la stessa versione dei fatti se non volete avere guai con la giustizia!</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Ma non te la prendere, dai,</string>
+		<string>vorrà</string>
+		<string>volere</string>
+		<string>dire che rifaremo tutto da capo...</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Signora,</string>
+		<string>potrà</string>
+		<string>potere</string>
+		<string>lasciare qui la Sua valigia, gliela porteremo in camera subito.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Con una moglie come la sua, Rinaldo,</string>
+		<string>dovrà</string>
+		<string>dovere</string>
+		<string>piegarsi a ogni sua volontà!</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Bambini, se state buoni, potrete chiedere quello che</string>
+		<string>vorrete</string>
+		<string>volere</string>
+		<string>... o quasi!</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>Noi</string>
+		<string>potremo</string>
+		<string>potere</string>
+		<string>decidere subito sul da farsi, perché aspettare fino a domani?</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>I nostri collegh</string>
+		<string>dovranno</string>
+		<string>dovere</string>
+		<string>sbrigare il nostro lavoro come abbiamo sempre fatto in ufficio in caso di emergenza.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>futuro semplice</string>
+		<string>E se</string>
+		<string>vorrai</string>
+		<string>volere</string>
+		<string>fare come dico io, vedrai che non te ne pentirai..</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>Quando è rientrato, sua moglie</string>
+		<string>aveva cenato</string>
+		<string>cenare</string>
+		<string>con la cameriera.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>Correggeva il compito che</string>
+		<string>aveva fatto</string>
+		<string>fare</string>
+		<string>con attenzione.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string></string>
+		<string>Avevamo finito</string>
+		<string>finire</string>
+		<string>di riordinare la nostra camera quando Pietro è arrivato.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>Giulia ha perso i guanti che io le</string>
+		<string>avevo offerto</string>
+		<string>offrire</string>
+		<string></string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>Non ho potuto telefonargli perché</string>
+		<string>avevo dimenticato</string>
+		<string>dimenticare</string>
+		<string>la mia rubrica.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>Carlotta ha ricominciato il suo lavoro perché</string>
+		<string>aveva commesso</string>
+		<string>commettere</string>
+		<string>un errore professionale.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>L&apos;altro giorno, Sofia non è rientrata a casa perché</string>
+		<string>aveva perso</string>
+		<string>perdere</string>
+		<string>le sue chiavi.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>La polizia è arrivata troppo tardi: i ladri</string>
+		<string>erano scappati </string>
+		<string>scappare</string>
+		<string>via.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>Agata ha ritrovato il suo orologio che</string>
+		<string>aveva lasciato</string>
+		<string>lasciare</string>
+		<string>in pizzeria.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>I bambini</string>
+		<string>avevano avuto</string>
+		<string>avere</string>
+		<string> i loro esami.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>Marcello</string>
+		<string>aveva bevuto</string>
+		<string>bere</string>
+		<string>un bicchiere al bar.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>Irena e io</string>
+		<string>eravamo stati</string>
+		<string>essere</string>
+		<string>malati.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>Loro</string>
+		<string>avevano acceso</string>
+		<string>accendere</string>
+		<string>la luce</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>Voi</string>
+		<string>avevate chiesto</string>
+		<string>chiedere</string>
+		<string>il permesso</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>Giovanni</string>
+		<string>avevi corso</string>
+		<string>correre</string>
+		<string>dietro l&apos;autobus?</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>I ragazzi</string>
+		<string>avevano diretto</string>
+		<string>dirigere</string>
+		<string>la macchina</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>Maria</string>
+		<string>era arrivata</string>
+		<string>arrivare</string>
+		<string>in anticipo.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>Le ragazze</string>
+		<string>erano rimaste</string>
+		<string>rimanere</string>
+		<string>a casa mia</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>Io</string>
+		<string>avevo discusso</string>
+		<string>discutere</string>
+		<string>con la mia amica</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>Tu</string>
+		<string>avevi avuto</string>
+		<string>avere</string>
+		<string>la patente</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>Mio padre e io</string>
+		<string>avevamo bevuto</string>
+		<string>bere</string>
+		<string>una gazzosa sulla spiaggia.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>Le ragazze</string>
+		<string>erano state</string>
+		<string>essere</string>
+		<string>malate?</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>erchè Paula</string>
+		<string>aveva acceso</string>
+		<string>accendere</string>
+		<string>le luci prima che faccia buio?</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>Io</string>
+		<string>avevo chiesto</string>
+		<string>chiedere</string>
+		<string>un libro al professore</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>Il cane</string>
+		<string>aveva corso</string>
+		<string>correre</string>
+		<string>dietro il gatto</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>Marco</string>
+		<string>aveva diretto</string>
+		<string>dirigere</string>
+		<string>la manovra</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>Noi</string>
+		<string>avevamo discusso</string>
+		<string>discutere</string>
+		<string>tutta la notte</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>I turisti</string>
+		<string>erano arrivati</string>
+		<string>arrivare</string>
+		<string>in anticipo quell&apos;anno.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>I ragazzi</string>
+		<string>erano rimasti</string>
+		<string>rimanere</string>
+		<string>a giocare nel giardino</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string> I bambini</string>
+		<string>avevano applaudito</string>
+		<string>applaudire</string>
+		<string> il pagliaccio.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>Marco</string>
+		<string>era apparso</string>
+		<string>apparire</string>
+		<string>all&apos;angolo della via.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>Maria ed io</string>
+		<string>avevamo detto</string>
+		<string>dire</string>
+		<string>la verità.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>TRAPASSATO PROSSIMO</string>
+		<string>La vecchietta</string>
+		<string>era morta</string>
+		<string>morire</string>
+		<string>dallo spavento.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>Gli animatori</string>
+		<string>decisero</string>
+		<string>decidere</string>
+		<string>di portare i bambini al giardino zoologico.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>Questi</string>
+		<string>accolsero</string>
+		<string>accogliere</string>
+		<string>la proposta con entusiasmo.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>Arrivati allo zoo,</string>
+		<string>cominciarono</string>
+		<string>cominciare</string>
+		<string> ad osservare le scimmie.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>Giunti al recinto dei leoni, </string>
+		<string>si accorsero</string>
+		<string>accorgersi</string>
+		<string>della scomparsa del piccolo Marco.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>Lo</string>
+		<string>cercarono</string>
+		<string>cercare</string>
+		<string>a lungo,chiamandolo.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>Dinanzi all&apos;inefficacia della ricerca,uno di loro si diresse verso il servizio e</string>
+		<string>chiese</string>
+		<string>chiedere</string>
+		<string>di lanciare un appello al microfono.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>Il piccolo Marco vedendosi solo e non trovando il resto del gruppo,</string>
+		<string>si mise</string>
+		<string>mettersi</string>
+		<string>a piangere.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>Si sentì chiamato dagli altoparlanti e felice seguì i cartelli che lo</string>
+		<string>diressero</string>
+		<string>dirigere</string>
+		<string>fino al servizio.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>Una volta arrivato,</string>
+		<string>saltò</string>
+		<string>saltare</string>
+		<string>di gioia, vedendo il suo animatore.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>Ripartirono insieme per raggiungere il gruppo. Tutti</string>
+		<string>furono</string>
+		<string>essere</string>
+		<string>molto felici che Marco fosse stato ritrovato.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>Io</string>
+		<string>bevvi</string>
+		<string>bere</string>
+		<string>dalla fonte con avidità.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>Alessandro Manzoni</string>
+		<string>nacque</string>
+		<string>nascere</string>
+		<string>a Milano nel 1785.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>Gli allievi</string>
+		<string>tacquero</string>
+		<string>tacere</string>
+		<string>di fronte al professeur.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>Tu</string>
+		<string>volesti</string>
+		<string>volere</string>
+		<string>partire nonostante il brutto tempo.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>Andrea</string>
+		<string>poté</string>
+		<string>potere</string>
+		<string>andare all&apos;università grazie ad una borsa di studio.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string> La mala erba</string>
+		<string>crebbe</string>
+		<string>crescere</string>
+		<string>ovunque.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>Voi non</string>
+		<string>rifletteste</string>
+		<string>riflettere</string>
+		<string>abbastanza prima di rispondere.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>I rapitori</string>
+		<string>commisero</string>
+		<string>commettere</string>
+		<string> un grave errore.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>Vi</string>
+		<string>trasmettemmo</string>
+		<string>trasmettere</string>
+		<string> i documenti un anno fa.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>Tu</string>
+		<string>sapesti</string>
+		<string>sapere</string>
+		<string>che mentiva al primo sguardo.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>Silvia</string>
+		<string>arrivò</string>
+		<string>arrivare</string>
+		<string>con dieci minuti d&apos; anticipo all&apos;appuntamento con Stefano.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>Silvia</string>
+		<string>arrossì</string>
+		<string>arrossire</string>
+		<string> quando tutti gli occhi si puntarono su di lei.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>Silvia</string>
+		<string>esitò</string>
+		<string>esitare</string>
+		<string>una frazione di secondo. « scusami, hai detto… »</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>Ti ho detto « salve »,</string>
+		<string>intervenne</string>
+		<string>intervenire</string>
+		<string> Stefano.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>Lei</string>
+		<string>annuì</string>
+		<string>annuire</string>
+		<string>in silenzio, accennando del capo.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>Seguì un silenzio, e</string>
+		<string>fu</string>
+		<string>essere</string>
+		<string>Stefano a romperlo.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>Possiamo fare alcuni passi assieme</string>
+		<string>disse</string>
+		<string>dire</string>
+		<string>, guardando Silvia.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>Silvia</string>
+		<string>si rese</string>
+		<string>rendersi</string>
+		<string>conto che tutti stavano trattenendo il fiato.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>PASSATO REMOTO</string>
+		<string>Lei</string>
+		<string>riflesse</string>
+		<string>riflettere</string>
+		<string>con frenesia per qualche istante, prima di parlare.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Trapassato remoto</string>
+		<string>I bambini</string>
+		<string>furono caduti</string>
+		<string>cadere</string>
+		<string>dal loro letto.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Trapassato remoto</string>
+		<string>La vicina</string>
+		<string>ebbe colto</string>
+		<string>cogliere</string>
+		<string>i fiori nel giardino.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Trapassato remoto</string>
+		<string>Tu</string>
+		<string>avesti raccolto</string>
+		<string>raccogliere</string>
+		<string> i funghi nella foresta.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Trapassato remoto</string>
+		<string>Io e mia madre</string>
+		<string>fummo rimasti</string>
+		<string>rimanere</string>
+		<string>alla casa.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Trapassato remoto</string>
+		<string>Voi</string>
+		<string>aveste acceso</string>
+		<string>accendere</string>
+		<string>la luce al calar della notte.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Trapassato remoto</string>
+		<string>Io</string>
+		<string>ebbi corso</string>
+		<string>correre</string>
+		<string>dietro l&apos;autobus.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Trapassato remoto</string>
+		<string>Noi</string>
+		<string>avemmo perso</string>
+		<string>perdere</string>
+		<string>il nostro cammino.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Trapassato remoto</string>
+		<string>I ragazzi</string>
+		<string>ebbero pianto</string>
+		<string>piangere</string>
+		<string>dalla paura.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Trapassato remoto</string>
+		<string>Il suo giocattolo</string>
+		<string>fu rotto</string>
+		<string>rompere</string>
+		<string>appena comprato.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Trapassato remoto</string>
+		<string>Le ragazze</string>
+		<string>ebbero scritto</string>
+		<string>scrivere</string>
+		<string>sotto il dettato del professore.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Trapassato remoto</string>
+		<string> L&apos;anno scorso io</string>
+		<string>ebbi avuto</string>
+		<string>avere</string>
+		<string>il mio diploma.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Trapassato remoto</string>
+		<string>Io e i miei amici</string>
+		<string>fummo stati</string>
+		<string>essere</string>
+		<string>insieme in montagna.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Trapassato remoto</string>
+		<string>Maria</string>
+		<string>fu andata</string>
+		<string>andare</string>
+		<string>in spaggia.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Trapassato remoto</string>
+		<string> I ragazzi</string>
+		<string>ebbero dato</string>
+		<string>dare</string>
+		<string>i giocattoli.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Trapassato remoto</string>
+		<string>Tuo padre e tu </string>
+		<string>aveste fatto</string>
+		<string>fare</string>
+		<string>una passeggiata.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Trapassato remoto</string>
+		<string>Nicoletta ed io</string>
+		<string>avemmo parlato</string>
+		<string>parlare</string>
+		<string>tutta la notte.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Trapassato remoto</string>
+		<string> Gli attori</string>
+		<string>ebbero distratto</string>
+		<string>distrarre</string>
+		<string>i bambini.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Trapassato remoto</string>
+		<string>Tu</string>
+		<string>avesti giocato</string>
+		<string>giocare</string>
+		<string>nel giardino.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Trapassato remoto</string>
+		<string>Il poliziotto</string>
+		<string>ebbe acciuffato</string>
+		<string>acciuffare</string>
+		<string>il ladro.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Trapassato remoto</string>
+		<string>Noi</string>
+		<string>avemmo girato</string>
+		<string>girare</string>
+		<string>all&apos;angolo della via.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Trapassato remoto</string>
+		<string>Il treno</string>
+		<string>fu arrivato</string>
+		<string>arrivare</string>
+		<string> sul binario cinque.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Trapassato remoto</string>
+		<string>Io</string>
+		<string>ebbi ascoltato</string>
+		<string>ascoltare</string>
+		<string>la musica.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Trapassato remoto</string>
+		<string>Voi</string>
+		<string>aveste dormito</string>
+		<string>dormire</string>
+		<string>in quest&apos;albergo.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Trapassato remoto</string>
+		<string>Le ragazze</string>
+		<string>ebbero detto</string>
+		<string>dire</string>
+		<string>tutta la verità.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Trapassato remoto</string>
+		<string>Il professore</string>
+		<string>ebbe tradotto</string>
+		<string>tradurre</string>
+		<string>l&apos;esame in francese.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Trapassato remoto</string>
+		<string>Maria</string>
+		<string>ebbe posto</string>
+		<string>porre</string>
+		<string> le chiavi sulla tavola.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Tra tre anni, saro&apos; celebre perché</string>
+		<string>avrò partecipato</string>
+		<string>partecipare</string>
+		<string>a una commedia musicale.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Quando mamma</string>
+		<string>avrà asciugato</string>
+		<string>asciugare</string>
+		<string>i piatti, li sistemerà nel ripostiglio con cura.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Sono sicuro che lui</string>
+		<string>avrà comprato</string>
+		<string>comprare</string>
+		<string>una macchina nuova da qui alla fine dell&apos;anno.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>I colleghi sono in ritardo: senza dubbio,</string>
+		<string>saranno stati bloccati</string>
+		<string>bloccare</string>
+		<string>dal traffico in città.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>I giornalisti scriveranno un articolo quando la polizia</string>
+		<string>avrà dato</string>
+		<string>dare</string>
+		<string> i dettagli sull&apos;inchiesta.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Te lo dirò quando</string>
+		<string>avrò telefonato</string>
+		<string>telefonare</string>
+		<string>al garagista: la mia macchina è in revisione.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Sofia</string>
+		<string>avrà ricevuto</string>
+		<string>ricevere</string>
+		<string> il mio regalo prima della fine della settimana.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Andremo a fare una passeggiata quando tu</string>
+		<string>avrai finito</string>
+		<string>finire</string>
+		<string>i compiti.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Noi vi daremo la nostra risposta non appena</string>
+		<string>ci saremo decisi</string>
+		<string>decidersi</string>
+		<string>.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>I suoi amici? Potrò parlartene quando lei me li</string>
+		<string>avrà presentati</string>
+		<string>presentare</string>
+		<string>.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Luigi</string>
+		<string>avrà inghiottito</string>
+		<string>inghiottire</string>
+		<string>una caramella.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Mio padre ed io </string>
+		<string>avremo distribuito</string>
+		<string>distribuire</string>
+		<string>la posta.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Le ragazze</string>
+		<string>saranno andate</string>
+		<string>andare</string>
+		<string>a ballare.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Maria</string>
+		<string>avrà dato</string>
+		<string>dare</string>
+		<string>mele ai bambini.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Luigi e Marco</string>
+		<string>saranno stati</string>
+		<string>stare</string>
+		<string>al bar.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Il piccolo</string>
+		<string>avrà mangiato</string>
+		<string>mangiare</string>
+		<string>tutta la minestra.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Tu e tuo padre</string>
+		<string>avrete salito</string>
+		<string>salire</string>
+		<string>le scale.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Tu</string>
+		<string>avrai giocato</string>
+		<string>giocare</string>
+		<string> a pallone.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Io</string>
+		<string>sarò andato</string>
+		<string>andare</string>
+		<string>dal parruchiere.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Cristina e Olivia</string>
+		<string>avranno superato</string>
+		<string>superare</string>
+		<string>l&apos;esame.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Mio padre</string>
+		<string>avrà fatto</string>
+		<string>fare</string>
+		<string>lavare la macchina.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Mia madre e mia sorella</string>
+		<string>avranno comprato</string>
+		<string>comprare</string>
+		<string>la verdura al mercato.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>I bambini</string>
+		<string>avranno tratto</string>
+		<string>trarre</string>
+		<string>i loro giocattoli.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Giulia</string>
+		<string>avrà posto</string>
+		<string>porre</string>
+		<string>le chiavi sulla tavola.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Io</string>
+		<string>avrò ridotto</string>
+		<string>ridurre</string>
+		<string>le mie spese.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Roberto</string>
+		<string>avrà morso</string>
+		<string>mordere</string>
+		<string>nella mela.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string> Lisa e Julia</string>
+		<string>saranno nate</string>
+		<string>nascere</string>
+		<string>un lunedì.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Noi</string>
+		<string>avremo pianto</string>
+		<string>piangere</string>
+		<string>tutta la notte.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Voi</string>
+		<string>avrete soppresso</string>
+		<string>sopprimere</string>
+		<string>questo esercizio.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>I ragazzi</string>
+		<string>avranno vinto</string>
+		<string>vincere</string>
+		<string>scaltramente.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>I miei genitori</string>
+		<string>avranno vissuto</string>
+		<string>vivere</string>
+		<string>nel nord della Francia.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Le ragazze</string>
+		<string>saranno sedute</string>
+		<string>sedere</string>
+		<string>per terra.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Ti</string>
+		<string>sarai mosso</string>
+		<string>muoversi</string>
+		<string> tutto il tempo.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Helena</string>
+		<string>sarà caduta</string>
+		<string>cadere</string>
+		<string>stamattina.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Io</string>
+		<string>avrò acceso</string>
+		<string>accendere</string>
+		<string>la luce.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Luigi e suo padre</string>
+		<string>avranno appeso</string>
+		<string>appendere</string>
+		<string> il lampadario.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Il cane</string>
+		<string>avrà corso</string>
+		<string>correre</string>
+		<string>dietro il gatto.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>I carabinieri</string>
+		<string>avranno espulso</string>
+		<string>espellere</string>
+		<string>i clandestini.</string>
+	</array>
+	<array>
+		<string>INDICATIVO</string>
+		<string>Futuro anteriore</string>
+		<string>Maria e Marco</string>
+		<string>saranno stati</string>
+		<string>essere</string>
+		<string>in montagna.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>L&apos;appartamento in cui abitano Caterina e Andrea è sicuramente caro,ma non so quanto loro</string>
+		<string>spendano</string>
+		<string>spendere</string>
+		<string>per l&apos;affitto.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>Giacomo ha un ottimo stipendio,ma non so di preciso quanto</string>
+		<string>guadagni</string>
+		<string>guadagnare</string>
+		<string>.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string> Certamente Stefano ha più di 40 anni ma non so di preciso quanti anni</string>
+		<string>abbia</string>
+		<string>avere</string>
+		<string>.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>So che Luciana lavora come interprete,ma non so quante lingue</string>
+		<string>conosca</string>
+		<string>conoscere</string>
+		<string>.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>Fabio è in Emilia ma non so di preciso dove</string>
+		<string>si trovi</string>
+		<string>trovarsi</string>
+		<string>.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>Mario lavora alla Olivetti ma non so bene in che reparto</string>
+		<string>lavori</string>
+		<string>lavorare</string>
+		<string>.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>Marco e Lidia lavorano soltanto la mattina ,ma non so bene a che ora</string>
+		<string>finiscano</string>
+		<string>finire</string>
+		<string>.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>Il mio treno parte presto,ma non so di preciso a che ora</string>
+		<string>parta</string>
+		<string>partire</string>
+		<string>.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>Maria fa parte di un gruppo musicale ,ma non so esattamente che strumento</string>
+		<string>suoni</string>
+		<string>suonare</string>
+		<string>.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>Andrea è professore in un liceo,ma non so bene che materia</string>
+		<string>insegni</string>
+		<string>insegnare</string>
+		<string>.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>Penso che tu</string>
+		<string>sia</string>
+		<string>essere</string>
+		<string> troppo grande per questo lavoro.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string> E&apos; probabile che Mario</string>
+		<string>vada</string>
+		<string>andare</string>
+		<string>al mare oggi.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>Mia madre preferisce che voi</string>
+		<string>veniate</string>
+		<string>venire</string>
+		<string>a cena e non a pranzo.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>Bisogna che io</string>
+		<string>pulisca</string>
+		<string>pulire</string>
+		<string> l&apos;appartamento.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>E&apos; meglio che tu</string>
+		<string>rimanga</string>
+		<string>rimanere</string>
+		<string>a casa.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>Non c&apos;è bisogno che tu mi</string>
+		<string>ripeta</string>
+		<string>ripetere</string>
+		<string>sempre le stesse cose.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>Ho paura che tu</string>
+		<string>ti sforzi</string>
+		<string>sforzarsi</string>
+		<string>per niente.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>Può darsi che i nostri amici</string>
+		<string>si facciano</string>
+		<string>farsi</string>
+		<string>vivi domani.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>I miei parenti desiderano che io</string>
+		<string>segua</string>
+		<string>seguire</string>
+		<string> un corso di informatica.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>Non è necessario che tu</string>
+		<string>tenga</string>
+		<string>tenere</string>
+		<string> acceso il motore.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>Credo che Gianna e Maurizio non</string>
+		<string>vadano</string>
+		<string>andare</string>
+		<string>più d&apos;accordo come un tempo.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>È necessario che tu</string>
+		<string>salga</string>
+		<string>salire</string>
+		<string>un attimo da noi.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>Mi pare che lei non</string>
+		<string>voglia</string>
+		<string>volere</string>
+		<string>vederlo nemmeno in fotografia !</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>Non è possibile che voi</string>
+		<string>facciate</string>
+		<string>fare</string>
+		<string>tutto da soli.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>Mi dispiace che loro non</string>
+		<string>possano</string>
+		<string>potere</string>
+		<string>venire con noi.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>Non mi sembra che lui</string>
+		<string>dica</string>
+		<string>dire</string>
+		<string>sempre la verità.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>È facile che io</string>
+		<string>venga</string>
+		<string>venire</string>
+		<string>pizzeria con Carmen.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>Con un mal di denti così forte è improbabile che io</string>
+		<string>esca</string>
+		<string>uscire</string>
+		<string>.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>Credo che Dino</string>
+		<string>dia</string>
+		<string>dare</string>
+		<string> una festa, ma non so quando</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>È incredibile che in questo periodo</string>
+		<string>faccia</string>
+		<string>fare</string>
+		<string>così caldo.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>È naturale che io</string>
+		<string>scelga</string>
+		<string>scegliere</string>
+		<string>quello che più mi piace !</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>Speriamo che non</string>
+		<string>vengano</string>
+		<string>venire</string>
+		<string>anche i miei suoceri !</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>Credo che tu</string>
+		<string>stia</string>
+		<string>stare</string>
+		<string>per preparare qualche scherzo !</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>Vuoi che non</string>
+		<string>sappia</string>
+		<string>sapere</string>
+		<string>quando è nata mia moglie ?</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string>È necessario che voi</string>
+		<string>diciate</string>
+		<string>dire</string>
+		<string>la verità ai vostri genitori.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PRESENTE</string>
+		<string> Spero che il prezzo della benzina non</string>
+		<string>salga</string>
+		<string>salire</string>
+		<string>ancora.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>Che Mario</string>
+		<string>sia spaventato</string>
+		<string>spaventare</string>
+		<string></string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>Dubito che lei</string>
+		<string>abbia vinto</string>
+		<string>vincere</string>
+		<string>.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>È strano che tu m&apos;</string>
+		<string>abbia visto</string>
+		<string>vedere</string>
+		<string>.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>Può darsi che loro</string>
+		<string>siano venuti</string>
+		<string>venire</string>
+		<string>.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>Ho paura che lei non</string>
+		<string>abbia riconosciuto</string>
+		<string>riconoscere</string>
+		<string>.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>Sono contenta che (voi)</string>
+		<string>abbiate imparato</string>
+		<string>imparare</string>
+		<string>.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>Spero che tutti (voi)</string>
+		<string>abbiate studiato</string>
+		<string>studiare</string>
+		<string>.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>Pare che nessuno</string>
+		<string>abbia recitato</string>
+		<string>recitare</string>
+		<string>.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>Pare che nessuno m&apos;</string>
+		<string>abbia telefonato</string>
+		<string>telefonare</string>
+		<string>.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>Ho l&apos;impressione che non (loro)</string>
+		<string>abbiano ricevuto</string>
+		<string>ricevere</string>
+		<string>.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>Benché</string>
+		<string>siamo andati</string>
+		<string>andare</string>
+		<string>in spiaggia, noi non siamo bagnati.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>Occorre che</string>
+		<string>abbia dato</string>
+		<string>dare</string>
+		<string>i tuoi doveri prima del fine settimana.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>Benché il bandito gli</string>
+		<string>abbia sparato</string>
+		<string>sparare</string>
+		<string>addosso, non è stato ferito.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>Occorre che</string>
+		<string>siate usciti</string>
+		<string>uscire</string>
+		<string>prima della chiusura, per non essere rinchiusi.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>Occorre che</string>
+		<string>abbiano costruito</string>
+		<string>costruire</string>
+		<string>la mia casa, prima dell&apos;anno prossimo.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>Benché</string>
+		<string>abbia riuscito</string>
+		<string>riuscire</string>
+		<string>i miei esami, devo ancora lavorare molto.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>Benché</string>
+		<string>abbia condotto</string>
+		<string>condurre</string>
+		<string>a scuola, non era contento.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>E felice che</string>
+		<string>abbiate tradotto</string>
+		<string>tradurre</string>
+		<string>la lezione.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>Benché gli</string>
+		<string>abbiamo proposto</string>
+		<string>proporre</string>
+		<string>di venire con noi, ha rifiutato.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>Benché</string>
+		<string>abbia esposto</string>
+		<string>esporre</string>
+		<string>il tuo problema, non hai avuto soddisfazione.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>Benché</string>
+		<string>abbiamo avuto</string>
+		<string>avere</string>
+		<string>regali, non eravamo contenti.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>Occorre che</string>
+		<string>abbia bevuto</string>
+		<string>bere</string>
+		<string>troppo per essere in questo stato.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>Benché mi</string>
+		<string>abbiano creduto</string>
+		<string>credere</string>
+		<string>, ho portato le prove.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string> Occorre che</string>
+		<string>abbia dovuto</string>
+		<string>dovere</string>
+		<string>amarlo per piangere in questo modo.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>Occorre che Maria</string>
+		<string>sia stata</string>
+		<string>essere</string>
+		<string>malata per non venire.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>Benché</string>
+		<string>abbia potuto</string>
+		<string>potere</string>
+		<string>vederlo, non credo ai miei occhi !</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>Affinché</string>
+		<string>abbiate saputo</string>
+		<string>sapere</string>
+		<string>venire a casa mia , vi avevo fatto un piano della città.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>È felice che</string>
+		<string>abbiano voluto</string>
+		<string>volere</string>
+		<string>mangiare, poiché avevo fatto pieno di misure.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>Benché ci</string>
+		<string>siamo piaciuti</string>
+		<string>piacere</string>
+		<string>, siamo tornati molto rapidamente.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>Perché</string>
+		<string>siate rimasti</string>
+		<string>rimanere</string>
+		<string>così prudenti, hanno dovuto minacciare di punirvi.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>PASSATO</string>
+		<string>Benché</string>
+		<string>abbiano tenuto</string>
+		<string>tenere</string>
+		<string>opinioni rigorose, ha continuato le sue sciocchezze.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string>Speravo che tu</string>
+		<string>venissi</string>
+		<string>venire</string>
+		<string>a Natale.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string> Temevo che voi non</string>
+		<string>sapeste</string>
+		<string>sapere</string>
+		<string> l&apos;inglese.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string>Volevo che loro</string>
+		<string>fossero</string>
+		<string>essere</string>
+		<string>presenti al matrimonio.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string>Faceva finta che tutto</string>
+		<string>andasse</string>
+		<string>andare</string>
+		<string> bene.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string>Vorrei che tu</string>
+		<string>ripassassi</string>
+		<string>ripassare</string>
+		<string>le tue lezioni.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string> Pensavo che il film</string>
+		<string>finisse</string>
+		<string>finire</string>
+		<string>alle dieci.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string>Vorrei che tu </string>
+		<string>cucinassi</string>
+		<string>cucinare</string>
+		<string>stasera.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string>Credevo che il treno</string>
+		<string>arrivasse</string>
+		<string>arrivare</string>
+		<string>sul terzo binario.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string>Hai pensato che loro</string>
+		<string>sostenessero</string>
+		<string>sostenere</string>
+		<string>gli esami?</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string>Ti criticai soltanto perché tu</string>
+		<string>ti accorgessi</string>
+		<string>accorgersi</string>
+		<string>del problema.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string> Vorrei che tu</string>
+		<string>facessi</string>
+		<string>fare</string>
+		<string>una torta alle fragole per il compleanno della tua nonnina.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string>Bisognerebbe che Maria</string>
+		<string>andasse</string>
+		<string>andare</string>
+		<string>a fare la spesa al supermercato dietro alla stazione.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string>I mariti sono andati a bere un caffè al bar dell&apos;angolo in attesa che le loro mogli</string>
+		<string>scegliessero</string>
+		<string>scegliere</string>
+		<string> i vestiti che volevano.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string>Che lui</string>
+		<string>conoscesse</string>
+		<string>conoscere</string>
+		<string>già la fine del libro non aveva nulla di stupefacente.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string>Dubitavo che voi</string>
+		<string>completaste</string>
+		<string>completare</string>
+		<string>il lavoro in tempo.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string>Ero stupito che</string>
+		<string>ci fossero</string>
+		<string>esserci</string>
+		<string>cosi&apos; poche persone al museo della nostra città.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string>I professori volevano che gli allievi </string>
+		<string>si sedessero</string>
+		<string>sedersi</string>
+		<string>uno per banco.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string>Per parlare di questo avvenimento, sarebbe necessario almeno che noi</string>
+		<string>leggessimo</string>
+		<string>leggere</string>
+		<string>il giornale del mattino.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string>Sarebbe stato quasi impossibile che i professori</string>
+		<string>avessero</string>
+		<string>avere</string>
+		<string>accesso all&apos;università.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string>Non avremmo mai pensato che Paolo</string>
+		<string>avesse</string>
+		<string>avere</string>
+		<string>tanta fortuna nel torneo di tennis quanto il suo amico Francesco.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string>Vorrei che tu</string>
+		<string>andassi</string>
+		<string>andare</string>
+		<string>con Serena al supermercato.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string>Non sapevo che lui</string>
+		<string>viaggiasse</string>
+		<string>viaggiare</string>
+		<string>così frequentemente.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string>Preferiva che suo figlio</string>
+		<string>mangiasse</string>
+		<string>mangiare</string>
+		<string>più verdura e meno dolci.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string>Speravo che Laura Pausini</string>
+		<string>cantasse</string>
+		<string>cantare</string>
+		<string>quella bellissima canzone.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string>Pensavo che Luca</string>
+		<string>fosse</string>
+		<string>essere</string>
+		<string> il cugino di Francesca.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string> Ero sicuro che Monica</string>
+		<string>avesse</string>
+		<string>avere</string>
+		<string>20 anni, invece ne ha appena 18.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string>Credevo che loro</string>
+		<string>partissero</string>
+		<string>partire</string>
+		<string>per Venezia questa mattina.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string>Mi piacerebbe che voi</string>
+		<string>foste</string>
+		<string>essere</string>
+		<string> più gentili con Greta.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string>Non capivo quali</string>
+		<string>fossero</string>
+		<string>essere</string>
+		<string> le soluzioni di questo problema matematico.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>IMPERFETTO</string>
+		<string>Sarebbe bello se noi</string>
+		<string>venissimo</string>
+		<string>venire</string>
+		<string>a Rimini da voi a passare le vacanze.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>TRAPASSATO</string>
+		<string>Se</string>
+		<string>aveste fatto</string>
+		<string>fare</string>
+		<string>attenzione, avremmo potuto evitare l&apos;incidente.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>TRAPASSATO</string>
+		<string>Non sapevo che tu</string>
+		<string>fossi partito</string>
+		<string>partire</string>
+		<string>.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>TRAPASSATO</string>
+		<string>Credevo che ormai i pacchi</string>
+		<string>fossero arrivati</string>
+		<string>arrivare</string>
+		<string>.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>TRAPASSATO</string>
+		<string>Non pensavo che tu</string>
+		<string>avessi sostenuto</string>
+		<string>sostenere</string>
+		<string>gli esami.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>TRAPASSATO</string>
+		<string>Si accettavano tutti i cani a condizione che</string>
+		<string>fossero stati</string>
+		<string>stare</string>
+		<string>vaccinati.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>TRAPASSATO</string>
+		<string>Se tu mi</string>
+		<string>avessi lasciato</string>
+		<string>lasciare</string>
+		<string>, sola non avrei saputo cosa fare.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>TRAPASSATO</string>
+		<string>Che loro ti</string>
+		<string>avessero amato</string>
+		<string>amare</string>
+		<string>, nessun dubbio.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>TRAPASSATO</string>
+		<string>Ah,</string>
+		<string>avessi giocato</string>
+		<string>giocare</string>
+		<string>quei numeri al lotto !</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>TRAPASSATO</string>
+		<string>Pensai che lì</string>
+		<string>avesse piovuto</string>
+		<string>piovere</string>
+		<string>!</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>TRAPASSATO</string>
+		<string>Credevo che tutti voi</string>
+		<string>aveste letto</string>
+		<string>leggere</string>
+		<string>il libro.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>TRAPASSATO</string>
+		<string> Era impossibile che voi</string>
+		<string>aveste finito</string>
+		<string>finire</string>
+		<string>il lavoro in un&apos;ora sola.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>TRAPASSATO</string>
+		<string>I turisti erano usciti quel giorno per recarsi al Colosseo benché</string>
+		<string>fosse piovuto</string>
+		<string>piovere</string>
+		<string>tutta la giornata.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>TRAPASSATO</string>
+		<string>Il discorso era così noioso che metà degli ascoltatori era partita prima che l&apos;oratore</string>
+		<string>avesse finito</string>
+		<string>finire</string>
+		<string>di parlare.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>TRAPASSATO</string>
+		<string>Il prigioniero doveva essere liberato dopo aver scontato una condanna di sei mesi, a meno che nel frattempo egli non</string>
+		<string>avesse fatto</string>
+		<string>fare</string>
+		<string> un tentativo di evasione.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>TRAPASSATO</string>
+		<string>Il professore di educazione fisica aveva assillato gli allievi pigri fino a quando non</string>
+		<string>fossero stati</string>
+		<string>essere</string>
+		<string>veloci quanto lui.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>TRAPASSATO</string>
+		<string>L&apos;agenzia di turismo assumeva un impiegato che</string>
+		<string>avesse trascorso</string>
+		<string>trascorrere</string>
+		<string>almeno cinque anni in Italia.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>TRAPASSATO</string>
+		<string>Benché il custode non</string>
+		<string>si fosse accorto</string>
+		<string>accorgersi</string>
+		<string>di nulla, noi smettemmo di entrare da quella porta.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>TRAPASSATO</string>
+		<string>Dubitavo che tutto</string>
+		<string>si fosse svolto</string>
+		<string>svolgersi</string>
+		<string>come voi pretendete, senza alcuna battuta da parte di Carlo.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>TRAPASSATO</string>
+		<string>Marina decise di andare in vacanza in montagna senza che Paolo</string>
+		<string>avesse avuto</string>
+		<string>avere</string>
+		<string>nulla da ridire.</string>
+	</array>
+	<array>
+		<string>CONGIUNTIVO</string>
+		<string>TRAPASSATO</string>
+		<string>Quell&apos;anno, gli uccelli partirono prima che l&apos;inverno non</string>
+		<string>fosse arrivato</string>
+		<string>arrivare</string>
+		<string>nella grande pianura.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string>Marco</string>
+		<string>verrebbe</string>
+		<string>venire</string>
+		<string>volontieri,ma è ammalato.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string>Sylvia e Anna ti</string>
+		<string>scriverebbero</string>
+		<string>scrivere</string>
+		<string>ma non conoscono il tuo indirizzo.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string></string>
+		<string>cantereste</string>
+		<string>cantare</string>
+		<string>se aveste un musicista per accompagnarvi ?</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string>Mi</string>
+		<string>piacerebbe</string>
+		<string>piacere</string>
+		<string>che tu venissi da me.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string>Se tu chiudessi la finestra</string>
+		<string>potresti</string>
+		<string>potere</string>
+		<string>sentirmi parlare.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string>Non</string>
+		<string>potremmo</string>
+		<string>potere</string>
+		<string>andare a piedi da Angelo ?</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string></string>
+		<string>vorrei</string>
+		<string>volere</string>
+		<string>comprare un computer.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string>Ho sete,</string>
+		<string>berrei</string>
+		<string>bere</string>
+		<string>volontieri un coca.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string></string>
+		<string>avrei</string>
+		<string>avere</string>
+		<string>bisogno della tua macchina stasera.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string>Se avessero avuto tempo,</string>
+		<string>sarebbero</string>
+		<string>essere</string>
+		<string>venuti a trovarci.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string> Paolo, scusami ma non ti posso dare una risposta subito perché mi</string>
+		<string>servirebbe</string>
+		<string>servire</string>
+		<string>qualche giorno di riflessione.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string>Daniela e Gianni </string>
+		<string>vorrebbero</string>
+		<string>volere</string>
+		<string>cambiare macchina ma le loro condizioni economiche non glielo permettono.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string>Il compagno di Barbara e il suo amico Bruno</string>
+		<string>berrebbero</string>
+		<string>bere</string>
+		<string>tutte le sere fino ad ubriacarsi se non ci fosse qualcuno a controllarli.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string>Annamaria, </string>
+		<string>potresti</string>
+		<string>potere</string>
+		<string>perché stamattina Teresa si è offesa ed è andata via senza neanche salutarmi?</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string> Se vinceste alla Lotteria di Capodanno, dove</string>
+		<string>andreste</string>
+		<string>andare</string>
+		<string>in viaggio?</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string>Se l’occasione dovesse presentarsi, le mie amiche più fidate ed io</string>
+		<string>sapremmo</string>
+		<string>sapere</string>
+		<string>come gestire una situazione così delicata.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string>Pippo, il mio vicino di casa, dice che</string>
+		<string>sarebbe</string>
+		<string>essere</string>
+		<string>anche disposto ad aiutarmi nel caso ne avessi bisogno.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string></string>
+		<string>dovremmo</string>
+		<string>Dovere</string>
+		<string> sbrigarci un po’ se vogliamo che la cena sia pronta per le venti!</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string>Gli studenti</string>
+		<string>chiacchiererebbero</string>
+		<string>chiacchierare</string>
+		<string>continuamente in classe se non ci fosse l’insegnante a ristabilire un po’ di disciplina.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string>Mi scusi, Signor Rossi,</string>
+		<string>avrebbe</string>
+		<string>avere</string>
+		<string>la cortesia di indicarmi l’ora?</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string></string>
+		<string>Potremmo</string>
+		<string>Potere</string>
+		<string>andare a visitare la Rocca di San Leo vicino ad Urbino,nella regione delle Marche.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string> Quest&apos;acqua di sorgente,</string>
+		<string>avrebbe</string>
+		<string>avere</string>
+		<string>effetti diuretici e benefici per la salute.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string>Maria</string>
+		<string>comprerebbe</string>
+		<string>comprare</string>
+		<string> un libro e delle foto,in ricordo di questa visita.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string>Alla fine del pomeriggio, noi </string>
+		<string>prenderemmo</string>
+		<string>prendere</string>
+		<string>tutti una buona birra alsaziana all&apos;osteria.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string>Sono sicuro che i bambini non</string>
+		<string>si annoierebbero</string>
+		<string>annoiarsi</string>
+		<string>in campagna con i loro cugini.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string>Mangiare molta frutta e verdura</string>
+		<string>servirebbe</string>
+		<string>servire</string>
+		<string>a prevenire certe malattie.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string>Secondo i sondaggi,i Tedeschi</string>
+		<string>berrebbero</string>
+		<string>bere</string>
+		<string> piu&apos; vino degli Italiani.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string>Marco e Martina</string>
+		<string>sarebbero</string>
+		<string>essere</string>
+		<string>a Venezia per sposarsi nella piu&apos; grande intimità</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string></string>
+		<string>Vorremmo</string>
+		<string>Volere</string>
+		<string>ottenere dei ragguagli sui voli per Roma in partenza da Milano.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Presente</string>
+		<string></string>
+		<string>Potresti</string>
+		<string>Potere</string>
+		<string>fare un po&apos; meno rumore?Non riesco a lavorare in tutta questa confusione!</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Passato</string>
+		<string>Tu</string>
+		<string>avresti potuto</string>
+		<string>potere</string>
+		<string>avvertirmi che facevi una festa! Guarda lo stato dell&apos;appartamento.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Passato</string>
+		<string>Da bambino, Paolo</string>
+		<string>avrebbe preferito</string>
+		<string>preferire</string>
+		<string>passare piu&apos; tempo con i suoi cugini di Roma.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Passato</string>
+		<string>A suo dire,</string>
+		<string>avrebbe trovato</string>
+		<string>trovare</string>
+		<string>un posto importante alla Banca d&apos;Italia.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Passato</string>
+		<string> La direttrice delle risorse umane</string>
+		<string>avrebbe fatto</string>
+		<string>fare</string>
+		<string>delle selezioni molto severe.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Passato</string>
+		<string>Al posto tuo,</string>
+		<string>avrei messo</string>
+		<string>mettere</string>
+		<string>dei vestiti piu&apos; caldi: fa molto freddo fuori!</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Passato</string>
+		<string></string>
+		<string>Avrei voluto</string>
+		<string>Volere</string>
+		<string>la neve per Natale! Non c&apos;è mai neve a Napoli in inverno!</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Passato</string>
+		<string> Non</string>
+		<string>sarebbero andati</string>
+		<string>andare</string>
+		<string>al concerto perché erano malati e stanchi.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Passato</string>
+		<string>Marco e Isabella</string>
+		<string>si sarebbero visti</string>
+		<string>vedersi</string>
+		<string>tutti i giorni in piscina per nuotare.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Passato</string>
+		<string>Noi ci</string>
+		<string>saremmo divertiti</string>
+		<string>divertirsi</string>
+		<string>alla fiera agricola del villaggio di Borgo San Lorenzo.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Passato</string>
+		<string></string>
+		<string>Avreste voluto</string>
+		<string>Volere</string>
+		<string>sciare ma la pista era chiusa e nevicava molto forte.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Passato</string>
+		<string></string>
+		<string>Avrei voluto</string>
+		<string>volere</string>
+		<string>venire, ma era impossibile.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Passato</string>
+		<string></string>
+		<string>Saremmo venuti</string>
+		<string>venire</string>
+		<string>, se ce lo avessero chiesto.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Passato</string>
+		<string></string>
+		<string>Avresti voluto</string>
+		<string>volere</string>
+		<string>venire con me?</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Passato</string>
+		<string>Mia sorella</string>
+		<string>sarebbe stata</string>
+		<string>essere</string>
+		<string> contenta di andare a ballare.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Passato</string>
+		<string>Ragazzi,</string>
+		<string>sareste stati</string>
+		<string>essere</string>
+		<string>felici se fossimo usciti questa sera?</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Passato</string>
+		<string>Le ragazze</string>
+		<string>avrebbero voluto</string>
+		<string>volere</string>
+		<string>uscire con i loro genitori.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Passato</string>
+		<string></string>
+		<string>avrei dormito</string>
+		<string>dormire</string>
+		<string> più a lungo, ma bisognava che andassi al lavoro.</string>
+	</array>
+	<array>
+		<string>CONDIZIONALE</string>
+		<string>Passato</string>
+		<string> Se lo avessero saputo,</string>
+		<string>sarebbero andati</string>
+		<string>andare</string>
+		<string>a prenderli.</string>
+	</array>
+	<array>
+		<string>IMPERATIVO</string>
+		<string>Presente</string>
+		<string></string>
+		<string>Vada</string>
+		<string>andare</string>
+		<string>dal medico,bisogna medicarla.</string>
+	</array>
+	<array>
+		<string>IMPERATIVO</string>
+		<string>Presente</string>
+		<string>Mario</string>
+		<string>dà</string>
+		<string>dare</string>
+		<string> il latte al gatto, ha fame.</string>
+	</array>
+	<array>
+		<string>IMPERATIVO</string>
+		<string>Presente</string>
+		<string></string>
+		<string>Facciano</string>
+		<string>fare</string>
+		<string>i loro lavori, prima di uscire.</string>
+	</array>
+	<array>
+		<string>IMPERATIVO</string>
+		<string>Presente</string>
+		<string></string>
+		<string>Parlate</string>
+		<string>parlare</string>
+		<string>tutti e due, dopo deciderete.</string>
+	</array>
+	<array>
+		<string>IMPERATIVO</string>
+		<string>Presente</string>
+		<string></string>
+		<string>Distragga</string>
+		<string>distrarre</string>
+		<string> i bambini, perché io possa fare il mio lavoro.</string>
+	</array>
+	<array>
+		<string>IMPERATIVO</string>
+		<string>Presente</string>
+		<string></string>
+		<string>Giochiamo</string>
+		<string>giocare</string>
+		<string>prima che i nostri genitori tornino.</string>
+	</array>
+	<array>
+		<string>IMPERATIVO</string>
+		<string>Presente</string>
+		<string></string>
+		<string>Tirate</string>
+		<string>tirare</string>
+		<string> sulla fune, perché l&apos;albero cada.</string>
+	</array>
+	<array>
+		<string>IMPERATIVO</string>
+		<string>Presente</string>
+		<string></string>
+		<string>Cessa</string>
+		<string>cessare</string>
+		<string>di pungere la tua sorellina.</string>
+	</array>
+	<array>
+		<string>IMPERATIVO</string>
+		<string>Presente</string>
+		<string></string>
+		<string>Ascoltate</string>
+		<string>ascoltare</string>
+		<string>ciò che dice la vostra professoressa.</string>
+	</array>
+	<array>
+		<string>IMPERATIVO</string>
+		<string>Presente</string>
+		<string></string>
+		<string>Mangia</string>
+		<string>mangiare</string>
+		<string> prima la mela, dopo uscirai.</string>
+	</array>
+	<array>
+		<string>IMPERATIVO</string>
+		<string>Presente</string>
+		<string></string>
+		<string>Gira</string>
+		<string>girare</string>
+		<string>a sinistra, ti ho detto, ci senti sì o no?</string>
+	</array>
+	<array>
+		<string>IMPERATIVO</string>
+		<string>Presente</string>
+		<string></string>
+		<string>Nuotate</string>
+		<string>nuotare</string>
+		<string> più velocemente, se no, non vincerete.</string>
+	</array>
+	<array>
+		<string>IMPERATIVO</string>
+		<string>Presente</string>
+		<string></string>
+		<string>Dormiamo</string>
+		<string>dormire</string>
+		<string> presto o la mamma ci punirà!</string>
+	</array>
+	<array>
+		<string>IMPERATIVO</string>
+		<string>Presente</string>
+		<string></string>
+		<string>Vieni</string>
+		<string>venire</string>
+		<string> subito, l&apos;autobus arriva, affrettati.</string>
+	</array>
+	<array>
+		<string>IMPERATIVO</string>
+		<string>Presente</string>
+		<string>Non</string>
+		<string>uscire</string>
+		<string>uscire</string>
+		<string>, devo parlarti.</string>
+	</array>
+	<array>
+		<string>IMPERATIVO</string>
+		<string>Presente</string>
+		<string></string>
+		<string>Vestitevi</string>
+		<string>vestirsi</string>
+		<string> presto, l&apos;autobus per la scuola arriva fra dieci minuti.</string>
+	</array>
+	<array>
+		<string>IMPERATIVO</string>
+		<string>Presente</string>
+		<string></string>
+		<string>Dì</string>
+		<string>dire</string>
+		<string> alla tua mamma, che io ritorno alle cinque.</string>
+	</array>
+	<array>
+		<string>IMPERATIVO</string>
+		<string>Presente</string>
+		<string></string>
+		<string>Conduci</string>
+		<string>condurre</string>
+		<string> tua figlia dal medico, è stata male oggi a scuola.</string>
+	</array>
+	<array>
+		<string>IMPERATIVO</string>
+		<string>Presente</string>
+		<string></string>
+		<string>Poni</string>
+		<string>porre</string>
+		<string>le mie chiavi sul tavolo, le prenderò partendo.       </string>
+	</array>
+</array>
+</plist>

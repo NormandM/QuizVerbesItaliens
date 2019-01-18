@@ -17,6 +17,27 @@ class OptionsViewController: UIViewController {
             let verbArray = NSArray(contentsOfFile: plistPath){
             arrayVerbe = verbArray as! [[String]]
         }
+//        if let plistPath = Bundle.main.path(forResource: "ContextuelItalien", ofType: "plist"),
+//            let verbArrayContextuel = NSArray(contentsOfFile: plistPath){
+//            let arrayVerbeContextuel = verbArrayContextuel as! [[String]]
+//            var verbInfinitfArray = [String]()
+//            var verbInfintifQuizArray = [String]()
+//            for verb in arrayVerbe {
+//                if !verbInfintifQuizArray.contains(verb[2]){
+//                    verbInfintifQuizArray.append(verb[2])
+//                }
+//            }
+//            for verb in arrayVerbeContextuel {
+//                if !verbInfinitfArray.contains(verb[4]) && !verbInfintifQuizArray.contains(verb[4]){
+//                    verbInfinitfArray.append(verb[4])
+//                }
+//            }
+//            for verb in verbInfinitfArray {
+//                print(verb)
+//            }
+//        }
+
+        
         self.navigationItem.setHidesBackButton(true, animated:true)
     }
 
