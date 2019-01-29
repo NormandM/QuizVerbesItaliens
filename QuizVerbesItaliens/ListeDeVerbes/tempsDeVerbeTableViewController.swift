@@ -14,24 +14,20 @@ class tempsDeVerbeTableViewController: UITableViewController {
     var nomSection: String = ""
     var leTemps: String = ""
     var verbeTotal = ["", "", ""]
-    
-    
+    let fontsAndConstraints = FontsAndConstraintsOptions()
     let sectionListe = ["INDICATIVO", "CONGIUNTIVO", "CONDIZIONALE", "IMPERATIVO"]
     let item = [["Presente", "Imperfetto", "Passato prossimo", "Futuro semplice", "Passato remoto", "Trapassato prossimo", "Futuro anteriore", "Trapassato remoto"], ["Presente", "Passato", "Imperfetto", "Trapassato"], ["Presente", "Passato"], ["Presente"]]
     
     override func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
         let header: UITableViewHeaderFooterView = view as! UITableViewHeaderFooterView //recast your view as a UITableViewHeaderFooterView
-        header.contentView.backgroundColor = UIColor(red: 151/255, green: 156/255, blue: 159/255, alpha: 1.0) //make the background color light blue
+       header.contentView.backgroundColor = UIColor(red: 178/255, green: 208/255, blue: 198/255, alpha: 1.0)
         header.textLabel!.textColor = UIColor.white //make the text white
         header.alpha = 1.0 //make the header transparent
-        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Scegliere il tempo"
-
      }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -40,31 +36,22 @@ class tempsDeVerbeTableViewController: UITableViewController {
     // MARK: - Table view data source
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        
         return sectionListe[section]
     }
-
-
     override func numberOfSections(in tableView: UITableView) -> Int {
-        
         return sectionListe.count
     }
-
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
         return item[section].count
     }
-
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         let helper = Helper()
-        cell.textLabel!.text = helper.capitalize(word: self.item[indexPath.section][indexPath.row]) 
+        cell.textLabel!.text = helper.capitalize(word: self.item[indexPath.section][indexPath.row])
+        cell.textLabel?.textColor = UIColor.black
+        cell.textLabel?.font =  fontsAndConstraints.normalItaliqueBoldFont
         return cell
-        
      }
-
-
-
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showLeVerbeFinal"{
             if let indexPath = self.tableView.indexPathForSelectedRow {
@@ -79,22 +66,15 @@ class tempsDeVerbeTableViewController: UITableViewController {
                    
                 }else if nomSection == "IMPERATIVO"{
                     nomSection = "Imperativo"
-                    
                 }
-                
                 let backItem = UIBarButtonItem()
                 backItem.title = ""
                 navigationItem.backBarButtonItem = backItem
-                
                 verbeTotal = [verbeInfinitif, nomSection, leTemps ]
                 let controller = segue.destination as! FinalVerbeViewController
                 controller.selectionVerbe = verbeTotal
                 controller.arrayVerbe = arrayVerbe
             }
-            
-            
         }
-        
     }
-
 }

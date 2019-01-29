@@ -52,8 +52,6 @@ class Selection {
         }
         return (allInfoList, indexDesVerbes, tempsEtMode)
     }
-    
-    
 /////////Tous les verbes
     func questionAleatoire(arraySelection: [String], arrayVerbe: [[String]]) -> ([Any], [[String]]){
             listeVerbe = []
@@ -107,8 +105,6 @@ class Selection {
                 }else if noPersonne == 5 {
                     noPersonne = 6
                 }
-                
-                
             }
             let question = Question()
         
@@ -142,7 +138,6 @@ class Selection {
             default: modeChoisi = ""
             }
             tempsEtMode.append([tempsChoisi, modeChoisi])
-            
         }
         return tempsEtMode
     }

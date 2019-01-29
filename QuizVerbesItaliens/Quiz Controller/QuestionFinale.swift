@@ -64,5 +64,4 @@ class Question {
         }
         return [choixPersonne, personneChoisi, reponseBonne]
     }
-    
 }

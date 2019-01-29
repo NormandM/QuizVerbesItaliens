@@ -16,18 +16,16 @@ class SpecificVerbViewController: UIViewController, UITableViewDataSource, UITab
     var arrayVerbe: [[String]] = []
     var arraySelection: [String] = []
     var verbesChoisi: [String] = []
-    
+    let fontsAndConstraints = FontsAndConstraintsOptions()
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var searchBar: UISearchBar!
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Scegliere di 1 a 10 verbi"
         tableView.delegate = self
         tableView.dataSource = self
         searchBar.delegate = self
-        
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "OK", style: .plain, target: self, action: #selector(showQuiz))
         for verb in arrayVerbe {
             if !listeVerbe.contains(verb[2]){
@@ -38,15 +36,11 @@ class SpecificVerbViewController: UIViewController, UITableViewDataSource, UITab
             return s1 < s2
         }
         listeVerbe = listeVerbe.sorted(by: alpha)
-        
         var n = 0
         for verbe in listeVerbe {
-            
             listeVerbeAny.append([verbe, false, n])
-            
             n = n + 1
         }
-        
     }
     // Setting up the searchBar active: Ttrue/False
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
@@ -66,7 +60,6 @@ class SpecificVerbViewController: UIViewController, UITableViewDataSource, UITab
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
         return self.searchBar.text == "" ? self.listeVerbeAny.count : self.arrayFilter.count
     }
     
@@ -74,6 +67,8 @@ class SpecificVerbViewController: UIViewController, UITableViewDataSource, UITab
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         let lista = self.searchBar.text == "" ? self.listeVerbeAny : self.arrayFilter
         let cellAnyArray = lista[indexPath.row] as! [Any]
+        cell.textLabel?.textColor = UIColor.black
+        cell.textLabel?.font =  fontsAndConstraints.normalItaliqueBoldFont
         let cellText = cellAnyArray[0] as! String
         cell.textLabel?.text = cellText
         // check cell based on second field
@@ -83,11 +78,8 @@ class SpecificVerbViewController: UIViewController, UITableViewDataSource, UITab
         }else{
             cell.accessoryType = .none
         }
-        
         return cell
     }
-    
-    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         verbesChoisi = []
         var lista = self.searchBar.text == "" ? self.listeVerbeAny : self.arrayFilter
@@ -145,8 +137,7 @@ class SpecificVerbViewController: UIViewController, UITableViewDataSource, UITab
         let alertController = UIAlertController(title: "Si deve scegliere almeno 1 verbo e un massimo di 10", message: nil, preferredStyle: .alert)
         alertController.popoverPresentationController?.sourceView = self.view
         alertController.popoverPresentationController?.sourceRect = tableView.rectForHeader(inSection: 1)
-        
-        let okAction = UIAlertAction(title: "OK", style: .cancel, handler: dismissAlert)
+        let okAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
         alertController.addAction(okAction)
         present(alertController, animated: true, completion: nil)
     }
@@ -154,15 +145,9 @@ class SpecificVerbViewController: UIViewController, UITableViewDataSource, UITab
         let alertController = UIAlertController(title: "Non esiste alcun imperativo per questi verbi:", message: "potere, dovere. Fare un'altra scelta", preferredStyle: .alert)
         alertController.popoverPresentationController?.sourceView = self.view
         alertController.popoverPresentationController?.sourceRect = tableView.rectForHeader(inSection: 1)
-        
-        let okAction = UIAlertAction(title: "OK", style: .cancel, handler: dismissAlert)
+        let okAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
         alertController.addAction(okAction)
         present(alertController, animated: true, completion: nil)
-    }
-    
-
-    func dismissAlert(_ sender: UIAlertAction) {
-        
     }
     @objc func showQuiz() {
         choix()
@@ -171,7 +156,5 @@ class SpecificVerbViewController: UIViewController, UITableViewDataSource, UITab
         }else {
             performSegue(withIdentifier: "showQuiz", sender: Any?.self)
         }
-        
     }
-    
 }

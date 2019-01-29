@@ -15,7 +15,6 @@ class RandomNumber {
         var numberOfNumbers = quantity
         let lower = UInt32(from)
         let higher = UInt32(to+1)
-        
         if numberOfNumbers == nil || numberOfNumbers! > (to - from) + 1 {
             numberOfNumbers = (to - from) + 1
         }
@@ -27,5 +26,4 @@ class RandomNumber {
         }
         return randomNumbers
     }
-    
 }

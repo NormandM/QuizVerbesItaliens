@@ -15030,7 +15030,7 @@
 		<string>Presente</string>
 		<string>venire</string>
 		<string></string>
-		<string>veni</string>
+		<string>vieni</string>
 		<string>venga</string>
 		<string>veniamo</string>
 		<string>venite</string>
@@ -24843,12 +24843,12 @@
 		<string>Indicativo</string>
 		<string>Passato prossimo</string>
 		<string>suscitare</string>
-		<string>sono suscitato/a</string>
-		<string>sei suscitato/a</string>
-		<string>è suscitato/a</string>
-		<string>siamo suscitati/e</string>
-		<string>siete suscitati/e</string>
-		<string>sono suscitati/e</string>
+		<string>sono suscitato</string>
+		<string>sei suscitato</string>
+		<string>è suscitato</string>
+		<string>siamo suscitati</string>
+		<string>siete suscitati</string>
+		<string>sono suscitati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -24857,12 +24857,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato prossimo</string>
 		<string>suscitare</string>
-		<string>ero suscitato/a</string>
-		<string>eri suscitato/a</string>
-		<string>era suscitato/a</string>
-		<string>eravamo suscitati/e</string>
-		<string>eravate suscitati/e</string>
-		<string>erano suscitati/e</string>
+		<string>ero suscitato</string>
+		<string>eri suscitato</string>
+		<string>era suscitato</string>
+		<string>eravamo suscitati</string>
+		<string>eravate suscitati</string>
+		<string>erano suscitati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -24871,12 +24871,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato remoto</string>
 		<string>suscitare</string>
-		<string>fui suscitato/a</string>
-		<string>fosti suscitato/a</string>
-		<string>fu suscitato/a</string>
-		<string>fummo suscitati/e</string>
-		<string>foste suscitati/e</string>
-		<string>furono suscitati/e</string>
+		<string>fui suscitato</string>
+		<string>fosti suscitato</string>
+		<string>fu suscitato</string>
+		<string>fummo suscitati</string>
+		<string>foste suscitati</string>
+		<string>furono suscitati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -24885,12 +24885,12 @@
 		<string>Indicativo</string>
 		<string>Futuro anteriore</string>
 		<string>suscitare</string>
-		<string>sarò suscitato/a</string>
-		<string>sarai suscitato/a</string>
-		<string>sarà suscitato/a</string>
-		<string>saremo suscitati/e</string>
-		<string>sarete suscitati/e</string>
-		<string>saranno suscitati/e</string>
+		<string>sarò suscitato</string>
+		<string>sarai suscitato</string>
+		<string>sarà suscitato</string>
+		<string>saremo suscitati</string>
+		<string>sarete suscitati</string>
+		<string>saranno suscitati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -24927,12 +24927,12 @@
 		<string>Congiuntivo</string>
 		<string>Passato</string>
 		<string>suscitare</string>
-		<string>sia suscitato/a</string>
-		<string>sia suscitato/a</string>
-		<string>sia suscitato/a</string>
-		<string>siamo suscitati/e</string>
-		<string>siate suscitati/e</string>
-		<string>siano suscitati/e</string>
+		<string>sia suscitato</string>
+		<string>sia suscitato</string>
+		<string>sia suscitato</string>
+		<string>siamo suscitati</string>
+		<string>siate suscitati</string>
+		<string>siano suscitati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -24941,12 +24941,12 @@
 		<string>Congiuntivo</string>
 		<string>Trapassato</string>
 		<string>suscitare</string>
-		<string>fossi suscitato/a</string>
-		<string>fossi suscitato/a</string>
-		<string>fosse suscitato/a</string>
-		<string>fossimo suscitati/e</string>
-		<string>foste suscitati/e</string>
-		<string>fossero suscitati/e</string>
+		<string>fossi suscitato</string>
+		<string>fossi suscitato</string>
+		<string>fosse suscitato</string>
+		<string>fossimo suscitati</string>
+		<string>foste suscitati</string>
+		<string>fossero suscitati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -24969,12 +24969,12 @@
 		<string>Condizionale</string>
 		<string>Passato</string>
 		<string>suscitare</string>
-		<string>sarei suscitato/a</string>
-		<string>saresti suscitato/a</string>
-		<string>sarebbe suscitato/a</string>
-		<string>saremmo suscitati/e</string>
-		<string>sareste suscitati/e</string>
-		<string>sarebbero suscitati/e</string>
+		<string>sarei suscitato</string>
+		<string>saresti suscitato</string>
+		<string>sarebbe suscitato</string>
+		<string>saremmo suscitati</string>
+		<string>sareste suscitati</string>
+		<string>sarebbero suscitati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -27573,12 +27573,12 @@
 		<string>Indicativo</string>
 		<string>Passato prossimo</string>
 		<string>ingrassare</string>
-		<string>sono ingrassato/a</string>
-		<string>sei ingrassato/a</string>
-		<string>è ingrassato/a</string>
-		<string>siamo ingrassati/e</string>
-		<string>siete ingrassati/e</string>
-		<string>sono ingrassati/e</string>
+		<string>sono ingrassato</string>
+		<string>sei ingrassato</string>
+		<string>è ingrassato</string>
+		<string>siamo ingrassati</string>
+		<string>siete ingrassati</string>
+		<string>sono ingrassati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -27587,12 +27587,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato prossimo</string>
 		<string>ingrassare</string>
-		<string>ero ingrassato/a</string>
-		<string>eri ingrassato/a</string>
-		<string>era ingrassato/a</string>
-		<string>eravamo ingrassati/e</string>
-		<string>eravate ingrassati/e</string>
-		<string>erano ingrassati/e</string>
+		<string>ero ingrassato</string>
+		<string>eri ingrassato</string>
+		<string>era ingrassato</string>
+		<string>eravamo ingrassati</string>
+		<string>eravate ingrassati</string>
+		<string>erano ingrassati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -27601,12 +27601,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato remoto</string>
 		<string>ingrassare</string>
-		<string>fui ingrassato/a</string>
-		<string>fosti ingrassato/a</string>
-		<string>fu ingrassato/a</string>
-		<string>fummo ingrassati/e</string>
-		<string>foste ingrassati/e</string>
-		<string>furono ingrassati/e</string>
+		<string>fui ingrassato</string>
+		<string>fosti ingrassato</string>
+		<string>fu ingrassato</string>
+		<string>fummo ingrassati</string>
+		<string>foste ingrassati</string>
+		<string>furono ingrassati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -27615,12 +27615,12 @@
 		<string>Indicativo</string>
 		<string>Futuro anteriore</string>
 		<string>ingrassare</string>
-		<string>sarò ingrassato/a</string>
-		<string>sarai ingrassato/a</string>
-		<string>sarà ingrassato/a</string>
-		<string>saremo ingrassati/e</string>
-		<string>sarete ingrassati/e</string>
-		<string>saranno ingrassati/e</string>
+		<string>sarò ingrassato</string>
+		<string>sarai ingrassato</string>
+		<string>sarà ingrassato</string>
+		<string>saremo ingrassati</string>
+		<string>sarete ingrassati</string>
+		<string>saranno ingrassati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -27657,12 +27657,12 @@
 		<string>Congiuntivo</string>
 		<string>Passato</string>
 		<string>ingrassare</string>
-		<string>sia ingrassato/a</string>
-		<string>sia ingrassato/a</string>
-		<string>sia ingrassato/a</string>
-		<string>siamo ingrassati/e</string>
-		<string>siate ingrassati/e</string>
-		<string>siano ingrassati/e</string>
+		<string>sia ingrassato</string>
+		<string>sia ingrassato</string>
+		<string>sia ingrassato</string>
+		<string>siamo ingrassati</string>
+		<string>siate ingrassati</string>
+		<string>siano ingrassati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -27671,12 +27671,12 @@
 		<string>Congiuntivo</string>
 		<string>Trapassato</string>
 		<string>ingrassare</string>
-		<string>fossi ingrassato/a</string>
-		<string>fossi ingrassato/a</string>
-		<string>fosse ingrassato/a</string>
-		<string>fossimo ingrassati/e</string>
-		<string>foste ingrassati/e</string>
-		<string>fossero ingrassati/e</string>
+		<string>fossi ingrassato</string>
+		<string>fossi ingrassato</string>
+		<string>fosse ingrassato</string>
+		<string>fossimo ingrassati</string>
+		<string>foste ingrassati</string>
+		<string>fossero ingrassati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -27699,12 +27699,12 @@
 		<string>Condizionale</string>
 		<string>Passato</string>
 		<string>ingrassare</string>
-		<string>sarei ingrassato/a</string>
-		<string>saresti ingrassato/a</string>
-		<string>sarebbe ingrassato/a</string>
-		<string>saremmo ingrassati/e</string>
-		<string>sareste ingrassati/e</string>
-		<string>sarebbero ingrassati/e</string>
+		<string>sarei ingrassato</string>
+		<string>saresti ingrassato</string>
+		<string>sarebbe ingrassato</string>
+		<string>saremmo ingrassati</string>
+		<string>sareste ingrassati</string>
+		<string>sarebbero ingrassati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -29197,12 +29197,12 @@
 		<string>Indicativo</string>
 		<string>Presente</string>
 		<string>applaudire</string>
-		<string>applaud(isc)o</string>
-		<string>applaud(isc)i</string>
-		<string>applaud(isc)e</string>
+		<string>applaudisco</string>
+		<string>applaudisci</string>
+		<string>applaudisce</string>
 		<string>applaudiamo</string>
 		<string>applaudite</string>
-		<string>applaud(isc)ono</string>
+		<string>applaudiscono</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -29309,12 +29309,12 @@
 		<string>Congiuntivo</string>
 		<string>Presente</string>
 		<string>applaudire</string>
-		<string>applaud(isc)a</string>
-		<string>applaud(isc)a</string>
-		<string>applaud(isc)a</string>
+		<string>applaudisca</string>
+		<string>applaudisca</string>
+		<string>applaudisca</string>
 		<string>applaudiamo</string>
 		<string>applaudiate</string>
-		<string>applaud(isc)ano</string>
+		<string>applaudiscano</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -29394,11 +29394,11 @@
 		<string>Presente</string>
 		<string>applaudire</string>
 		<string></string>
-		<string>applaud(isc)i</string>
-		<string>applaud(isc)a</string>
+		<string>applaudisci</string>
+		<string>applaudisca</string>
 		<string>applaudiamo</string>
 		<string>applaudite</string>
-		<string>applaud(isc)ano</string>
+		<string>applaudiscano</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -29463,12 +29463,12 @@
 		<string>Indicativo</string>
 		<string>Passato prossimo</string>
 		<string>apparire</string>
-		<string>sono apparso/a</string>
-		<string>sei apparso/a</string>
-		<string>è apparso/a</string>
-		<string>siamo apparsi/e</string>
-		<string>siete apparsi/e</string>
-		<string>sono apparsi/e</string>
+		<string>sono apparso</string>
+		<string>sei apparso</string>
+		<string>è apparso</string>
+		<string>siamo apparsi</string>
+		<string>siete apparsi</string>
+		<string>sono apparsi</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -29477,12 +29477,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato prossimo</string>
 		<string>apparire</string>
-		<string>ero apparso/a</string>
-		<string>eri apparso/a</string>
-		<string>era apparso/a</string>
-		<string>eravamo apparsi/e</string>
-		<string>eravate apparsi/e</string>
-		<string>erano apparsi/e</string>
+		<string>ero apparso</string>
+		<string>eri apparso</string>
+		<string>era apparso</string>
+		<string>eravamo apparsi</string>
+		<string>eravate apparsi</string>
+		<string>erano apparsi</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -29491,12 +29491,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato remoto</string>
 		<string>apparire</string>
-		<string>fui apparso/a</string>
-		<string>fosti apparso/a</string>
-		<string>fu apparso/a</string>
-		<string>fummo apparsi/e</string>
-		<string>foste apparsi/e</string>
-		<string>furono apparsi/e</string>
+		<string>fui apparso</string>
+		<string>fosti apparso</string>
+		<string>fu apparso</string>
+		<string>fummo apparsi</string>
+		<string>foste apparsi</string>
+		<string>furono apparsi</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -29505,12 +29505,12 @@
 		<string>Indicativo</string>
 		<string>Futuro anteriore</string>
 		<string>apparire</string>
-		<string>sarò apparso/a</string>
-		<string>sarai apparso/a</string>
-		<string>sarà apparso/a</string>
-		<string>saremo apparsi/e</string>
-		<string>sarete apparsi/e</string>
-		<string>saranno apparsi/e</string>
+		<string>sarò apparso</string>
+		<string>sarai apparso</string>
+		<string>sarà apparso</string>
+		<string>saremo apparsi</string>
+		<string>sarete apparsi</string>
+		<string>saranno apparsi</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -29547,12 +29547,12 @@
 		<string>Congiuntivo</string>
 		<string>Passato</string>
 		<string>apparire</string>
-		<string>sia apparso/a</string>
-		<string>sia apparso/a</string>
-		<string>sia apparso/a</string>
-		<string>siamo apparsi/e</string>
-		<string>siate apparsi/e</string>
-		<string>siano apparsi/e</string>
+		<string>sia apparso</string>
+		<string>sia apparso</string>
+		<string>sia apparso</string>
+		<string>siamo apparsi</string>
+		<string>siate apparsi</string>
+		<string>siano apparsi</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -29561,12 +29561,12 @@
 		<string>Congiuntivo</string>
 		<string>Trapassato</string>
 		<string>apparire</string>
-		<string>fossi apparso/a</string>
-		<string>fossi apparso/a</string>
-		<string>fosse apparso/a</string>
-		<string>fossimo apparsi/e</string>
-		<string>foste apparsi/e</string>
-		<string>fossero apparsi/e</string>
+		<string>fossi apparso</string>
+		<string>fossi apparso</string>
+		<string>fosse apparso</string>
+		<string>fossimo apparsi</string>
+		<string>foste apparsi</string>
+		<string>fossero apparsi</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -29589,12 +29589,12 @@
 		<string>Condizionale</string>
 		<string>Passato</string>
 		<string>apparire</string>
-		<string>sarei apparso/a</string>
-		<string>saresti apparso/a</string>
-		<string>sarebbe apparso/a</string>
-		<string>saremmo apparsi/e</string>
-		<string>sareste apparsi/e</string>
-		<string>sarebbero apparsi/e</string>
+		<string>sarei apparso</string>
+		<string>saresti apparso</string>
+		<string>sarebbe apparso</string>
+		<string>saremmo apparsi</string>
+		<string>sareste apparsi</string>
+		<string>sarebbero apparsi</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -29883,12 +29883,12 @@
 		<string>Indicativo</string>
 		<string>Passato prossimo</string>
 		<string>saltare</string>
-		<string>sono saltato/a</string>
-		<string>sei saltato/a</string>
-		<string>è saltato/a</string>
-		<string>siamo saltati/e</string>
-		<string>siete saltati/e</string>
-		<string>sono saltati/e</string>
+		<string>sono saltato</string>
+		<string>sei saltato</string>
+		<string>è saltato</string>
+		<string>siamo saltati</string>
+		<string>siete saltati</string>
+		<string>sono saltati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -29897,12 +29897,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato prossimo</string>
 		<string>saltare</string>
-		<string>ero saltato/a</string>
-		<string>eri saltato/a</string>
-		<string>era saltato/a</string>
-		<string>eravamo saltati/e</string>
-		<string>eravate saltati/e</string>
-		<string>erano saltati/e</string>
+		<string>ero saltato</string>
+		<string>eri saltato</string>
+		<string>era saltato</string>
+		<string>eravamo saltati</string>
+		<string>eravate saltati</string>
+		<string>erano saltati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -29911,12 +29911,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato remoto</string>
 		<string>saltare</string>
-		<string>fui saltato/a</string>
-		<string>fosti saltato/a</string>
-		<string>fu saltato/a</string>
-		<string>fummo saltati/e</string>
-		<string>foste saltati/e</string>
-		<string>furono saltati/e</string>
+		<string>fui saltato</string>
+		<string>fosti saltato</string>
+		<string>fu saltato</string>
+		<string>fummo saltati</string>
+		<string>foste saltati</string>
+		<string>furono saltati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -29925,12 +29925,12 @@
 		<string>Indicativo</string>
 		<string>Futuro anteriore</string>
 		<string>saltare</string>
-		<string>sarò saltato/a</string>
-		<string>sarai saltato/a</string>
-		<string>sarà saltato/a</string>
-		<string>saremo saltati/e</string>
-		<string>sarete saltati/e</string>
-		<string>saranno saltati/e</string>
+		<string>sarò saltato</string>
+		<string>sarai saltato</string>
+		<string>sarà saltato</string>
+		<string>saremo saltati</string>
+		<string>sarete saltati</string>
+		<string>saranno saltati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -29967,12 +29967,12 @@
 		<string>Congiuntivo</string>
 		<string>Passato</string>
 		<string>saltare</string>
-		<string>sia saltato/a</string>
-		<string>sia saltato/a</string>
-		<string>sia saltato/a</string>
-		<string>siamo saltati/e</string>
-		<string>siate saltati/e</string>
-		<string>siano saltati/e</string>
+		<string>sia saltato</string>
+		<string>sia saltato</string>
+		<string>sia saltato</string>
+		<string>siamo saltati</string>
+		<string>siate saltati</string>
+		<string>siano saltati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -29981,12 +29981,12 @@
 		<string>Congiuntivo</string>
 		<string>Trapassato</string>
 		<string>saltare</string>
-		<string>fossi saltato/a</string>
-		<string>fossi saltato/a</string>
-		<string>fosse saltato/a</string>
-		<string>fossimo saltati/e</string>
-		<string>foste saltati/e</string>
-		<string>fossero saltati/e</string>
+		<string>fossi saltato</string>
+		<string>fossi saltato</string>
+		<string>fosse saltato</string>
+		<string>fossimo saltati</string>
+		<string>foste saltati</string>
+		<string>fossero saltati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -30009,12 +30009,12 @@
 		<string>Condizionale</string>
 		<string>Passato</string>
 		<string>saltare</string>
-		<string>sarei saltato/a</string>
-		<string>saresti saltato/a</string>
-		<string>sarebbe saltato/a</string>
-		<string>saremmo saltati/e</string>
-		<string>sareste saltati/e</string>
-		<string>sarebbero saltati/e</string>
+		<string>sarei saltato</string>
+		<string>saresti saltato</string>
+		<string>sarebbe saltato</string>
+		<string>saremmo saltati</string>
+		<string>sareste saltati</string>
+		<string>sarebbero saltati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -30040,9 +30040,9 @@
 		<string>taccio</string>
 		<string>taci</string>
 		<string>tace</string>
-		<string>tacciamo, taciamo</string>
+		<string>tacciamo</string>
 		<string>tacete</string>
-		<string>tacciono, taciono</string>
+		<string>tacciono</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -30152,8 +30152,8 @@
 		<string>taccia</string>
 		<string>taccia</string>
 		<string>taccia</string>
-		<string>tacciamo, taciamo</string>
-		<string>tacciate, taciate</string>
+		<string>tacciamo</string>
+		<string>tacciate</string>
 		<string>tacciano</string>
 		<string>0</string>
 		<string>0</string>
@@ -30303,12 +30303,12 @@
 		<string>Indicativo</string>
 		<string>Passato prossimo</string>
 		<string>crescere</string>
-		<string>sono cresciuto/a</string>
-		<string>sei cresciuto/a</string>
-		<string>è cresciuto/a</string>
-		<string>siamo cresciuti/e</string>
-		<string>siete cresciuti/e</string>
-		<string>sono cresciuti/e</string>
+		<string>sono cresciuto</string>
+		<string>sei cresciuto</string>
+		<string>è cresciuto</string>
+		<string>siamo cresciuti</string>
+		<string>siete cresciuti</string>
+		<string>sono cresciuti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -30317,12 +30317,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato prossimo</string>
 		<string>crescere</string>
-		<string>ero cresciuto/a</string>
-		<string>eri cresciuto/a</string>
-		<string>era cresciuto/a</string>
-		<string>eravamo cresciuti/e</string>
-		<string>eravate cresciuti/e</string>
-		<string>erano cresciuti/e</string>
+		<string>ero cresciuto</string>
+		<string>eri cresciuto</string>
+		<string>era cresciuto</string>
+		<string>eravamo cresciuti</string>
+		<string>eravate cresciuti</string>
+		<string>erano cresciuti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -30331,12 +30331,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato remoto</string>
 		<string>crescere</string>
-		<string>fui cresciuto/a</string>
-		<string>fosti cresciuto/a</string>
-		<string>fu cresciuto/a</string>
-		<string>fummo cresciuti/e</string>
-		<string>foste cresciuti/e</string>
-		<string>furono cresciuti/e</string>
+		<string>fui cresciuto</string>
+		<string>fosti cresciuto</string>
+		<string>fu cresciuto</string>
+		<string>fummo cresciuti</string>
+		<string>foste cresciuti</string>
+		<string>furono cresciuti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -30345,12 +30345,12 @@
 		<string>Indicativo</string>
 		<string>Futuro anteriore</string>
 		<string>crescere</string>
-		<string>sarò cresciuto/a</string>
-		<string>sarai cresciuto/a</string>
-		<string>sarà cresciuto/a</string>
-		<string>saremo cresciuti/e</string>
-		<string>sarete cresciuti/e</string>
-		<string>saranno cresciuti/e</string>
+		<string>sarò cresciuto</string>
+		<string>sarai cresciuto</string>
+		<string>sarà cresciuto</string>
+		<string>saremo cresciuti</string>
+		<string>sarete cresciuti</string>
+		<string>saranno cresciuti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -30387,12 +30387,12 @@
 		<string>Congiuntivo</string>
 		<string>Passato</string>
 		<string>crescere</string>
-		<string>sia cresciuto/a</string>
-		<string>sia cresciuto/a</string>
-		<string>sia cresciuto/a</string>
-		<string>siamo cresciuti/e</string>
-		<string>siate cresciuti/e</string>
-		<string>siano cresciuti/e</string>
+		<string>sia cresciuto</string>
+		<string>sia cresciuto</string>
+		<string>sia cresciuto</string>
+		<string>siamo cresciuti</string>
+		<string>siate cresciuti</string>
+		<string>siano cresciuti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -30401,12 +30401,12 @@
 		<string>Congiuntivo</string>
 		<string>Trapassato</string>
 		<string>crescere</string>
-		<string>fossi cresciuto/a</string>
-		<string>fossi cresciuto/a</string>
-		<string>fosse cresciuto/a</string>
-		<string>fossimo cresciuti/e</string>
-		<string>foste cresciuti/e</string>
-		<string>fossero cresciuti/e</string>
+		<string>fossi cresciuto</string>
+		<string>fossi cresciuto</string>
+		<string>fosse cresciuto</string>
+		<string>fossimo cresciuti</string>
+		<string>foste cresciuti</string>
+		<string>fossero cresciuti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -30429,12 +30429,12 @@
 		<string>Condizionale</string>
 		<string>Passato</string>
 		<string>crescere</string>
-		<string>sarei cresciuto/a</string>
-		<string>saresti cresciuto/a</string>
-		<string>sarebbe cresciuto/a</string>
-		<string>saremmo cresciuti/e</string>
-		<string>sareste cresciuti/e</string>
-		<string>sarebbero cresciuti/e</string>
+		<string>sarei cresciuto</string>
+		<string>saresti cresciuto</string>
+		<string>sarebbe cresciuto</string>
+		<string>saremmo cresciuti</string>
+		<string>sareste cresciuti</string>
+		<string>sarebbero cresciuti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -30485,12 +30485,12 @@
 		<string>Indicativo</string>
 		<string>Passato remoto</string>
 		<string>riflettere</string>
-		<string>riflessi, riflettei</string>
+		<string>riflessi</string>
 		<string>riflettesti</string>
-		<string>riflesse, rifletté</string>
+		<string>riflesse</string>
 		<string>riflettemmo</string>
 		<string>rifletteste</string>
-		<string>riflessero, rifletterono</string>
+		<string>riflessero</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -30933,12 +30933,12 @@
 		<string>Indicativo</string>
 		<string>Passato prossimo</string>
 		<string>arrossire</string>
-		<string>sono arrossito/a</string>
-		<string>sei arrossito/a</string>
-		<string>è arrossito/a</string>
-		<string>siamo arrossiti/e</string>
-		<string>siete arrossiti/e</string>
-		<string>sono arrossiti/e</string>
+		<string>sono arrossito</string>
+		<string>sei arrossito</string>
+		<string>è arrossito</string>
+		<string>siamo arrossiti</string>
+		<string>siete arrossiti</string>
+		<string>sono arrossiti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -30947,12 +30947,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato prossimo</string>
 		<string>arrossire</string>
-		<string>ero arrossito/a</string>
-		<string>eri arrossito/a</string>
-		<string>era arrossito/a</string>
-		<string>eravamo arrossiti/e</string>
-		<string>eravate arrossiti/e</string>
-		<string>erano arrossiti/e</string>
+		<string>ero arrossito</string>
+		<string>eri arrossito</string>
+		<string>era arrossito</string>
+		<string>eravamo arrossiti</string>
+		<string>eravate arrossiti</string>
+		<string>erano arrossiti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -30961,12 +30961,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato remoto</string>
 		<string>arrossire</string>
-		<string>fui arrossito/a</string>
-		<string>fosti arrossito/a</string>
-		<string>fu arrossito/a</string>
-		<string>fummo arrossiti/e</string>
-		<string>foste arrossiti/e</string>
-		<string>furono arrossiti/e</string>
+		<string>fui arrossito</string>
+		<string>fosti arrossito</string>
+		<string>fu arrossito</string>
+		<string>fummo arrossiti</string>
+		<string>foste arrossiti</string>
+		<string>furono arrossiti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -30975,12 +30975,12 @@
 		<string>Indicativo</string>
 		<string>Futuro anteriore</string>
 		<string>arrossire</string>
-		<string>sarò arrossito/a</string>
-		<string>sarai arrossito/a</string>
-		<string>sarà arrossito/a</string>
-		<string>saremo arrossiti/e</string>
-		<string>sarete arrossiti/e</string>
-		<string>saranno arrossiti/e</string>
+		<string>sarò arrossito</string>
+		<string>sarai arrossito</string>
+		<string>sarà arrossito</string>
+		<string>saremo arrossiti</string>
+		<string>sarete arrossiti</string>
+		<string>saranno arrossiti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -31017,12 +31017,12 @@
 		<string>Congiuntivo</string>
 		<string>Passato</string>
 		<string>arrossire</string>
-		<string>sia arrossito/a</string>
-		<string>sia arrossito/a</string>
-		<string>sia arrossito/a</string>
-		<string>siamo arrossiti/e</string>
-		<string>siate arrossiti/e</string>
-		<string>siano arrossiti/e</string>
+		<string>sia arrossito</string>
+		<string>sia arrossito</string>
+		<string>sia arrossito</string>
+		<string>siamo arrossiti</string>
+		<string>siate arrossiti</string>
+		<string>siano arrossiti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -31031,12 +31031,12 @@
 		<string>Congiuntivo</string>
 		<string>Trapassato</string>
 		<string>arrossire</string>
-		<string>fossi arrossito/a</string>
-		<string>fossi arrossito/a</string>
-		<string>fosse arrossito/a</string>
-		<string>fossimo arrossiti/e</string>
-		<string>foste arrossiti/e</string>
-		<string>fossero arrossiti/e</string>
+		<string>fossi arrossito</string>
+		<string>fossi arrossito</string>
+		<string>fosse arrossito</string>
+		<string>fossimo arrossiti</string>
+		<string>foste arrossiti</string>
+		<string>fossero arrossiti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -31059,12 +31059,12 @@
 		<string>Condizionale</string>
 		<string>Passato</string>
 		<string>arrossire</string>
-		<string>sarei arrossito/a</string>
-		<string>saresti arrossito/a</string>
-		<string>sarebbe arrossito/a</string>
-		<string>saremmo arrossiti/e</string>
-		<string>sareste arrossiti/e</string>
-		<string>sarebbero arrossiti/e</string>
+		<string>sarei arrossito</string>
+		<string>saresti arrossito</string>
+		<string>sarebbe arrossito</string>
+		<string>saremmo arrossiti</string>
+		<string>sareste arrossiti</string>
+		<string>sarebbero arrossiti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -31353,12 +31353,12 @@
 		<string>Indicativo</string>
 		<string>Passato prossimo</string>
 		<string>intervenire</string>
-		<string>sono intervenuto/a</string>
-		<string>sei intervenuto/a</string>
-		<string>è intervenuto/a</string>
-		<string>siamo intervenuti/e</string>
-		<string>siete intervenuti/e</string>
-		<string>sono intervenuti/e</string>
+		<string>sono intervenuto</string>
+		<string>sei intervenuto</string>
+		<string>è intervenuto</string>
+		<string>siamo intervenuti</string>
+		<string>siete intervenuti</string>
+		<string>sono intervenuti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -31367,12 +31367,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato prossimo</string>
 		<string>intervenire</string>
-		<string>ero intervenuto/a</string>
-		<string>eri intervenuto/a</string>
-		<string>era intervenuto/a</string>
-		<string>eravamo intervenuti/e</string>
-		<string>eravate intervenuti/e</string>
-		<string>erano intervenuti/e</string>
+		<string>ero intervenuto</string>
+		<string>eri intervenuto</string>
+		<string>era intervenuto</string>
+		<string>eravamo intervenuti</string>
+		<string>eravate intervenuti</string>
+		<string>erano intervenuti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -31381,12 +31381,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato remoto</string>
 		<string>intervenire</string>
-		<string>fui intervenuto/a</string>
-		<string>fosti intervenuto/a</string>
-		<string>fu intervenuto/a</string>
-		<string>fummo intervenuti/e</string>
-		<string>foste intervenuti/e</string>
-		<string>furono intervenuti/e</string>
+		<string>fui intervenuto</string>
+		<string>fosti intervenuto</string>
+		<string>fu intervenuto</string>
+		<string>fummo intervenuti</string>
+		<string>foste intervenuti</string>
+		<string>furono intervenuti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -31395,12 +31395,12 @@
 		<string>Indicativo</string>
 		<string>Futuro anteriore</string>
 		<string>intervenire</string>
-		<string>sarò intervenuto/a</string>
-		<string>sarai intervenuto/a</string>
-		<string>sarà intervenuto/a</string>
-		<string>saremo intervenuti/e</string>
-		<string>sarete intervenuti/e</string>
-		<string>saranno intervenuti/e</string>
+		<string>sarò intervenuto</string>
+		<string>sarai intervenuto</string>
+		<string>sarà intervenuto</string>
+		<string>saremo intervenuti</string>
+		<string>sarete intervenuti</string>
+		<string>saranno intervenuti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -31437,12 +31437,12 @@
 		<string>Congiuntivo</string>
 		<string>Passato</string>
 		<string>intervenire</string>
-		<string>sia intervenuto/a</string>
-		<string>sia intervenuto/a</string>
-		<string>sia intervenuto/a</string>
-		<string>siamo intervenuti/e</string>
-		<string>siate intervenuti/e</string>
-		<string>siano intervenuti/e</string>
+		<string>sia intervenuto</string>
+		<string>sia intervenuto</string>
+		<string>sia intervenuto</string>
+		<string>siamo intervenuti</string>
+		<string>siate intervenuti</string>
+		<string>siano intervenuti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -31451,12 +31451,12 @@
 		<string>Congiuntivo</string>
 		<string>Trapassato</string>
 		<string>intervenire</string>
-		<string>fossi intervenuto/a</string>
-		<string>fossi intervenuto/a</string>
-		<string>fosse intervenuto/a</string>
-		<string>fossimo intervenuti/e</string>
-		<string>foste intervenuti/e</string>
-		<string>fossero intervenuti/e</string>
+		<string>fossi intervenuto</string>
+		<string>fossi intervenuto</string>
+		<string>fosse intervenuto</string>
+		<string>fossimo intervenuti</string>
+		<string>foste intervenuti</string>
+		<string>fossero intervenuti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -31479,12 +31479,12 @@
 		<string>Condizionale</string>
 		<string>Passato</string>
 		<string>intervenire</string>
-		<string>sarei intervenuto/a</string>
-		<string>saresti intervenuto/a</string>
-		<string>sarebbe intervenuto/a</string>
-		<string>saremmo intervenuti/e</string>
-		<string>sareste intervenuti/e</string>
-		<string>sarebbero intervenuti/e</string>
+		<string>sarei intervenuto</string>
+		<string>saresti intervenuto</string>
+		<string>sarebbe intervenuto</string>
+		<string>saremmo intervenuti</string>
+		<string>sareste intervenuti</string>
+		<string>sarebbero intervenuti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -33453,12 +33453,12 @@
 		<string>Indicativo</string>
 		<string>Passato prossimo</string>
 		<string>asciugare</string>
-		<string>sono asciugato/a</string>
-		<string>sei asciugato/a</string>
-		<string>è asciugato/a</string>
-		<string>siamo asciugati/e</string>
-		<string>siete asciugati/e</string>
-		<string>sono asciugati/e</string>
+		<string>sono asciugato</string>
+		<string>sei asciugato</string>
+		<string>è asciugato</string>
+		<string>siamo asciugati</string>
+		<string>siete asciugati</string>
+		<string>sono asciugati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -33467,12 +33467,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato prossimo</string>
 		<string>asciugare</string>
-		<string>ero asciugato/a</string>
-		<string>eri asciugato/a</string>
-		<string>era asciugato/a</string>
-		<string>eravamo asciugati/e</string>
-		<string>eravate asciugati/e</string>
-		<string>erano asciugati/e</string>
+		<string>ero asciugato</string>
+		<string>eri asciugato</string>
+		<string>era asciugato</string>
+		<string>eravamo asciugati</string>
+		<string>eravate asciugati</string>
+		<string>erano asciugati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -33481,12 +33481,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato remoto</string>
 		<string>asciugare</string>
-		<string>fui asciugato/a</string>
-		<string>fosti asciugato/a</string>
-		<string>fu asciugato/a</string>
-		<string>fummo asciugati/e</string>
-		<string>foste asciugati/e</string>
-		<string>furono asciugati/e</string>
+		<string>fui asciugato</string>
+		<string>fosti asciugato</string>
+		<string>fu asciugato</string>
+		<string>fummo asciugati</string>
+		<string>foste asciugati</string>
+		<string>furono asciugati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -33495,12 +33495,12 @@
 		<string>Indicativo</string>
 		<string>Futuro anteriore</string>
 		<string>asciugare</string>
-		<string>sarò asciugato/a</string>
-		<string>sarai asciugato/a</string>
-		<string>sarà asciugato/a</string>
-		<string>saremo asciugati/e</string>
-		<string>sarete asciugati/e</string>
-		<string>saranno asciugati/e</string>
+		<string>sarò asciugato</string>
+		<string>sarai asciugato</string>
+		<string>sarà asciugato</string>
+		<string>saremo asciugati</string>
+		<string>sarete asciugati</string>
+		<string>saranno asciugati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -33537,12 +33537,12 @@
 		<string>Congiuntivo</string>
 		<string>Passato</string>
 		<string>asciugare</string>
-		<string>sia asciugato/a</string>
-		<string>sia asciugato/a</string>
-		<string>sia asciugato/a</string>
-		<string>siamo asciugati/e</string>
-		<string>siate asciugati/e</string>
-		<string>siano asciugati/e</string>
+		<string>sia asciugato</string>
+		<string>sia asciugato</string>
+		<string>sia asciugato</string>
+		<string>siamo asciugati</string>
+		<string>siate asciugati</string>
+		<string>siano asciugati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -33551,12 +33551,12 @@
 		<string>Congiuntivo</string>
 		<string>Trapassato</string>
 		<string>asciugare</string>
-		<string>fossi asciugato/a</string>
-		<string>fossi asciugato/a</string>
-		<string>fosse asciugato/a</string>
-		<string>fossimo asciugati/e</string>
-		<string>foste asciugati/e</string>
-		<string>fossero asciugati/e</string>
+		<string>fossi asciugato</string>
+		<string>fossi asciugato</string>
+		<string>fosse asciugato</string>
+		<string>fossimo asciugati</string>
+		<string>foste asciugati</string>
+		<string>fossero asciugati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -33579,12 +33579,12 @@
 		<string>Condizionale</string>
 		<string>Passato</string>
 		<string>asciugare</string>
-		<string>sarei asciugato/a</string>
-		<string>saresti asciugato/a</string>
-		<string>sarebbe asciugato/a</string>
-		<string>saremmo asciugati/e</string>
-		<string>sareste asciugati/e</string>
-		<string>sarebbero asciugati/e</string>
+		<string>sarei asciugato</string>
+		<string>saresti asciugato</string>
+		<string>sarebbe asciugato</string>
+		<string>saremmo asciugati</string>
+		<string>sareste asciugati</string>
+		<string>sarebbero asciugati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -34027,12 +34027,12 @@
 		<string>Indicativo</string>
 		<string>Presente</string>
 		<string>inghiottire</string>
-		<string>inghiott(isc)o</string>
-		<string>inghiott(isc)i</string>
-		<string>inghiott(isc)e</string>
+		<string>inghiottisco</string>
+		<string>inghiottisci</string>
+		<string>inghiottisce</string>
 		<string>inghiottiamo</string>
 		<string>inghiottite</string>
-		<string>inghiott(isc)ono</string>
+		<string>inghiottiscono</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -34139,12 +34139,12 @@
 		<string>Congiuntivo</string>
 		<string>Presente</string>
 		<string>inghiottire</string>
-		<string>inghiott(isc)a</string>
-		<string>inghiott(isc)a</string>
-		<string>inghiott(isc)a</string>
+		<string>inghiottisca</string>
+		<string>inghiottisca</string>
+		<string>inghiottisca</string>
 		<string>inghiottiamo</string>
 		<string>inghiottiate</string>
-		<string>inghiott(isc)ano</string>
+		<string>inghiottiscano</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -34224,11 +34224,11 @@
 		<string>Presente</string>
 		<string>inghiottire</string>
 		<string></string>
-		<string>inghiott(isc)i</string>
-		<string>inghiott(isc)a</string>
+		<string>inghiottisci</string>
+		<string>inghiottisca</string>
 		<string>inghiottiamo</string>
 		<string>inghiottite</string>
-		<string>inghiott(isc)ano</string>
+		<string>inghiottiscano</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -34870,8 +34870,8 @@
 		<string>muovo</string>
 		<string>muovi</string>
 		<string>muove</string>
-		<string>m(u)oviamo</string>
-		<string>m(u)ovete</string>
+		<string>muoviamo</string>
+		<string>muovete</string>
 		<string>muovono</string>
 		<string>0</string>
 		<string>0</string>
@@ -34881,12 +34881,12 @@
 		<string>Indicativo</string>
 		<string>Imperfetto</string>
 		<string>muovere</string>
-		<string>m(u)ovevo</string>
-		<string>m(u)ovevi</string>
-		<string>m(u)oveva</string>
-		<string>m(u)ovevamo</string>
-		<string>m(u)ovevate</string>
-		<string>m(u)ovevano</string>
+		<string>muovevo</string>
+		<string>muovevi</string>
+		<string>muoveva</string>
+		<string>muovevamo</string>
+		<string>muovevate</string>
+		<string>muovevano</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -34895,11 +34895,11 @@
 		<string>Indicativo</string>
 		<string>Passato remoto</string>
 		<string>muovere</string>
-		<string>mossi/e</string>
-		<string>m(u)ovesti</string>
+		<string>mossi</string>
+		<string>muovesti</string>
 		<string>mosse</string>
-		<string>m(u)ovemmo</string>
-		<string>m(u)oveste</string>
+		<string>muovemmo</string>
+		<string>muoveste</string>
 		<string>mossero</string>
 		<string>0</string>
 		<string>0</string>
@@ -34909,12 +34909,12 @@
 		<string>Indicativo</string>
 		<string>Futuro semplice</string>
 		<string>muovere</string>
-		<string>m(u)overò</string>
-		<string>m(u)overai</string>
-		<string>m(u)overà</string>
-		<string>m(u)overemo</string>
-		<string>m(u)overete</string>
-		<string>m(u)overanno</string>
+		<string>muoverò</string>
+		<string>muoverai</string>
+		<string>muoverà</string>
+		<string>muoveremo</string>
+		<string>muoverete</string>
+		<string>muoveranno</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -34923,12 +34923,12 @@
 		<string>Indicativo</string>
 		<string>Passato prossimo</string>
 		<string>muovere</string>
-		<string>sono mosso/a</string>
-		<string>sei mosso/a</string>
-		<string>è mosso/a</string>
-		<string>siamo mossi/e</string>
-		<string>siete mossi/e</string>
-		<string>sono mossi/e</string>
+		<string>sono mosso</string>
+		<string>sei mosso</string>
+		<string>è mosso</string>
+		<string>siamo mossi</string>
+		<string>siete mossi</string>
+		<string>sono mossi</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -34937,12 +34937,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato prossimo</string>
 		<string>muovere</string>
-		<string>ero mosso/a</string>
-		<string>eri mosso/a</string>
-		<string>era mosso/a</string>
-		<string>eravamo mossi/e</string>
-		<string>eravate mossi/e</string>
-		<string>erano mossi/e</string>
+		<string>ero mosso</string>
+		<string>eri mosso</string>
+		<string>era mosso</string>
+		<string>eravamo mossi</string>
+		<string>eravate mossi</string>
+		<string>erano mossi</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -34951,12 +34951,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato remoto</string>
 		<string>muovere</string>
-		<string>fui mosso/a</string>
-		<string>fosti mosso/a</string>
-		<string>fu mosso/a</string>
-		<string>fummo mossi/e</string>
-		<string>foste mossi/e</string>
-		<string>furono mossi/e</string>
+		<string>fui mosso</string>
+		<string>fosti mosso</string>
+		<string>fu mosso</string>
+		<string>fummo mossi</string>
+		<string>foste mossi</string>
+		<string>furono mossi</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -34965,12 +34965,12 @@
 		<string>Indicativo</string>
 		<string>Futuro anteriore</string>
 		<string>muovere</string>
-		<string>sarò mosso/a</string>
-		<string>sarai mosso/a</string>
-		<string>sarà mosso/a</string>
-		<string>saremo mossi/e</string>
-		<string>sarete mossi/e</string>
-		<string>saranno mossi/e</string>
+		<string>sarò mosso</string>
+		<string>sarai mosso</string>
+		<string>sarà mosso</string>
+		<string>saremo mossi</string>
+		<string>sarete mossi</string>
+		<string>saranno mossi</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -34982,8 +34982,8 @@
 		<string>muova</string>
 		<string>muova</string>
 		<string>muova</string>
-		<string>m(u)oviamo</string>
-		<string>m(u)oviate</string>
+		<string>muoviamo</string>
+		<string>muoviate</string>
 		<string>muovano</string>
 		<string>0</string>
 		<string>0</string>
@@ -34993,12 +34993,12 @@
 		<string>Congiuntivo</string>
 		<string>Imperfetto</string>
 		<string>muovere</string>
-		<string>m(u)ovessi</string>
-		<string>m(u)ovessi</string>
-		<string>m(u)ovesse</string>
-		<string>m(u)ovessimo</string>
-		<string>m(u)oveste</string>
-		<string>m(u)ovessero</string>
+		<string>muovessi</string>
+		<string>muovessi</string>
+		<string>muovesse</string>
+		<string>muovessimo</string>
+		<string>muoveste</string>
+		<string>muovessero</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -35007,12 +35007,12 @@
 		<string>Congiuntivo</string>
 		<string>Passato</string>
 		<string>muovere</string>
-		<string>sia mosso/a</string>
-		<string>sia mosso/a</string>
-		<string>sia mosso/a</string>
-		<string>siamo mossi/e</string>
-		<string>siate mossi/e</string>
-		<string>siano mossi/e</string>
+		<string>sia mosso</string>
+		<string>sia mosso</string>
+		<string>sia mosso</string>
+		<string>siamo mossi</string>
+		<string>siate mossi</string>
+		<string>siano mossi</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -35021,12 +35021,12 @@
 		<string>Congiuntivo</string>
 		<string>Trapassato</string>
 		<string>muovere</string>
-		<string>fossi mosso/a</string>
-		<string>fossi mosso/a</string>
-		<string>fosse mosso/a</string>
-		<string>fossimo mossi/e</string>
-		<string>foste mossi/e</string>
-		<string>fossero mossi/e</string>
+		<string>fossi mosso</string>
+		<string>fossi mosso</string>
+		<string>fosse mosso</string>
+		<string>fossimo mossi</string>
+		<string>foste mossi</string>
+		<string>fossero mossi</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -35035,12 +35035,12 @@
 		<string>Condizionale</string>
 		<string>Presente</string>
 		<string>muovere</string>
-		<string>m(u)overei</string>
-		<string>m(u)overesti</string>
-		<string>m(u)overebbe</string>
-		<string>m(u)overemmo</string>
-		<string>m(u)overeste</string>
-		<string>m(u)overebbero</string>
+		<string>muoverei</string>
+		<string>muoveresti</string>
+		<string>muoverebbe</string>
+		<string>muoveremmo</string>
+		<string>muovereste</string>
+		<string>muoverebbero</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -35049,12 +35049,12 @@
 		<string>Condizionale</string>
 		<string>Passato</string>
 		<string>muovere</string>
-		<string>sarei mosso/a</string>
-		<string>saresti mosso/a</string>
-		<string>sarebbe mosso/a</string>
-		<string>saremmo mossi/e</string>
-		<string>sareste mossi/e</string>
-		<string>sarebbero mossi/e</string>
+		<string>sarei mosso</string>
+		<string>saresti mosso</string>
+		<string>sarebbe mosso</string>
+		<string>saremmo mossi</string>
+		<string>sareste mossi</string>
+		<string>sarebbero mossi</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -35066,8 +35066,8 @@
 		<string></string>
 		<string>muovi</string>
 		<string>muova</string>
-		<string>m(u)oviamo</string>
-		<string>m(u)ovete</string>
+		<string>muoviamo</string>
+		<string>muovete</string>
 		<string>muovano</string>
 		<string>0</string>
 		<string>0</string>
@@ -35706,13 +35706,13 @@
 	<array>
 		<string>Indicativo</string>
 		<string>Presente</string>
-		<string>s(u)onare</string>
-		<string>s(u)ono</string>
-		<string>s(u)oni</string>
-		<string>s(u)ona</string>
-		<string>s(u)oniamo</string>
-		<string>s(u)onate</string>
-		<string>s(u)onano</string>
+		<string>suonare</string>
+		<string>suono</string>
+		<string>suoni</string>
+		<string>suona</string>
+		<string>suoniamo</string>
+		<string>suonate</string>
+		<string>suonano</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -35720,13 +35720,13 @@
 	<array>
 		<string>Indicativo</string>
 		<string>Imperfetto</string>
-		<string>s(u)onare</string>
-		<string>s(u)onavo</string>
-		<string>s(u)onavi</string>
-		<string>s(u)onava</string>
-		<string>s(u)onavamo</string>
-		<string>s(u)onavate</string>
-		<string>s(u)onavano</string>
+		<string>suonare</string>
+		<string>suonavo</string>
+		<string>suonavi</string>
+		<string>suonava</string>
+		<string>suonavamo</string>
+		<string>suonavate</string>
+		<string>suonavano</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -35734,13 +35734,13 @@
 	<array>
 		<string>Indicativo</string>
 		<string>Passato remoto</string>
-		<string>s(u)onare</string>
-		<string>s(u)onai</string>
-		<string>s(u)onasti</string>
-		<string>s(u)onò</string>
-		<string>s(u)onammo</string>
-		<string>s(u)onaste</string>
-		<string>s(u)onarono</string>
+		<string>suonare</string>
+		<string>suonai</string>
+		<string>suonasti</string>
+		<string>suonò</string>
+		<string>suonammo</string>
+		<string>suonaste</string>
+		<string>suonarono</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -35748,13 +35748,13 @@
 	<array>
 		<string>Indicativo</string>
 		<string>Futuro semplice</string>
-		<string>s(u)onare</string>
-		<string>s(u)onerò</string>
-		<string>s(u)onerai</string>
-		<string>s(u)onerà</string>
-		<string>s(u)oneremo</string>
-		<string>s(u)onerete</string>
-		<string>s(u)oneranno</string>
+		<string>suonare</string>
+		<string>suonerò</string>
+		<string>suonerai</string>
+		<string>suonerà</string>
+		<string>suoneremo</string>
+		<string>suonerete</string>
+		<string>suoneranno</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -35762,13 +35762,13 @@
 	<array>
 		<string>Indicativo</string>
 		<string>Passato prossimo</string>
-		<string>s(u)onare</string>
-		<string>sono s(u)onato/a</string>
-		<string>sei s(u)onato/a</string>
-		<string>è s(u)onato/a</string>
-		<string>siamo s(u)onati/e</string>
-		<string>siete s(u)onati/e</string>
-		<string>sono s(u)onati/e</string>
+		<string>suonare</string>
+		<string>sono suonato</string>
+		<string>sei suonato</string>
+		<string>è suonato</string>
+		<string>siamo suonati</string>
+		<string>siete suonati</string>
+		<string>sono suonati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -35776,13 +35776,13 @@
 	<array>
 		<string>Indicativo</string>
 		<string>Trapassato prossimo</string>
-		<string>s(u)onare</string>
-		<string>ero s(u)onato/a</string>
-		<string>eri s(u)onato/a</string>
-		<string>era s(u)onato/a</string>
-		<string>eravamo s(u)onati/e</string>
-		<string>eravate s(u)onati/e</string>
-		<string>erano s(u)onati/e</string>
+		<string>suonare</string>
+		<string>ero suonato</string>
+		<string>eri suonato</string>
+		<string>era suonato</string>
+		<string>eravamo suonati</string>
+		<string>eravate suonati</string>
+		<string>erano suonati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -35790,13 +35790,13 @@
 	<array>
 		<string>Indicativo</string>
 		<string>Trapassato remoto</string>
-		<string>s(u)onare</string>
-		<string>fui s(u)onato/a</string>
-		<string>fosti s(u)onato/a</string>
-		<string>fu s(u)onato/a</string>
-		<string>fummo s(u)onati/e</string>
-		<string>foste s(u)onati/e</string>
-		<string>furono s(u)onati/e</string>
+		<string>suonare</string>
+		<string>fui suonato</string>
+		<string>fosti suonato</string>
+		<string>fu suonato</string>
+		<string>fummo suonati</string>
+		<string>foste suonati</string>
+		<string>furono suonati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -35804,13 +35804,13 @@
 	<array>
 		<string>Indicativo</string>
 		<string>Futuro anteriore</string>
-		<string>s(u)onare</string>
-		<string>sarò s(u)onato/a</string>
-		<string>sarai s(u)onato/a</string>
-		<string>sarà s(u)onato/a</string>
-		<string>saremo s(u)onati/e</string>
-		<string>sarete s(u)onati/e</string>
-		<string>saranno s(u)onati/e</string>
+		<string>suonare</string>
+		<string>sarò suonato</string>
+		<string>sarai suonato</string>
+		<string>sarà suonato</string>
+		<string>saremo suonati</string>
+		<string>sarete suonati</string>
+		<string>saranno suonati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -35818,13 +35818,13 @@
 	<array>
 		<string>Congiuntivo</string>
 		<string>Presente</string>
-		<string>s(u)onare</string>
-		<string>s(u)oni</string>
-		<string>s(u)oni</string>
-		<string>s(u)oni</string>
-		<string>s(u)oniamo</string>
-		<string>s(u)oniate</string>
-		<string>s(u)onino</string>
+		<string>suonare</string>
+		<string>suoni</string>
+		<string>suoni</string>
+		<string>suoni</string>
+		<string>suoniamo</string>
+		<string>suoniate</string>
+		<string>suonino</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -35832,13 +35832,13 @@
 	<array>
 		<string>Congiuntivo</string>
 		<string>Imperfetto</string>
-		<string>s(u)onare</string>
-		<string>s(u)onassi</string>
-		<string>s(u)onassi</string>
-		<string>s(u)onasse</string>
-		<string>s(u)onassimo</string>
-		<string>s(u)onaste</string>
-		<string>s(u)onassero</string>
+		<string>suonare</string>
+		<string>suonassi</string>
+		<string>suonassi</string>
+		<string>suonasse</string>
+		<string>suonassimo</string>
+		<string>suonaste</string>
+		<string>suonassero</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -35846,13 +35846,13 @@
 	<array>
 		<string>Congiuntivo</string>
 		<string>Passato</string>
-		<string>s(u)onare</string>
-		<string>sia s(u)onato/a</string>
-		<string>sia s(u)onato/a</string>
-		<string>sia s(u)onato/a</string>
-		<string>siamo s(u)onati/e</string>
-		<string>siate s(u)onati/e</string>
-		<string>siano s(u)onati/e</string>
+		<string>suonare</string>
+		<string>sia suonato</string>
+		<string>sia suonato</string>
+		<string>sia suonato</string>
+		<string>siamo suonati</string>
+		<string>siate suonati</string>
+		<string>siano suonati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -35860,13 +35860,13 @@
 	<array>
 		<string>Congiuntivo</string>
 		<string>Trapassato</string>
-		<string>s(u)onare</string>
-		<string>fossi s(u)onato/a</string>
-		<string>fossi s(u)onato/a</string>
-		<string>fosse s(u)onato/a</string>
-		<string>fossimo s(u)onati/e</string>
-		<string>foste s(u)onati/e</string>
-		<string>fossero s(u)onati/e</string>
+		<string>suonare</string>
+		<string>fossi suonato</string>
+		<string>fossi suonato</string>
+		<string>fosse suonato</string>
+		<string>fossimo suonati</string>
+		<string>foste suonati</string>
+		<string>fossero suonati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -35874,13 +35874,13 @@
 	<array>
 		<string>Condizionale</string>
 		<string>Presente</string>
-		<string>s(u)onare</string>
-		<string>s(u)onerei</string>
-		<string>s(u)oneresti</string>
-		<string>s(u)onerebbe</string>
-		<string>s(u)oneremmo</string>
-		<string>s(u)onereste</string>
-		<string>s(u)onerebbero</string>
+		<string>suonare</string>
+		<string>suonerei</string>
+		<string>suoneresti</string>
+		<string>suonerebbe</string>
+		<string>suoneremmo</string>
+		<string>suonereste</string>
+		<string>suonerebbero</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -35888,13 +35888,13 @@
 	<array>
 		<string>Condizionale</string>
 		<string>Passato</string>
-		<string>s(u)onare</string>
-		<string>sarei s(u)onato/a</string>
-		<string>saresti s(u)onato/a</string>
-		<string>sarebbe s(u)onato/a</string>
-		<string>saremmo s(u)onati/e</string>
-		<string>sareste s(u)onati/e</string>
-		<string>sarebbero s(u)onati/e</string>
+		<string>suonare</string>
+		<string>sarei suonato</string>
+		<string>saresti suonato</string>
+		<string>sarebbe suonato</string>
+		<string>saremmo suonati</string>
+		<string>sareste suonati</string>
+		<string>sarebbero suonati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -35902,13 +35902,13 @@
 	<array>
 		<string>Imperativo</string>
 		<string>Presente</string>
-		<string>s(u)onare</string>
+		<string>suonare</string>
 		<string></string>
-		<string>s(u)ona</string>
-		<string>s(u)oni</string>
-		<string>s(u)oniamo</string>
-		<string>s(u)onate</string>
-		<string>s(u)onino</string>
+		<string>suona</string>
+		<string>suoni</string>
+		<string>suoniamo</string>
+		<string>suonate</string>
+		<string>suonino</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -36155,12 +36155,12 @@
 		<string>Indicativo</string>
 		<string>Passato remoto</string>
 		<string>ripetere</string>
-		<string>ripetetti, ripetei</string>
+		<string>ripetetti</string>
 		<string>ripetesti</string>
-		<string>ripetette, ripeté</string>
+		<string>ripetette</string>
 		<string>ripetemmo</string>
 		<string>ripeteste</string>
-		<string>ripetettero, ripeterono</string>
+		<string>ripetettero</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -38283,12 +38283,12 @@
 		<string>Indicativo</string>
 		<string>Passato prossimo</string>
 		<string>ripassare</string>
-		<string>sono ripassato/a</string>
-		<string>sei ripassato/a</string>
-		<string>è ripassato/a</string>
-		<string>siamo ripassati/e</string>
-		<string>siete ripassati/e</string>
-		<string>sono ripassati/e</string>
+		<string>sono ripassato</string>
+		<string>sei ripassato</string>
+		<string>è ripassato</string>
+		<string>siamo ripassati</string>
+		<string>siete ripassati</string>
+		<string>sono ripassati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -38297,12 +38297,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato prossimo</string>
 		<string>ripassare</string>
-		<string>ero ripassato/a</string>
-		<string>eri ripassato/a</string>
-		<string>era ripassato/a</string>
-		<string>eravamo ripassati/e</string>
-		<string>eravate ripassati/e</string>
-		<string>erano ripassati/e</string>
+		<string>ero ripassato</string>
+		<string>eri ripassato</string>
+		<string>era ripassato</string>
+		<string>eravamo ripassati</string>
+		<string>eravate ripassati</string>
+		<string>erano ripassati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -38311,12 +38311,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato remoto</string>
 		<string>ripassare</string>
-		<string>fui ripassato/a</string>
-		<string>fosti ripassato/a</string>
-		<string>fu ripassato/a</string>
-		<string>fummo ripassati/e</string>
-		<string>foste ripassati/e</string>
-		<string>furono ripassati/e</string>
+		<string>fui ripassato</string>
+		<string>fosti ripassato</string>
+		<string>fu ripassato</string>
+		<string>fummo ripassati</string>
+		<string>foste ripassati</string>
+		<string>furono ripassati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -38325,12 +38325,12 @@
 		<string>Indicativo</string>
 		<string>Futuro anteriore</string>
 		<string>ripassare</string>
-		<string>sarò ripassato/a</string>
-		<string>sarai ripassato/a</string>
-		<string>sarà ripassato/a</string>
-		<string>saremo ripassati/e</string>
-		<string>sarete ripassati/e</string>
-		<string>saranno ripassati/e</string>
+		<string>sarò ripassato</string>
+		<string>sarai ripassato</string>
+		<string>sarà ripassato</string>
+		<string>saremo ripassati</string>
+		<string>sarete ripassati</string>
+		<string>saranno ripassati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -38367,12 +38367,12 @@
 		<string>Congiuntivo</string>
 		<string>Passato</string>
 		<string>ripassare</string>
-		<string>sia ripassato/a</string>
-		<string>sia ripassato/a</string>
-		<string>sia ripassato/a</string>
-		<string>siamo ripassati/e</string>
-		<string>siate ripassati/e</string>
-		<string>siano ripassati/e</string>
+		<string>sia ripassato</string>
+		<string>sia ripassato</string>
+		<string>sia ripassato</string>
+		<string>siamo ripassati</string>
+		<string>siate ripassati</string>
+		<string>siano ripassati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -38381,12 +38381,12 @@
 		<string>Congiuntivo</string>
 		<string>Trapassato</string>
 		<string>ripassare</string>
-		<string>fossi ripassato/a</string>
-		<string>fossi ripassato/a</string>
-		<string>fosse ripassato/a</string>
-		<string>fossimo ripassati/e</string>
-		<string>foste ripassati/e</string>
-		<string>fossero ripassati/e</string>
+		<string>fossi ripassato</string>
+		<string>fossi ripassato</string>
+		<string>fosse ripassato</string>
+		<string>fossimo ripassati</string>
+		<string>foste ripassati</string>
+		<string>fossero ripassati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -38409,12 +38409,12 @@
 		<string>Condizionale</string>
 		<string>Passato</string>
 		<string>ripassare</string>
-		<string>sarei ripassato/a</string>
-		<string>saresti ripassato/a</string>
-		<string>sarebbe ripassato/a</string>
-		<string>saremmo ripassati/e</string>
-		<string>sareste ripassati/e</string>
-		<string>sarebbero ripassati/e</string>
+		<string>sarei ripassato</string>
+		<string>saresti ripassato</string>
+		<string>sarebbe ripassato</string>
+		<string>saremmo ripassati</string>
+		<string>sareste ripassati</string>
+		<string>sarebbero ripassati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -38675,7 +38675,7 @@
 		<string>Indicativo</string>
 		<string>Passato remoto</string>
 		<string>sostenere</string>
-		<string>sostenni, sostenetti</string>
+		<string>sostenni</string>
 		<string>sostenesti</string>
 		<string>sostenne</string>
 		<string>sostenemmo</string>
@@ -39125,10 +39125,10 @@
 		<string>piovere</string>
 		<string>—</string>
 		<string>—</string>
-		<string>è piovuto/a</string>
+		<string>è piovuto</string>
 		<string>—</string>
 		<string>—</string>
-		<string>sono piovuti/e</string>
+		<string>sono piovuti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39139,10 +39139,10 @@
 		<string>piovere</string>
 		<string>—</string>
 		<string>—</string>
-		<string>era piovuto/a</string>
+		<string>era piovuto</string>
 		<string>—</string>
 		<string>—</string>
-		<string>erano piovuti/e</string>
+		<string>erano piovuti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39153,10 +39153,10 @@
 		<string>piovere</string>
 		<string>—</string>
 		<string>—</string>
-		<string>fu piovuto/a</string>
+		<string>fu piovuto</string>
 		<string>—</string>
 		<string>—</string>
-		<string>furono piovuti/e</string>
+		<string>furono piovuti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39167,10 +39167,10 @@
 		<string>piovere</string>
 		<string>—</string>
 		<string>—</string>
-		<string>sarà piovuto/a</string>
+		<string>sarà piovuto</string>
 		<string>—</string>
 		<string>—</string>
-		<string>saranno piovuti/e</string>
+		<string>saranno piovuti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39209,10 +39209,10 @@
 		<string>piovere</string>
 		<string>—</string>
 		<string>—</string>
-		<string>che sia piovuto/a</string>
+		<string>che sia piovuto</string>
 		<string>—</string>
 		<string>—</string>
-		<string>che siano piovuti/e</string>
+		<string>che siano piovuti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39223,10 +39223,10 @@
 		<string>piovere</string>
 		<string>—</string>
 		<string>—</string>
-		<string>che fosse piovuto/a</string>
+		<string>che fosse piovuto</string>
 		<string>—</string>
 		<string>—</string>
-		<string>che fossero piovuti/e</string>
+		<string>che fossero piovuti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39251,10 +39251,10 @@
 		<string>piovere</string>
 		<string>—</string>
 		<string>—</string>
-		<string>sarebbe piovuto/a</string>
+		<string>sarebbe piovuto</string>
 		<string>—</string>
 		<string>—</string>
-		<string>sarebbero piovuti/e</string>
+		<string>sarebbero piovuti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39305,7 +39305,7 @@
 		<string>Indicativo</string>
 		<string>Passato remoto</string>
 		<string>trascorrere</string>
-		<string>trascorsi/e</string>
+		<string>trascorsi</string>
 		<string>trascorresti</string>
 		<string>trascorse</string>
 		<string>trascorremmo</string>
@@ -39333,12 +39333,12 @@
 		<string>Indicativo</string>
 		<string>Passato prossimo</string>
 		<string>trascorrere</string>
-		<string>sono trascorso/a</string>
-		<string>sei trascorso/a</string>
-		<string>è trascorso/a</string>
-		<string>siamo trascorsi/e</string>
-		<string>siete trascorsi/e</string>
-		<string>sono trascorsi/e</string>
+		<string>sono trascorso</string>
+		<string>sei trascorso</string>
+		<string>è trascorso</string>
+		<string>siamo trascorsi</string>
+		<string>siete trascorsi</string>
+		<string>sono trascorsi</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39347,12 +39347,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato prossimo</string>
 		<string>trascorrere</string>
-		<string>ero trascorso/a</string>
-		<string>eri trascorso/a</string>
-		<string>era trascorso/a</string>
-		<string>eravamo trascorsi/e</string>
-		<string>eravate trascorsi/e</string>
-		<string>erano trascorsi/e</string>
+		<string>ero trascorso</string>
+		<string>eri trascorso</string>
+		<string>era trascorso</string>
+		<string>eravamo trascorsi</string>
+		<string>eravate trascorsi</string>
+		<string>erano trascorsi</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39361,12 +39361,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato remoto</string>
 		<string>trascorrere</string>
-		<string>fui trascorso/a</string>
-		<string>fosti trascorso/a</string>
-		<string>fu trascorso/a</string>
-		<string>fummo trascorsi/e</string>
-		<string>foste trascorsi/e</string>
-		<string>furono trascorsi/e</string>
+		<string>fui trascorso</string>
+		<string>fosti trascorso</string>
+		<string>fu trascorso</string>
+		<string>fummo trascorsi</string>
+		<string>foste trascorsi</string>
+		<string>furono trascorsi</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39375,12 +39375,12 @@
 		<string>Indicativo</string>
 		<string>Futuro anteriore</string>
 		<string>trascorrere</string>
-		<string>sarò trascorso/a</string>
-		<string>sarai trascorso/a</string>
-		<string>sarà trascorso/a</string>
-		<string>saremo trascorsi/e</string>
-		<string>sarete trascorsi/e</string>
-		<string>saranno trascorsi/e</string>
+		<string>sarò trascorso</string>
+		<string>sarai trascorso</string>
+		<string>sarà trascorso</string>
+		<string>saremo trascorsi</string>
+		<string>sarete trascorsi</string>
+		<string>saranno trascorsi</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39417,12 +39417,12 @@
 		<string>Congiuntivo</string>
 		<string>Passato</string>
 		<string>trascorrere</string>
-		<string>sia trascorso/a</string>
-		<string>sia trascorso/a</string>
-		<string>sia trascorso/a</string>
-		<string>siamo trascorsi/e</string>
-		<string>siate trascorsi/e</string>
-		<string>siano trascorsi/e</string>
+		<string>sia trascorso</string>
+		<string>sia trascorso</string>
+		<string>sia trascorso</string>
+		<string>siamo trascorsi</string>
+		<string>siate trascorsi</string>
+		<string>siano trascorsi</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39431,12 +39431,12 @@
 		<string>Congiuntivo</string>
 		<string>Trapassato</string>
 		<string>trascorrere</string>
-		<string>fossi trascorso/a</string>
-		<string>fossi trascorso/a</string>
-		<string>fosse trascorso/a</string>
-		<string>fossimo trascorsi/e</string>
-		<string>foste trascorsi/e</string>
-		<string>fossero trascorsi/e</string>
+		<string>fossi trascorso</string>
+		<string>fossi trascorso</string>
+		<string>fosse trascorso</string>
+		<string>fossimo trascorsi</string>
+		<string>foste trascorsi</string>
+		<string>fossero trascorsi</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39459,12 +39459,12 @@
 		<string>Condizionale</string>
 		<string>Passato</string>
 		<string>trascorrere</string>
-		<string>sarei trascorso/a</string>
-		<string>saresti trascorso/a</string>
-		<string>sarebbe trascorso/a</string>
-		<string>saremmo trascorsi/e</string>
-		<string>sareste trascorsi/e</string>
-		<string>sarebbero trascorsi/e</string>
+		<string>sarei trascorso</string>
+		<string>saresti trascorso</string>
+		<string>sarebbe trascorso</string>
+		<string>saremmo trascorsi</string>
+		<string>sareste trascorsi</string>
+		<string>sarebbero trascorsi</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39543,12 +39543,12 @@
 		<string>Indicativo</string>
 		<string>Passato prossimo</string>
 		<string>servire</string>
-		<string>sono servito/a</string>
-		<string>sei servito/a</string>
-		<string>è servito/a</string>
-		<string>siamo serviti/e</string>
-		<string>siete serviti/e</string>
-		<string>sono serviti/e</string>
+		<string>sono servito</string>
+		<string>sei servito</string>
+		<string>è servito</string>
+		<string>siamo serviti</string>
+		<string>siete serviti</string>
+		<string>sono serviti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39557,12 +39557,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato prossimo</string>
 		<string>servire</string>
-		<string>ero servito/a</string>
-		<string>eri servito/a</string>
-		<string>era servito/a</string>
-		<string>eravamo serviti/e</string>
-		<string>eravate serviti/e</string>
-		<string>erano serviti/e</string>
+		<string>ero servito</string>
+		<string>eri servito</string>
+		<string>era servito</string>
+		<string>eravamo serviti</string>
+		<string>eravate serviti</string>
+		<string>erano serviti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39571,12 +39571,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato remoto</string>
 		<string>servire</string>
-		<string>fui servito/a</string>
-		<string>fosti servito/a</string>
-		<string>fu servito/a</string>
-		<string>fummo serviti/e</string>
-		<string>foste serviti/e</string>
-		<string>furono serviti/e</string>
+		<string>fui servito</string>
+		<string>fosti servito</string>
+		<string>fu servito</string>
+		<string>fummo serviti</string>
+		<string>foste serviti</string>
+		<string>furono serviti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39585,12 +39585,12 @@
 		<string>Indicativo</string>
 		<string>Futuro anteriore</string>
 		<string>servire</string>
-		<string>sarò servito/a</string>
-		<string>sarai servito/a</string>
-		<string>sarà servito/a</string>
-		<string>saremo serviti/e</string>
-		<string>sarete serviti/e</string>
-		<string>saranno serviti/e</string>
+		<string>sarò servito</string>
+		<string>sarai servito</string>
+		<string>sarà servito</string>
+		<string>saremo serviti</string>
+		<string>sarete serviti</string>
+		<string>saranno serviti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39627,12 +39627,12 @@
 		<string>Congiuntivo</string>
 		<string>Passato</string>
 		<string>servire</string>
-		<string>sia servito/a</string>
-		<string>sia servito/a</string>
-		<string>sia servito/a</string>
-		<string>siamo serviti/e</string>
-		<string>siate serviti/e</string>
-		<string>siano serviti/e</string>
+		<string>sia servito</string>
+		<string>sia servito</string>
+		<string>sia servito</string>
+		<string>siamo serviti</string>
+		<string>siate serviti</string>
+		<string>siano serviti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39641,12 +39641,12 @@
 		<string>Congiuntivo</string>
 		<string>Trapassato</string>
 		<string>servire</string>
-		<string>fossi servito/a</string>
-		<string>fossi servito/a</string>
-		<string>fosse servito/a</string>
-		<string>fossimo serviti/e</string>
-		<string>foste serviti/e</string>
-		<string>fossero serviti/e</string>
+		<string>fossi servito</string>
+		<string>fossi servito</string>
+		<string>fosse servito</string>
+		<string>fossimo serviti</string>
+		<string>foste serviti</string>
+		<string>fossero serviti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39669,12 +39669,12 @@
 		<string>Condizionale</string>
 		<string>Passato</string>
 		<string>servire</string>
-		<string>sarei servito/a</string>
-		<string>saresti servito/a</string>
-		<string>sarebbe servito/a</string>
-		<string>saremmo serviti/e</string>
-		<string>sareste serviti/e</string>
-		<string>sarebbero serviti/e</string>
+		<string>sarei servito</string>
+		<string>saresti servito</string>
+		<string>sarebbe servito</string>
+		<string>saremmo serviti</string>
+		<string>sareste serviti</string>
+		<string>sarebbero serviti</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -40383,12 +40383,12 @@
 		<string>Indicativo</string>
 		<string>Passato prossimo</string>
 		<string>cessare</string>
-		<string>sono cessato/a</string>
-		<string>sei cessato/a</string>
-		<string>è cessato/a</string>
-		<string>siamo cessati/e</string>
-		<string>siete cessati/e</string>
-		<string>sono cessati/e</string>
+		<string>sono cessato</string>
+		<string>sei cessato</string>
+		<string>è cessato</string>
+		<string>siamo cessati</string>
+		<string>siete cessati</string>
+		<string>sono cessati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -40397,12 +40397,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato prossimo</string>
 		<string>cessare</string>
-		<string>ero cessato/a</string>
-		<string>eri cessato/a</string>
-		<string>era cessato/a</string>
-		<string>eravamo cessati/e</string>
-		<string>eravate cessati/e</string>
-		<string>erano cessati/e</string>
+		<string>ero cessato</string>
+		<string>eri cessato</string>
+		<string>era cessato</string>
+		<string>eravamo cessati</string>
+		<string>eravate cessati</string>
+		<string>erano cessati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -40411,12 +40411,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato remoto</string>
 		<string>cessare</string>
-		<string>fui cessato/a</string>
-		<string>fosti cessato/a</string>
-		<string>fu cessato/a</string>
-		<string>fummo cessati/e</string>
-		<string>foste cessati/e</string>
-		<string>furono cessati/e</string>
+		<string>fui cessato</string>
+		<string>fosti cessato</string>
+		<string>fu cessato</string>
+		<string>fummo cessati</string>
+		<string>foste cessati</string>
+		<string>furono cessati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -40425,12 +40425,12 @@
 		<string>Indicativo</string>
 		<string>Futuro anteriore</string>
 		<string>cessare</string>
-		<string>sarò cessato/a</string>
-		<string>sarai cessato/a</string>
-		<string>sarà cessato/a</string>
-		<string>saremo cessati/e</string>
-		<string>sarete cessati/e</string>
-		<string>saranno cessati/e</string>
+		<string>sarò cessato</string>
+		<string>sarai cessato</string>
+		<string>sarà cessato</string>
+		<string>saremo cessati</string>
+		<string>sarete cessati</string>
+		<string>saranno cessati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -40467,12 +40467,12 @@
 		<string>Congiuntivo</string>
 		<string>Passato</string>
 		<string>cessare</string>
-		<string>sia cessato/a</string>
-		<string>sia cessato/a</string>
-		<string>sia cessato/a</string>
-		<string>siamo cessati/e</string>
-		<string>siate cessati/e</string>
-		<string>siano cessati/e</string>
+		<string>sia cessato</string>
+		<string>sia cessato</string>
+		<string>sia cessato</string>
+		<string>siamo cessati</string>
+		<string>siate cessati</string>
+		<string>siano cessati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -40481,12 +40481,12 @@
 		<string>Congiuntivo</string>
 		<string>Trapassato</string>
 		<string>cessare</string>
-		<string>fossi cessato/a</string>
-		<string>fossi cessato/a</string>
-		<string>fosse cessato/a</string>
-		<string>fossimo cessati/e</string>
-		<string>foste cessati/e</string>
-		<string>fossero cessati/e</string>
+		<string>fossi cessato</string>
+		<string>fossi cessato</string>
+		<string>fosse cessato</string>
+		<string>fossimo cessati</string>
+		<string>foste cessati</string>
+		<string>fossero cessati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -40509,12 +40509,12 @@
 		<string>Condizionale</string>
 		<string>Passato</string>
 		<string>cessare</string>
-		<string>sarei cessato/a</string>
-		<string>saresti cessato/a</string>
-		<string>sarebbe cessato/a</string>
-		<string>saremmo cessati/e</string>
-		<string>sareste cessati/e</string>
-		<string>sarebbero cessati/e</string>
+		<string>sarei cessato</string>
+		<string>saresti cessato</string>
+		<string>sarebbe cessato</string>
+		<string>saremmo cessati</string>
+		<string>sareste cessati</string>
+		<string>sarebbero cessati</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -40739,6 +40739,846 @@
 		<string>nuotiamo</string>
 		<string>nuotate</string>
 		<string>nuotino</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Presente</string>
+		<string>recitare</string>
+		<string>recito</string>
+		<string>reciti</string>
+		<string>recita</string>
+		<string>recitiamo</string>
+		<string>recitate</string>
+		<string>recitano</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Imperfetto</string>
+		<string>recitare</string>
+		<string>recitavo</string>
+		<string>recitavi</string>
+		<string>recitava</string>
+		<string>recitavamo</string>
+		<string>recitavate</string>
+		<string>recitavano</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Passato remoto</string>
+		<string>recitare</string>
+		<string>recitai</string>
+		<string>recitasti</string>
+		<string>recitò</string>
+		<string>recitammo</string>
+		<string>recitaste</string>
+		<string>recitarono</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Futuro semplice</string>
+		<string>recitare</string>
+		<string>reciterò</string>
+		<string>reciterai</string>
+		<string>reciterà</string>
+		<string>reciteremo</string>
+		<string>reciterete</string>
+		<string>reciteranno</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Passato prossimo</string>
+		<string>recitare</string>
+		<string>ho recitato</string>
+		<string>hai recitato</string>
+		<string>ha recitato</string>
+		<string>abbiamo recitato</string>
+		<string>avete recitato</string>
+		<string>hanno recitato</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Trapassato prossimo</string>
+		<string>recitare</string>
+		<string>avevo recitato</string>
+		<string>avevi recitato</string>
+		<string>aveva recitato</string>
+		<string>avevamo recitato</string>
+		<string>avevate recitato</string>
+		<string>avevano recitato</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Trapassato remoto</string>
+		<string>recitare</string>
+		<string>ebbi recitato</string>
+		<string>avesti recitato</string>
+		<string>ebbe recitato</string>
+		<string>avemmo recitato</string>
+		<string>aveste recitato</string>
+		<string>ebbero recitato</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Futuro anteriore</string>
+		<string>recitare</string>
+		<string>avrò recitato</string>
+		<string>avrai recitato</string>
+		<string>avrà recitato</string>
+		<string>avremo recitato</string>
+		<string>avrete recitato</string>
+		<string>avranno recitato</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Congiuntivo</string>
+		<string>Presente</string>
+		<string>recitare</string>
+		<string>reciti</string>
+		<string>reciti</string>
+		<string>reciti</string>
+		<string>recitiamo</string>
+		<string>recitiate</string>
+		<string>recitino</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Congiuntivo</string>
+		<string>Imperfetto</string>
+		<string>recitare</string>
+		<string>recitassi</string>
+		<string>recitassi</string>
+		<string>recitasse</string>
+		<string>recitassimo</string>
+		<string>recitaste</string>
+		<string>recitassero</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Congiuntivo</string>
+		<string>Passato</string>
+		<string>recitare</string>
+		<string>abbia recitato</string>
+		<string>abbia recitato</string>
+		<string>abbia recitato</string>
+		<string>abbiamo recitato</string>
+		<string>abbiate recitato</string>
+		<string>abbiano recitato</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Congiuntivo</string>
+		<string>Trapassato</string>
+		<string>recitare</string>
+		<string>avessi recitato</string>
+		<string>avessi recitato</string>
+		<string>avesse recitato</string>
+		<string>avessimo recitato</string>
+		<string>aveste recitato</string>
+		<string>avessero recitato</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Condizionale</string>
+		<string>Presente</string>
+		<string>recitare</string>
+		<string>reciterei</string>
+		<string>reciteresti</string>
+		<string>reciterebbe</string>
+		<string>reciteremmo</string>
+		<string>recitereste</string>
+		<string>reciterebbero</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Condizionale</string>
+		<string>Passato</string>
+		<string>recitare</string>
+		<string>avrei recitato</string>
+		<string>avresti recitato</string>
+		<string>avrebbe recitato</string>
+		<string>avremmo recitato</string>
+		<string>avreste recitato</string>
+		<string>avrebbero recitato</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Imperativo</string>
+		<string>Presente</string>
+		<string>recitare</string>
+		<string></string>
+		<string>recita</string>
+		<string>reciti</string>
+		<string>recitiamo</string>
+		<string>recitate</string>
+		<string>recitino</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Presente</string>
+		<string>scappare</string>
+		<string>scappo</string>
+		<string>scappi</string>
+		<string>scappa</string>
+		<string>scappiamo</string>
+		<string>scappate</string>
+		<string>scappano</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Imperfetto</string>
+		<string>scappare</string>
+		<string>scappavo</string>
+		<string>scappavi</string>
+		<string>scappava</string>
+		<string>scappavamo</string>
+		<string>scappavate</string>
+		<string>scappavano</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Passato remoto</string>
+		<string>scappare</string>
+		<string>scappai</string>
+		<string>scappasti</string>
+		<string>scappò</string>
+		<string>scappammo</string>
+		<string>scappaste</string>
+		<string>scapparono</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Futuro semplice</string>
+		<string>scappare</string>
+		<string>scapperò</string>
+		<string>scapperai</string>
+		<string>scapperà</string>
+		<string>scapperemo</string>
+		<string>scapperete</string>
+		<string>scapperanno</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Passato prossimo</string>
+		<string>scappare</string>
+		<string>sono scappato</string>
+		<string>sei scappato</string>
+		<string>è scappato</string>
+		<string>siamo scappati</string>
+		<string>siete scappati</string>
+		<string>sono scappati</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Trapassato prossimo</string>
+		<string>scappare</string>
+		<string>ero scappato</string>
+		<string>eri scappato</string>
+		<string>era scappato</string>
+		<string>eravamo scappati</string>
+		<string>eravate scappati</string>
+		<string>erano scappati</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Trapassato remoto</string>
+		<string>scappare</string>
+		<string>fui scappato</string>
+		<string>fosti scappato</string>
+		<string>fu scappato</string>
+		<string>fummo scappati</string>
+		<string>foste scappati</string>
+		<string>furono scappati</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Futuro anteriore</string>
+		<string>scappare</string>
+		<string>sarò scappato</string>
+		<string>sarai scappato</string>
+		<string>sarà scappato</string>
+		<string>saremo scappati</string>
+		<string>sarete scappati</string>
+		<string>saranno scappati</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Congiuntivo</string>
+		<string>Presente</string>
+		<string>scappare</string>
+		<string>scappi</string>
+		<string>scappi</string>
+		<string>scappi</string>
+		<string>scappiamo</string>
+		<string>scappiate</string>
+		<string>scappino</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Congiuntivo</string>
+		<string>Imperfetto</string>
+		<string>scappare</string>
+		<string>scappassi</string>
+		<string>scappassi</string>
+		<string>scappasse</string>
+		<string>scappassimo</string>
+		<string>scappaste</string>
+		<string>scappassero</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Congiuntivo</string>
+		<string>Passato</string>
+		<string>scappare</string>
+		<string>sia scappato</string>
+		<string>sia scappato</string>
+		<string>sia scappato</string>
+		<string>siamo scappati</string>
+		<string>siate scappati</string>
+		<string>siano scappati</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Congiuntivo</string>
+		<string>Trapassato</string>
+		<string>scappare</string>
+		<string>fossi scappato</string>
+		<string>fossi scappato</string>
+		<string>fosse scappato</string>
+		<string>fossimo scappati</string>
+		<string>foste scappati</string>
+		<string>fossero scappati</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Condizionale</string>
+		<string>Presente</string>
+		<string>scappare</string>
+		<string>scapperei</string>
+		<string>scapperesti</string>
+		<string>scapperebbe</string>
+		<string>scapperemmo</string>
+		<string>scappereste</string>
+		<string>scapperebbero</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Condizionale</string>
+		<string>Passato</string>
+		<string>scappare</string>
+		<string>sarei scappato</string>
+		<string>saresti scappato</string>
+		<string>sarebbe scappato</string>
+		<string>saremmo scappati</string>
+		<string>sareste scappati</string>
+		<string>sarebbero scappati</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Imperativo</string>
+		<string>Presente</string>
+		<string>scappare</string>
+		<string></string>
+		<string>scappa</string>
+		<string>scappi</string>
+		<string>scappiamo</string>
+		<string>scappate</string>
+		<string>scappino</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Presente</string>
+		<string>appendere</string>
+		<string>appendo</string>
+		<string>appendi</string>
+		<string>appende</string>
+		<string>appendiamo</string>
+		<string>appendete</string>
+		<string>appendono</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Imperfetto</string>
+		<string>appendere</string>
+		<string>appendevo</string>
+		<string>appendevi</string>
+		<string>appendeva</string>
+		<string>appendevamo</string>
+		<string>appendevate</string>
+		<string>appendevano</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Passato remoto</string>
+		<string>appendere</string>
+		<string>appesi</string>
+		<string>appendesti</string>
+		<string>appese</string>
+		<string>appendemmo</string>
+		<string>appendeste</string>
+		<string>appesero</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Futuro semplice</string>
+		<string>appendere</string>
+		<string>appenderò</string>
+		<string>appenderai</string>
+		<string>appenderà</string>
+		<string>appenderemo</string>
+		<string>appenderete</string>
+		<string>appenderanno</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Passato prossimo</string>
+		<string>appendere</string>
+		<string>ho appeso</string>
+		<string>hai appeso</string>
+		<string>ha appeso</string>
+		<string>abbiamo appeso</string>
+		<string>avete appeso</string>
+		<string>hanno appeso</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Trapassato prossimo</string>
+		<string>appendere</string>
+		<string>avevo appeso</string>
+		<string>avevi appeso</string>
+		<string>aveva appeso</string>
+		<string>avevamo appeso</string>
+		<string>avevate appeso</string>
+		<string>avevano appeso</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Trapassato remoto</string>
+		<string>appendere</string>
+		<string>ebbi appeso</string>
+		<string>avesti appeso</string>
+		<string>ebbe appeso</string>
+		<string>avemmo appeso</string>
+		<string>aveste appeso</string>
+		<string>ebbero appeso</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Futuro anteriore</string>
+		<string>appendere</string>
+		<string>avrò appeso</string>
+		<string>avrai appeso</string>
+		<string>avrà appeso</string>
+		<string>avremo appeso</string>
+		<string>avrete appeso</string>
+		<string>avranno appeso</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Congiuntivo</string>
+		<string>Presente</string>
+		<string>appendere</string>
+		<string>appenda</string>
+		<string>appenda</string>
+		<string>appenda</string>
+		<string>appendiamo</string>
+		<string>appendiate</string>
+		<string>appendano</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Congiuntivo</string>
+		<string>Imperfetto</string>
+		<string>appendere</string>
+		<string>appendessi</string>
+		<string>appendessi</string>
+		<string>appendesse</string>
+		<string>appendessimo</string>
+		<string>appendeste</string>
+		<string>appendessero</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Congiuntivo</string>
+		<string>Passato</string>
+		<string>appendere</string>
+		<string>abbia appeso</string>
+		<string>abbia appeso</string>
+		<string>abbia appeso</string>
+		<string>abbiamo appeso</string>
+		<string>abbiate appeso</string>
+		<string>abbiano appeso</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Congiuntivo</string>
+		<string>Trapassato</string>
+		<string>appendere</string>
+		<string>avessi appeso</string>
+		<string>avessi appeso</string>
+		<string>avesse appeso</string>
+		<string>avessimo appeso</string>
+		<string>aveste appeso</string>
+		<string>avessero appeso</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Condizionale</string>
+		<string>Presente</string>
+		<string>appendere</string>
+		<string>appenderei</string>
+		<string>appenderesti</string>
+		<string>appenderebbe</string>
+		<string>appenderemmo</string>
+		<string>appendereste</string>
+		<string>appenderebbero</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Condizionale</string>
+		<string>Passato</string>
+		<string>appendere</string>
+		<string>avrei appeso</string>
+		<string>avresti appeso</string>
+		<string>avrebbe appeso</string>
+		<string>avremmo appeso</string>
+		<string>avreste appeso</string>
+		<string>avrebbero appeso</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Imperativo</string>
+		<string>Presente</string>
+		<string>appendere</string>
+		<string></string>
+		<string>appendi</string>
+		<string>appenda</string>
+		<string>appendiamo</string>
+		<string>appendete</string>
+		<string>appendano</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Presente</string>
+		<string>partecipare</string>
+		<string>partecipo</string>
+		<string>partecipi</string>
+		<string>partecipa</string>
+		<string>partecipiamo</string>
+		<string>partecipate</string>
+		<string>partecipano</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Imperfetto</string>
+		<string>partecipare</string>
+		<string>partecipavo</string>
+		<string>partecipavi</string>
+		<string>partecipava</string>
+		<string>partecipavamo</string>
+		<string>partecipavate</string>
+		<string>partecipavano</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Passato remoto</string>
+		<string>partecipare</string>
+		<string>partecipai</string>
+		<string>partecipasti</string>
+		<string>partecipò</string>
+		<string>partecipammo</string>
+		<string>partecipaste</string>
+		<string>parteciparono</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Futuro semplice</string>
+		<string>partecipare</string>
+		<string>parteciperò</string>
+		<string>parteciperai</string>
+		<string>parteciperà</string>
+		<string>parteciperemo</string>
+		<string>parteciperete</string>
+		<string>parteciperanno</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Passato prossimo</string>
+		<string>partecipare</string>
+		<string>ho partecipato</string>
+		<string>hai partecipato</string>
+		<string>ha partecipato</string>
+		<string>abbiamo partecipato</string>
+		<string>avete partecipato</string>
+		<string>hanno partecipato</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Trapassato prossimo</string>
+		<string>partecipare</string>
+		<string>avevo partecipato</string>
+		<string>avevi partecipato</string>
+		<string>aveva partecipato</string>
+		<string>avevamo partecipato</string>
+		<string>avevate partecipato</string>
+		<string>avevano partecipato</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Trapassato remoto</string>
+		<string>partecipare</string>
+		<string>ebbi partecipato</string>
+		<string>avesti partecipato</string>
+		<string>ebbe partecipato</string>
+		<string>avemmo partecipato</string>
+		<string>aveste partecipato</string>
+		<string>ebbero partecipato</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Indicativo</string>
+		<string>Futuro anteriore</string>
+		<string>partecipare</string>
+		<string>avrò partecipato</string>
+		<string>avrai partecipato</string>
+		<string>avrà partecipato</string>
+		<string>avremo partecipato</string>
+		<string>avrete partecipato</string>
+		<string>avranno partecipato</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Congiuntivo</string>
+		<string>Presente</string>
+		<string>partecipare</string>
+		<string>partecipi</string>
+		<string>partecipi</string>
+		<string>partecipi</string>
+		<string>partecipiamo</string>
+		<string>partecipiate</string>
+		<string>partecipino</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Congiuntivo</string>
+		<string>Imperfetto</string>
+		<string>partecipare</string>
+		<string>partecipassi</string>
+		<string>partecipassi</string>
+		<string>partecipasse</string>
+		<string>partecipassimo</string>
+		<string>partecipaste</string>
+		<string>partecipassero</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Congiuntivo</string>
+		<string>Passato</string>
+		<string>partecipare</string>
+		<string>abbia partecipato</string>
+		<string>abbia partecipato</string>
+		<string>abbia partecipato</string>
+		<string>abbiamo partecipato</string>
+		<string>abbiate partecipato</string>
+		<string>abbiano partecipato</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Congiuntivo</string>
+		<string>Trapassato</string>
+		<string>partecipare</string>
+		<string>avessi partecipato</string>
+		<string>avessi partecipato</string>
+		<string>avesse partecipato</string>
+		<string>avessimo partecipato</string>
+		<string>aveste partecipato</string>
+		<string>avessero partecipato</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Condizionale</string>
+		<string>Presente</string>
+		<string>partecipare</string>
+		<string>parteciperei</string>
+		<string>parteciperesti</string>
+		<string>parteciperebbe</string>
+		<string>parteciperemmo</string>
+		<string>partecipereste</string>
+		<string>parteciperebbero</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Condizionale</string>
+		<string>Passato</string>
+		<string>partecipare</string>
+		<string>avrei partecipato</string>
+		<string>avresti partecipato</string>
+		<string>avrebbe partecipato</string>
+		<string>avremmo partecipato</string>
+		<string>avreste partecipato</string>
+		<string>avrebbero partecipato</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+	</array>
+	<array>
+		<string>Imperativo</string>
+		<string>Presente</string>
+		<string>partecipare</string>
+		<string></string>
+		<string>partecipa</string>
+		<string>partecipi</string>
+		<string>partecipiamo</string>
+		<string>partecipate</string>
+		<string>partecipino</string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>

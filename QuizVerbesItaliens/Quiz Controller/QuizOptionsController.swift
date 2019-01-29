@@ -16,13 +16,14 @@ class QuizOptionsController: UITableViewController {
     var refIndexPath = [IndexPath]()
     var selectedTimeVerbes = NSMutableSet()
     var arr: NSMutableArray = []
-
+    let fontsAndConstraints = FontsAndConstraintsOptions()
     let sectionListe = ["INDICATIVO", "CONGIUNTIVO", "CONDIZIONALE", "IMPERATIVO"]
     let item = [["Presente", "Imperfetto", "Passato prossimo", "Futuro semplice", "Passato remoto", "Trapassato prossimo", "Futuro anteriore", "Trapassato remoto"], ["Presente ", "Passato ", "Imperfetto ", "Trapassato "], ["Presente  ", "Passato  "], ["Presente   "]]
     override func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
         let header: UITableViewHeaderFooterView = view as! UITableViewHeaderFooterView //recast your view as a UITableViewHeaderFooterView
-        header.contentView.backgroundColor = UIColor(red: 151/255, green: 156/255, blue: 159/255, alpha: 1.0) //make the background color light blue
+        header.contentView.backgroundColor = UIColor(red: 178/255, green: 208/255, blue: 198/255, alpha: 1.0)
         header.textLabel!.textColor = UIColor.white //make the text white
+        header.textLabel?.font = fontsAndConstraints.normalBoldFont
         header.alpha = 1.0 //make the header transparent
         
     }
@@ -33,6 +34,8 @@ class QuizOptionsController: UITableViewController {
                 listeVerbes.append(verb[2])
             }
         }
+    }
+    override func viewWillAppear(_ animated: Bool) {
         self.title = "Scegliere i tempi"
     }
     // MARK: - Table view data source
@@ -51,6 +54,8 @@ class QuizOptionsController: UITableViewController {
         //let helper = Helper()
         cell.textLabel!.text = self.item[indexPath.section][indexPath.row]
         cell.selectionStyle = .none
+        cell.textLabel?.textColor = UIColor.black
+        cell.textLabel?.font =  fontsAndConstraints.normalItaliqueBoldFont
         configure(cell, forRowAtIndexPath: indexPath)
         return cell
     }
@@ -107,7 +112,7 @@ class QuizOptionsController: UITableViewController {
         }
     }
     func showAlert () {
-        let alertController = UIAlertController(title: "È necessario scegliere almeno un tempo verbale.", message: nil, preferredStyle: .actionSheet)
+        let alertController = UIAlertController(title: "È necessario scegliere almeno un tempo verbale.", message: nil, preferredStyle: .alert)
         alertController.popoverPresentationController?.sourceView = self.view
         alertController.popoverPresentationController?.sourceRect = tableView.rectForHeader(inSection: 1)
         let okAction = UIAlertAction(title: "OK", style: .cancel, handler: dismissAlert)

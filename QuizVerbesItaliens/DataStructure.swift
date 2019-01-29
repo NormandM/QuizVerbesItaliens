@@ -223,7 +223,6 @@ open class DataController: NSObject {
         } catch {
             let userInfo: [String: AnyObject] = [NSLocalizedDescriptionKey: "Failed to initialized the application's saved data" as AnyObject, NSLocalizedFailureReasonErrorKey: "There was an error creating or loading the application's saved data" as AnyObject, NSUnderlyingErrorKey: error as NSError]
             let wrappedError = NSError(domain: "Normand", code: 9999, userInfo: userInfo)
-            print("Unresolved error \(wrappedError), \(wrappedError.userInfo)")
             abort()
         }
         return coordinator

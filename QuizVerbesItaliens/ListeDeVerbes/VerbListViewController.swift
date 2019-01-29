@@ -15,6 +15,7 @@ class VerbListViewController: UIViewController, UITableViewDataSource, UITableVi
     var nomSection: String = ""
     var leTemps: String = ""
     var verbeTotal = ["", "", ""]
+    let fontsAndConstraints = FontsAndConstraintsOptions()
 
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var searchBar: UISearchBar!
@@ -85,6 +86,8 @@ class VerbListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")! as UITableViewCell;
+        cell.textLabel?.textColor = UIColor.black
+        cell.textLabel?.font =  fontsAndConstraints.normalItaliqueBoldFont
         if(searchActive){
             cell.textLabel?.text = filtered[indexPath.row]
         } else {

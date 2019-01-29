@@ -7,38 +7,27 @@
 //
 
 import UIKit
-
+import StoreKit
 class OptionsViewController: UIViewController {
     var arrayVerbe: [[String]] = []
+    let currentCount = UserDefaults.standard.integer(forKey: "launchCount")
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Scegliere una opzione"
+        if currentCount >= 10 {
+            if #available(iOS 10.3, *) {
+                SKStoreReviewController.requestReview()
+                UserDefaults.standard.set(0, forKey: "launchCount")
+            }
+        }
+       
         if let plistPath = Bundle.main.path(forResource: "ItalianVerbsList", ofType: "plist"),
             let verbArray = NSArray(contentsOfFile: plistPath){
             arrayVerbe = verbArray as! [[String]]
         }
-//        if let plistPath = Bundle.main.path(forResource: "ContextuelItalien", ofType: "plist"),
-//            let verbArrayContextuel = NSArray(contentsOfFile: plistPath){
-//            let arrayVerbeContextuel = verbArrayContextuel as! [[String]]
-//            var verbInfinitfArray = [String]()
-//            var verbInfintifQuizArray = [String]()
-//            for verb in arrayVerbe {
-//                if !verbInfintifQuizArray.contains(verb[2]){
-//                    verbInfintifQuizArray.append(verb[2])
-//                }
-//            }
-//            for verb in arrayVerbeContextuel {
-//                if !verbInfinitfArray.contains(verb[4]) && !verbInfintifQuizArray.contains(verb[4]){
-//                    verbInfinitfArray.append(verb[4])
-//                }
-//            }
-//            for verb in verbInfinitfArray {
-//                print(verb)
-//            }
-//        }
-
-        
         self.navigationItem.setHidesBackButton(true, animated:true)
+    }
+    override func willChangeValue(forKey key: String) {
+         self.title = "Scegliere una opzione"
     }
 
     
@@ -51,13 +40,12 @@ class OptionsViewController: UIViewController {
         }else if segue.identifier == "showQuizOption"{
             let controller = segue.destination as! QuizOptionsController
             controller.arrayVerbe = arrayVerbe
+        }else if segue.identifier == "showContextuelQuizOptionController"{
+            let controller = segue.destination as! ContextuelQuizOptionController
+            controller.arrayVerbe = arrayVerbe
         }
-
         let backItem = UIBarButtonItem()
         backItem.title = ""
         navigationItem.backBarButtonItem = backItem
-
     }
-
-    
 }
