@@ -14302,11 +14302,11 @@
 		<string>Presente</string>
 		<string>potere</string>
 		<string></string>
-		<string>niente</string>
-		<string>niente</string>
-		<string>niente</string>
-		<string>niente</string>
-		<string>niente</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -15492,11 +15492,11 @@
 		<string>Presente</string>
 		<string>dovere</string>
 		<string></string>
-		<string>niente</string>
-		<string>niente</string>
-		<string>niente</string>
-		<string>niente</string>
-		<string>niente</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39067,12 +39067,12 @@
 		<string>Indicativo</string>
 		<string>Presente</string>
 		<string>piovere</string>
-		<string>—</string>
-		<string>—</string>
+		<string></string>
+		<string></string>
 		<string>piove</string>
-		<string>—</string>
-		<string>—</string>
-		<string>piovono</string>
+		<string></string>
+		<string></string>
+		<string></string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39081,12 +39081,12 @@
 		<string>Indicativo</string>
 		<string>Imperfetto</string>
 		<string>piovere</string>
-		<string>—</string>
-		<string>—</string>
+		<string></string>
+		<string></string>
 		<string>pioveva</string>
-		<string>—</string>
-		<string>—</string>
-		<string>piovevano</string>
+		<string></string>
+		<string></string>
+		<string></string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39095,12 +39095,12 @@
 		<string>Indicativo</string>
 		<string>Passato remoto</string>
 		<string>piovere</string>
-		<string>—</string>
-		<string>—</string>
+		<string></string>
+		<string></string>
 		<string>piovve</string>
-		<string>—</string>
-		<string>—</string>
-		<string>piovvero</string>
+		<string></string>
+		<string></string>
+		<string></string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39109,12 +39109,12 @@
 		<string>Indicativo</string>
 		<string>Futuro semplice</string>
 		<string>piovere</string>
-		<string>—</string>
-		<string>—</string>
+		<string></string>
+		<string></string>
 		<string>pioverà</string>
-		<string>—</string>
-		<string>—</string>
-		<string>pioveranno</string>
+		<string></string>
+		<string></string>
+		<string></string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39123,12 +39123,12 @@
 		<string>Indicativo</string>
 		<string>Passato prossimo</string>
 		<string>piovere</string>
-		<string>—</string>
-		<string>—</string>
+		<string></string>
+		<string></string>
 		<string>è piovuto</string>
-		<string>—</string>
-		<string>—</string>
-		<string>sono piovuti</string>
+		<string></string>
+		<string></string>
+		<string></string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39137,12 +39137,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato prossimo</string>
 		<string>piovere</string>
-		<string>—</string>
-		<string>—</string>
+		<string></string>
+		<string></string>
 		<string>era piovuto</string>
-		<string>—</string>
-		<string>—</string>
-		<string>erano piovuti</string>
+		<string></string>
+		<string></string>
+		<string></string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39151,12 +39151,12 @@
 		<string>Indicativo</string>
 		<string>Trapassato remoto</string>
 		<string>piovere</string>
-		<string>—</string>
-		<string>—</string>
+		<string></string>
+		<string></string>
 		<string>fu piovuto</string>
-		<string>—</string>
-		<string>—</string>
-		<string>furono piovuti</string>
+		<string></string>
+		<string></string>
+		<string></string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39165,12 +39165,12 @@
 		<string>Indicativo</string>
 		<string>Futuro anteriore</string>
 		<string>piovere</string>
-		<string>—</string>
-		<string>—</string>
+		<string></string>
+		<string></string>
 		<string>sarà piovuto</string>
-		<string>—</string>
-		<string>—</string>
-		<string>saranno piovuti</string>
+		<string></string>
+		<string></string>
+		<string></string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39179,12 +39179,12 @@
 		<string>Congiuntivo</string>
 		<string>Presente</string>
 		<string>piovere</string>
-		<string>—</string>
-		<string>—</string>
-		<string>che piova</string>
-		<string>—</string>
-		<string>—</string>
-		<string>piovano</string>
+		<string></string>
+		<string></string>
+		<string>piova</string>
+		<string></string>
+		<string></string>
+		<string></string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39193,12 +39193,12 @@
 		<string>Congiuntivo</string>
 		<string>Imperfetto</string>
 		<string>piovere</string>
-		<string>—</string>
-		<string>—</string>
-		<string>che piovesse</string>
-		<string>—</string>
-		<string>—</string>
-		<string>piovessero</string>
+		<string></string>
+		<string></string>
+		<string>piovesse</string>
+		<string></string>
+		<string></string>
+		<string></string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39207,12 +39207,12 @@
 		<string>Congiuntivo</string>
 		<string>Passato</string>
 		<string>piovere</string>
-		<string>—</string>
-		<string>—</string>
-		<string>che sia piovuto</string>
-		<string>—</string>
-		<string>—</string>
-		<string>che siano piovuti</string>
+		<string></string>
+		<string></string>
+		<string>sia piovuto</string>
+		<string></string>
+		<string></string>
+		<string></string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39221,12 +39221,12 @@
 		<string>Congiuntivo</string>
 		<string>Trapassato</string>
 		<string>piovere</string>
-		<string>—</string>
-		<string>—</string>
-		<string>che fosse piovuto</string>
-		<string>—</string>
-		<string>—</string>
-		<string>che fossero piovuti</string>
+		<string></string>
+		<string></string>
+		<string>fosse piovuto</string>
+		<string></string>
+		<string></string>
+		<string></string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39235,12 +39235,12 @@
 		<string>Condizionale</string>
 		<string>Presente</string>
 		<string>piovere</string>
-		<string>—</string>
-		<string>—</string>
+		<string></string>
+		<string></string>
 		<string>pioverebbe</string>
-		<string>—</string>
-		<string>—</string>
-		<string>pioverebbero</string>
+		<string></string>
+		<string></string>
+		<string></string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39249,12 +39249,12 @@
 		<string>Condizionale</string>
 		<string>Passato</string>
 		<string>piovere</string>
-		<string>—</string>
-		<string>—</string>
+		<string></string>
+		<string></string>
 		<string>sarebbe piovuto</string>
-		<string>—</string>
-		<string>—</string>
-		<string>sarebbero piovuti</string>
+		<string></string>
+		<string></string>
+		<string></string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>
@@ -39264,11 +39264,11 @@
 		<string>Presente</string>
 		<string>piovere</string>
 		<string></string>
-		<string>—</string>
+		<string></string>
 		<string>piova</string>
-		<string>—</string>
-		<string>—</string>
-		<string>piovano</string>
+		<string></string>
+		<string></string>
+		<string></string>
 		<string>0</string>
 		<string>0</string>
 		<string>0</string>

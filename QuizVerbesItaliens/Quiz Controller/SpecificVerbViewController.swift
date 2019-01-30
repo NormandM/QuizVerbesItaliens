@@ -114,7 +114,7 @@ class SpecificVerbViewController: UIViewController, UITableViewDataSource, UITab
         let modeEtTemps = selection.choixTempsEtMode(arraySelection: arraySelection)
         for mode in modeEtTemps {
             if mode.contains("Imperativo"){
-                if verbesChoisi.contains("potere") || verbesChoisi.contains("dovere") {
+                if verbesChoisi.contains("potere") || verbesChoisi.contains("dovere")  || verbesChoisi.contains("piovere"){
                     showAlertPasDImperatif()
                     okForSegue = false
                 }

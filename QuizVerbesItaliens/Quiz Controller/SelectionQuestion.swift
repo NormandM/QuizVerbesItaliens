@@ -66,12 +66,12 @@ class Selection {
             let i = arrayVerbe.count
             while infinitifVerb < i {
                 let allVerbs = VerbeItalien(verbArray: arrayVerbe, n: infinitifVerb)
-                if modeChoisi == "Imperativo" && (allVerbs.verbe == "potere" || allVerbs.verbe == "dovere"){
+                if modeChoisi == "Imperativo" && (allVerbs.verbe == "potere" || allVerbs.verbe == "dovere" || allVerbs.verbe == "piovere"){
                     // not appending
                 }else{
                     listeVerbe.append(allVerbs.verbe)
                 }
-                infinitifVerb = infinitifVerb + 16
+                infinitifVerb = infinitifVerb + 15
             }
             let noDeverbe = listeVerbe.count
             let indexVerbeChoisi = Int(arc4random_uniform(UInt32(noDeverbe)))
@@ -105,6 +105,10 @@ class Selection {
                 }else if noPersonne == 5 {
                     noPersonne = 6
                 }
+            }
+        print(verbeChoisi)
+            if verbeChoisi == "piovere" {
+                noPersonne = 3
             }
             let question = Question()
         
