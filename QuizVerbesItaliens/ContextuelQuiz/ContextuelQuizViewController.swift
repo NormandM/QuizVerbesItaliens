@@ -73,7 +73,7 @@ class ContextuelQuizViewController: UIViewController, NSFetchedResultsController
     }
     override func viewWillAppear(_ animated: Bool) {
         let fonts = FontsAndConstraintsOptions()
-        self.title = "Coniuga il verbo."
+        self.title = "Coniuga il verbo"
         modeLabel.font = fonts.largeBoldFont
         tempsLabel.font = fonts.largeBoldFont
         suggestionButton.titleLabel?.font = fonts.smallItaliqueBoldFont

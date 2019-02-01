@@ -23,7 +23,7 @@ class QuizOptionsController: UITableViewController {
         let header: UITableViewHeaderFooterView = view as! UITableViewHeaderFooterView //recast your view as a UITableViewHeaderFooterView
         header.contentView.backgroundColor = UIColor(red: 178/255, green: 208/255, blue: 198/255, alpha: 1.0)
         header.textLabel!.textColor = UIColor.white //make the text white
-        header.textLabel?.font = fontsAndConstraints.normalBoldFont
+        header.textLabel?.font = fontsAndConstraints.largeBoldFont
         header.alpha = 1.0 //make the header transparent
         
     }
@@ -51,11 +51,9 @@ class QuizOptionsController: UITableViewController {
     // Next code is to enable checks for each cell selected
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-        //let helper = Helper()
         cell.textLabel!.text = self.item[indexPath.section][indexPath.row]
         cell.selectionStyle = .none
         cell.textLabel?.textColor = UIColor.black
-        cell.textLabel?.font =  fontsAndConstraints.normalItaliqueBoldFont
         configure(cell, forRowAtIndexPath: indexPath)
         return cell
     }
@@ -68,7 +66,7 @@ class QuizOptionsController: UITableViewController {
             // not selected
             cell.accessoryType = .none
         }
-        
+        cell.textLabel?.font =  fontsAndConstraints.normalItaliqueBoldFont
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
@@ -115,7 +113,7 @@ class QuizOptionsController: UITableViewController {
         let alertController = UIAlertController(title: "È necessario scegliere almeno un tempo verbale.", message: nil, preferredStyle: .alert)
         alertController.popoverPresentationController?.sourceView = self.view
         alertController.popoverPresentationController?.sourceRect = tableView.rectForHeader(inSection: 1)
-        let okAction = UIAlertAction(title: "OK", style: .cancel, handler: dismissAlert)
+        let okAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
         alertController.addAction(okAction)
         present(alertController, animated: true, completion: nil)
     }
@@ -133,10 +131,6 @@ class QuizOptionsController: UITableViewController {
         performSegue(withIdentifier: "showSpecificVerb", sender: UIBarButtonItem.self)
         
     }
-    func dismissAlert(_ sender: UIAlertAction) {
-        
-    }
-
     @IBAction func OK(_ sender: UIBarButtonItem) {
         var i = 0
         i = arraySelection.count

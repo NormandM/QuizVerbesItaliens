@@ -96,6 +96,7 @@ class QuizController: UIViewController, NSFetchedResultsControllerDelegate,  GAD
         suggestionButton.titleLabel?.font = fonts.smallItaliqueBoldFont
         tempsChoisiButton.titleLabel?.font = fonts.smallFont
         traductionAnglaiseButton.titleLabel?.font = fonts.smallFont
+        
         reponse.font = fonts.normalFont
         personne.font = fonts.smallBoldFont
         personneResponse.font = fonts.smallBoldFont

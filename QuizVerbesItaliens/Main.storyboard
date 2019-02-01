@@ -13,7 +13,7 @@
         <scene sceneID="mL5-wI-s89">
             <objects>
                 <tableViewController id="Z1N-eS-HOx" customClass="QuizOptionsController" customModule="QuizVerbesItaliens" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="TTX-7f-wjw">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="TTX-7f-wjw">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -316,7 +316,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ListesDesVerbesNew" translatesAutoresizingMaskIntoConstraints="NO" id="OgP-e3-ib4">
-                                <rect key="frame" x="131.5" y="85" width="57" height="85.5"/>
+                                <rect key="frame" x="131.5" y="99.5" width="57" height="85"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="OgP-e3-ib4" secondAttribute="height" multiplier="73:110" id="LVc-57-EKU"/>
@@ -326,13 +326,13 @@
                                 </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LISTA DEI VERBI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ScX-7Q-aGo">
-                                <rect key="frame" x="100" y="57" width="120.5" height="18"/>
+                                <rect key="frame" x="100" y="71.5" width="120.5" height="18"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="15"/>
                                 <color key="textColor" red="0.1058823529" green="0.37254901959999998" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QuizDeBaseNew" translatesAutoresizingMaskIntoConstraints="NO" id="WWn-qi-e73">
-                                <rect key="frame" x="131.5" y="213" width="57" height="85"/>
+                                <rect key="frame" x="131.5" y="227" width="57" height="85.5"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="WWn-qi-e73" secondAttribute="height" multiplier="73:110" id="eK4-HL-fAr"/>
@@ -342,19 +342,19 @@
                                 </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QUIZ DI BASE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FgS-1B-LXd">
-                                <rect key="frame" x="109" y="185" width="102" height="18"/>
+                                <rect key="frame" x="109" y="199" width="102" height="18"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="15"/>
                                 <color key="textColor" red="0.1058823529" green="0.37254901959999998" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QUIZ CONTESTUALE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idI-s0-BO1">
-                                <rect key="frame" x="83.5" y="313" width="153.5" height="18"/>
+                                <rect key="frame" x="83.5" y="327" width="153.5" height="18"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="15"/>
                                 <color key="textColor" red="0.1058823529" green="0.37254901959999998" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StatistiquesNew" translatesAutoresizingMaskIntoConstraints="NO" id="BnL-oH-MXL">
-                                <rect key="frame" x="125" y="460" width="70" height="74"/>
+                                <rect key="frame" x="125" y="474.5" width="70" height="73.5"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="BnL-oH-MXL" secondAttribute="height" multiplier="82:87" id="qn8-RB-I8B"/>
@@ -364,7 +364,7 @@
                                 </connections>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QuizContextuelNew" translatesAutoresizingMaskIntoConstraints="NO" id="Wj4-5h-iUw">
-                                <rect key="frame" x="131.5" y="341" width="57" height="85"/>
+                                <rect key="frame" x="131.5" y="355" width="57" height="85"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Wj4-5h-iUw" secondAttribute="height" multiplier="73:110" id="sL9-04-Xsp"/>
@@ -374,7 +374,7 @@
                                 </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STATISTICHE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqH-V0-2qy">
-                                <rect key="frame" x="112" y="437" width="96" height="18"/>
+                                <rect key="frame" x="112" y="451.5" width="96" height="18"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="15"/>
                                 <color key="textColor" red="0.1058823529" green="0.37254901959999998" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -386,9 +386,9 @@
                             <constraint firstItem="OgP-e3-ib4" firstAttribute="top" secondItem="ScX-7Q-aGo" secondAttribute="bottom" constant="10" id="572-h6-zxb"/>
                             <constraint firstItem="BnL-oH-MXL" firstAttribute="height" secondItem="Zaf-Lt-GH8" secondAttribute="height" multiplier="0.13" id="5ZX-4Y-quI"/>
                             <constraint firstItem="WWn-qi-e73" firstAttribute="centerX" secondItem="Zaf-Lt-GH8" secondAttribute="centerX" id="7Kn-oL-ssx"/>
-                            <constraint firstItem="Wj4-5h-iUw" firstAttribute="centerY" secondItem="Zaf-Lt-GH8" secondAttribute="centerY" multiplier="1.35" id="9sC-UA-cfl"/>
+                            <constraint firstItem="Wj4-5h-iUw" firstAttribute="centerY" secondItem="Zaf-Lt-GH8" secondAttribute="centerY" multiplier="1.4" id="9sC-UA-cfl"/>
                             <constraint firstItem="BnL-oH-MXL" firstAttribute="top" secondItem="cqH-V0-2qy" secondAttribute="bottom" constant="5" id="BFT-W4-jdG"/>
-                            <constraint firstItem="OgP-e3-ib4" firstAttribute="centerY" secondItem="Zaf-Lt-GH8" secondAttribute="centerY" multiplier="0.45" id="CZj-Im-734"/>
+                            <constraint firstItem="OgP-e3-ib4" firstAttribute="centerY" secondItem="Zaf-Lt-GH8" secondAttribute="centerY" multiplier="0.5" id="CZj-Im-734"/>
                             <constraint firstItem="WWn-qi-e73" firstAttribute="top" secondItem="FgS-1B-LXd" secondAttribute="bottom" constant="10" id="EwI-Ck-3BV"/>
                             <constraint firstItem="Wj4-5h-iUw" firstAttribute="width" secondItem="OgP-e3-ib4" secondAttribute="width" id="Kji-an-lTe"/>
                             <constraint firstItem="cqH-V0-2qy" firstAttribute="centerX" secondItem="Zaf-Lt-GH8" secondAttribute="centerX" id="LeK-5f-SvS"/>
@@ -396,14 +396,14 @@
                             <constraint firstItem="WWn-qi-e73" firstAttribute="height" secondItem="Zaf-Lt-GH8" secondAttribute="height" multiplier="0.15" id="Oqz-Nt-PK3"/>
                             <constraint firstItem="OgP-e3-ib4" firstAttribute="centerX" secondItem="Zaf-Lt-GH8" secondAttribute="centerX" id="Tdb-76-1zr"/>
                             <constraint firstItem="WWn-qi-e73" firstAttribute="width" secondItem="OgP-e3-ib4" secondAttribute="width" id="Tum-cM-z69"/>
-                            <constraint firstItem="WWn-qi-e73" firstAttribute="centerY" secondItem="Zaf-Lt-GH8" secondAttribute="centerY" multiplier="0.9" id="UZM-Fc-8t4"/>
+                            <constraint firstItem="WWn-qi-e73" firstAttribute="centerY" secondItem="Zaf-Lt-GH8" secondAttribute="centerY" multiplier="0.95" id="UZM-Fc-8t4"/>
                             <constraint firstItem="WWn-qi-e73" firstAttribute="height" secondItem="OgP-e3-ib4" secondAttribute="height" id="VKb-DH-9XB"/>
                             <constraint firstItem="Wj4-5h-iUw" firstAttribute="top" secondItem="idI-s0-BO1" secondAttribute="bottom" constant="10" id="YzH-yB-6a5"/>
                             <constraint firstItem="ScX-7Q-aGo" firstAttribute="centerX" secondItem="Zaf-Lt-GH8" secondAttribute="centerX" id="ei5-fk-TYY"/>
                             <constraint firstItem="BnL-oH-MXL" firstAttribute="centerX" secondItem="Zaf-Lt-GH8" secondAttribute="centerX" id="jHu-Yq-gLH"/>
                             <constraint firstItem="Wj4-5h-iUw" firstAttribute="centerX" secondItem="Zaf-Lt-GH8" secondAttribute="centerX" id="mXR-FV-njE"/>
                             <constraint firstItem="FgS-1B-LXd" firstAttribute="centerX" secondItem="Zaf-Lt-GH8" secondAttribute="centerX" id="o5N-lb-Ckx"/>
-                            <constraint firstItem="BnL-oH-MXL" firstAttribute="centerY" secondItem="Zaf-Lt-GH8" secondAttribute="centerY" multiplier="1.75" id="qKy-VM-VyQ"/>
+                            <constraint firstItem="BnL-oH-MXL" firstAttribute="centerY" secondItem="Zaf-Lt-GH8" secondAttribute="centerY" multiplier="1.8" id="qKy-VM-VyQ"/>
                             <constraint firstItem="Wj4-5h-iUw" firstAttribute="height" secondItem="OgP-e3-ib4" secondAttribute="height" id="zd0-nv-5Wb"/>
                         </constraints>
                     </view>
@@ -1579,7 +1579,7 @@
         <image name="StatistiquesNew" width="178.08000183105469" height="186.24000549316406"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="wVP-YM-I8f"/>
+        <segue reference="Kge-pt-Eor"/>
         <segue reference="6QC-pj-mOz"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -26,11 +26,10 @@ class OptionsViewController: UIViewController {
         }
         self.navigationItem.setHidesBackButton(true, animated:true)
     }
-    override func willChangeValue(forKey key: String) {
-         self.title = "Scegliere una opzione"
+    override func viewWillAppear(_ animated: Bool) {
+        self.title = "Scegliere una opzione"
     }
 
-    
     // MARK: - Navigation
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

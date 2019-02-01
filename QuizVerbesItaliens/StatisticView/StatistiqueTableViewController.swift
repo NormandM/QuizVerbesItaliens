@@ -54,7 +54,6 @@ class StatistiqueTableViewController: UITableViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Statistiche"
         populateData()
      }
     override func viewDidAppear(_ animated: Bool) {

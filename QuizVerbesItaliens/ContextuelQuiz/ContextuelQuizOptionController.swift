@@ -76,7 +76,6 @@ class ContextuelQuizOptionController: UITableViewController {
             // deselect
             selectedTimeVerbes.remove(indexPath)
             let cell2 = tableView.cellForRow(at: indexPath)!
-            
             if let text = cell2.textLabel?.text, let n = arraySelection.index(of: text){
                 arraySelection.remove(at: n)
             }
