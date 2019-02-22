@@ -39,7 +39,6 @@
 		8E54904521F53D950046C963 /* DictAvoirEtre.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E54904421F53D940046C963 /* DictAvoirEtre.plist */; };
 		8E54906721F807B50046C963 /* ItalianVerbsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E54906621F807B40046C963 /* ItalianVerbsList.plist */; };
 		8E7D26251FB91566003798E5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E7D26241FB91566003798E5 /* GoogleService-Info.plist */; };
-		8E7D262A1FB91FF7003798E5 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7D262B1FB91FF7003798E5 /* GoogleToolboxForMac.framework */; };
 		8E7D262C1FB91FFE003798E5 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7D262D1FB91FFE003798E5 /* GoogleToolboxForMac.framework */; };
 		8E7D262E1FB92007003798E5 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7D262F1FB92007003798E5 /* GoogleToolboxForMac.framework */; };
 		8E7F05EB1C2F2C36003A6F21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E7F05EA1C2F2C36003A6F21 /* Assets.xcassets */; };
@@ -152,7 +151,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E7D262A1FB91FF7003798E5 /* GoogleToolboxForMac.framework in Frameworks */,
 				83D80E37FEBDEF236800F268 /* Pods_QuizVerbesItaliens.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,7 +383,6 @@
 				8E7F05F01C2F2C37003A6F21 /* Sources */,
 				8E7F05F11C2F2C37003A6F21 /* Frameworks */,
 				8E7F05F21C2F2C37003A6F21 /* Resources */,
-				BE6C5E0C91177674C0370917 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -556,38 +553,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-QuizVerbesItaliens/Pods-QuizVerbesItaliens-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuizVerbesItaliens/Pods-QuizVerbesItaliens-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BE6C5E0C91177674C0370917 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-QuizVerbesItaliensTests/Pods-QuizVerbesItaliensTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuizVerbesItaliensTests/Pods-QuizVerbesItaliensTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C6D4A590BECD4F78D49A8C2D /* [CP] Check Pods Manifest.lock */ = {
@@ -810,6 +783,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Charts\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleToolboxForMac\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+				);
 				INFOPLIST_FILE = QuizVerbesItaliens/Info.plist;
 				"INSTALL_PATH[sdk=*]" = "$(LOCAL_APPS_DIR)";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -891,6 +870,26 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = X6D769Z7F4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Charts\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleToolboxForMac\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/Google-Mobile-Ads-SDK/Frameworks/frameworks\"",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Charts\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleToolboxForMac\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/Google-Mobile-Ads-SDK/Frameworks/frameworks\"",
+				);
 				INFOPLIST_FILE = QuizVerbesItaliensUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NM.ItalianVerbsQuizUITests;
@@ -911,6 +910,16 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = X6D769Z7F4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Charts\"/**",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleToolboxForMac\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/Google-Mobile-Ads-SDK/Frameworks/frameworks\"",
+				);
 				INFOPLIST_FILE = QuizVerbesItaliensUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NM.ItalianVerbsQuizUITests;

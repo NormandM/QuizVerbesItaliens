@@ -10,6 +10,7 @@ import UIKit
 import CoreData
 import Charts
 
+
 class StatistiqueTableViewController: UITableViewController {
      @IBOutlet weak var remiseAZeroButton: UIButton!
     var itemForPieChartNumBers = [[(Int, Int, Int)]]()

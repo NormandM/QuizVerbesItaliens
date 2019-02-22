@@ -13,6 +13,7 @@ class LogoViewController: UIViewController {
     @IBOutlet weak var logoView: UIImageView!
     @IBOutlet weak var appsLabel: UILabel!
     @IBOutlet weak var appsLabel2: UILabel!
+    var currentCount = UserDefaults.standard.integer(forKey: "launchCount")
     var soundURL: NSURL?
     var soundID:SystemSoundID = 0
     override func viewDidLoad() {
@@ -20,6 +21,8 @@ class LogoViewController: UIViewController {
         
     }
     override func viewDidAppear(_ animated: Bool) {
+        currentCount = currentCount + 1
+        UserDefaults.standard.set(currentCount, forKey: "launchCount")
         let appsLabelFrame  = appsLabel.frame
         let appsLabel2Frame = appsLabel2.frame
         let maxXappsLabel = appsLabelFrame.maxX

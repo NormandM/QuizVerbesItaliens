@@ -9,9 +9,8 @@
 import UIKit
 import AudioToolbox
 import CoreData
-import GoogleMobileAds
 
-class QuizController: UIViewController, NSFetchedResultsControllerDelegate,  GADBannerViewDelegate  {
+class QuizController: UIViewController, NSFetchedResultsControllerDelegate{
     @IBOutlet weak var autreQuestionLabel: UIButton!
     @IBOutlet weak var verbe: UILabel!
     @IBOutlet weak var mode: UILabel!

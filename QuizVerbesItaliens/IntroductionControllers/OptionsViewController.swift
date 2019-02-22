@@ -9,25 +9,36 @@
 import UIKit
 import StoreKit
 class OptionsViewController: UIViewController {
+    @IBOutlet weak var listeDesVerbes: UILabel!
+    @IBOutlet weak var quizDeBase: UILabel!
+    @IBOutlet weak var quizContextuel: UILabel!
+    @IBOutlet weak var statistiques: UILabel!
     var arrayVerbe: [[String]] = []
     let currentCount = UserDefaults.standard.integer(forKey: "launchCount")
     override func viewDidLoad() {
         super.viewDidLoad()
+        UserDefaults.standard.set(0, forKey: "thisQuizHintAnswer")
+        UserDefaults.standard.set(0, forKey: "thisQuizGoodAnswer")
+        UserDefaults.standard.set(0, forKey: "thisQuizBadAnswer")
         if currentCount >= 10 {
             if #available(iOS 10.3, *) {
                 SKStoreReviewController.requestReview()
                 UserDefaults.standard.set(0, forKey: "launchCount")
             }
         }
-       
         if let plistPath = Bundle.main.path(forResource: "ItalianVerbsList", ofType: "plist"),
             let verbArray = NSArray(contentsOfFile: plistPath){
             arrayVerbe = verbArray as! [[String]]
         }
-        self.navigationItem.setHidesBackButton(true, animated:true)
     }
     override func viewWillAppear(_ animated: Bool) {
         self.title = "Scegliere una opzione"
+        self.navigationItem.setHidesBackButton(true, animated:true)
+        let fonts = FontsAndConstraintsOptions()
+        listeDesVerbes.font = fonts.smallItaliqueBoldFont
+        quizDeBase.font = fonts.smallItaliqueBoldFont
+        quizContextuel.font = fonts.smallItaliqueBoldFont
+        statistiques.font = fonts.smallItaliqueBoldFont
     }
 
     // MARK: - Navigation

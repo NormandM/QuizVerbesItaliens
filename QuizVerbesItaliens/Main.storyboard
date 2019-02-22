@@ -411,6 +411,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="wAl-ky-Iec"/>
+                    <connections>
+                        <outlet property="listeDesVerbes" destination="ScX-7Q-aGo" id="fTI-5Y-hUo"/>
+                        <outlet property="quizContextuel" destination="idI-s0-BO1" id="Z3L-BG-XFe"/>
+                        <outlet property="quizDeBase" destination="FgS-1B-LXd" id="CET-Vj-aW6"/>
+                        <outlet property="statistiques" destination="cqH-V0-2qy" id="75c-Ne-phd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cup-hK-GlT" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="wYi-qY-rVr">
