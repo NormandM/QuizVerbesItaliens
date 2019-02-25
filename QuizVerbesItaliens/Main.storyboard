@@ -46,14 +46,14 @@
                     <navigationItem key="navigationItem" title="Title" id="7wk-wq-T2o">
                         <barButtonItem key="rightBarButtonItem" title="OK" id="aPQ-b5-XMj">
                             <connections>
-                                <action selector="OK:" destination="Z1N-eS-HOx" id="rLW-hp-ZQj"/>
+                                <action selector="okButtonPressed:" destination="Z1N-eS-HOx" id="WJT-Hn-dPY"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <segue destination="g7T-nc-CUO" kind="show" identifier="showSpecificVerb" id="rOI-D6-7mJ"/>
-                        <segue destination="oID-fK-mC5" kind="show" identifier="showQuestionFinal" id="4a1-uC-Tvm"/>
+                        <segue destination="oID-fK-mC5" kind="show" identifier="showQuizController" id="4a1-uC-Tvm"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vgq-ih-Vwc" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -306,10 +306,10 @@
             </objects>
             <point key="canvasLocation" x="-819" y="-944"/>
         </scene>
-        <!--Choisissez une option-->
+        <!--Options View Controller-->
         <scene sceneID="lCG-Gh-Frs">
             <objects>
-                <viewController title="Choisissez une option" id="xvg-Vr-i7u" customClass="OptionsViewController" customModule="QuizVerbesItaliens" sceneMemberID="viewController">
+                <viewController id="xvg-Vr-i7u" customClass="OptionsViewController" customModule="QuizVerbesItaliens" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Vi5-1f-tyP"/>
                         <viewControllerLayoutGuide type="bottom" id="5aL-r0-n5A"/>
@@ -410,7 +410,6 @@
                             <constraint firstItem="Wj4-5h-iUw" firstAttribute="height" secondItem="OgP-e3-ib4" secondAttribute="height" id="zd0-nv-5Wb"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="wAl-ky-Iec"/>
                     <connections>
                         <outlet property="listeDesVerbes" destination="ScX-7Q-aGo" id="fTI-5Y-hUo"/>
                         <outlet property="quizContextuel" destination="idI-s0-BO1" id="Z3L-BG-XFe"/>
@@ -659,7 +658,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="uneAutreQuestionButtonPushed:" destination="oID-fK-mC5" eventType="touchUpInside" id="FqA-2f-gfd"/>
+                                    <action selector="autreQuestionPushed:" destination="oID-fK-mC5" eventType="touchUpInside" id="LCc-ET-W8Q"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5Ve-VC-VDR">
@@ -1229,7 +1228,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vob-sl-oAn">
-                                <rect key="frame" x="0.0" y="160" width="320" height="364"/>
+                                <rect key="frame" x="0.0" y="150" width="320" height="380"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell1" id="ka4-uJ-Lcn">
@@ -1264,45 +1263,62 @@
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ObJ-Ao-G5l">
-                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <items>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="qW0-CV-v43"/>
-                                    <barButtonItem title="Terminé" id="g5e-eU-uCF">
-                                        <connections>
-                                            <action selector="termine:" destination="4EG-Db-Uno" id="XKf-is-AsC"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="AB8-fM-bsH"/>
-                                </items>
-                            </toolbar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v4Q-fe-HXC">
+                                <rect key="frame" x="48" y="530" width="224" height="30"/>
+                                <color key="backgroundColor" red="0.1058823529" green="0.37254901959999998" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Finito">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="termine:" destination="4EG-Db-Uno" eventType="touchUpInside" id="NUi-DU-j7c"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="vob-sl-oAn" firstAttribute="top" secondItem="fIT-7r-8PA" secondAttribute="bottom" constant="10" id="2fS-Y8-s6D"/>
+                            <constraint firstItem="vob-sl-oAn" firstAttribute="top" secondItem="fIT-7r-8PA" secondAttribute="bottom" id="2fS-Y8-s6D"/>
                             <constraint firstItem="vob-sl-oAn" firstAttribute="trailing" secondItem="fIT-7r-8PA" secondAttribute="trailing" id="5Uv-SD-HhI"/>
+                            <constraint firstItem="v4Q-fe-HXC" firstAttribute="top" secondItem="vob-sl-oAn" secondAttribute="bottom" id="Jhc-NQ-Ciw"/>
                             <constraint firstItem="fIT-7r-8PA" firstAttribute="top" secondItem="vBl-Mb-TUi" secondAttribute="bottom" constant="30" id="KGJ-kk-SNu"/>
-                            <constraint firstItem="atJ-PS-Tfv" firstAttribute="top" secondItem="vob-sl-oAn" secondAttribute="bottom" id="KdB-Q1-yS7"/>
                             <constraint firstItem="vob-sl-oAn" firstAttribute="leading" secondItem="fIT-7r-8PA" secondAttribute="leading" id="RFq-7y-elu"/>
                             <constraint firstItem="vob-sl-oAn" firstAttribute="leading" secondItem="uZ4-T4-Sc6" secondAttribute="leading" id="fxt-xW-6u1"/>
                             <constraint firstItem="vBl-Mb-TUi" firstAttribute="leading" secondItem="uZ4-T4-Sc6" secondAttribute="leading" id="iDG-bD-Hdi"/>
                             <constraint firstAttribute="trailing" secondItem="vBl-Mb-TUi" secondAttribute="trailing" id="isF-sZ-Pf5"/>
                             <constraint firstAttribute="trailing" secondItem="vob-sl-oAn" secondAttribute="trailing" id="jLP-A9-uqJ"/>
+                            <constraint firstItem="v4Q-fe-HXC" firstAttribute="centerX" secondItem="uZ4-T4-Sc6" secondAttribute="centerX" id="pC8-PF-nQK"/>
                             <constraint firstItem="vBl-Mb-TUi" firstAttribute="top" secondItem="ihb-rz-oqP" secondAttribute="bottom" constant="20" id="rjV-z6-l6U"/>
+                            <constraint firstItem="atJ-PS-Tfv" firstAttribute="top" secondItem="v4Q-fe-HXC" secondAttribute="bottom" constant="8" id="sNL-vY-7SJ"/>
+                            <constraint firstItem="v4Q-fe-HXC" firstAttribute="width" secondItem="vob-sl-oAn" secondAttribute="width" multiplier="0.7" id="wcQ-i1-wih"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="lesTemps" destination="fIT-7r-8PA" id="n7n-dK-P0K"/>
                         <outlet property="tableViewTemps" destination="vob-sl-oAn" id="Ehd-ok-gsI"/>
+                        <outlet property="termineButton" destination="v4Q-fe-HXC" id="Msz-k7-Ks6"/>
                         <outlet property="titleLabel" destination="vBl-Mb-TUi" id="Wyq-PU-mQd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gOb-sG-SL8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0PR-wN-xBO">
+                    <rect key="frame" x="0.0" y="0.0" width="299.33333333333326" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.1058823529" green="0.37254901959999998" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Terminé">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ww0-R2-XhQ">
+                    <rect key="frame" x="0.0" y="0.0" width="299.33333333333326" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.1058823529" green="0.37254901959999998" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Terminé">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
             </objects>
-            <point key="canvasLocation" x="1721" y="2435"/>
+            <point key="canvasLocation" x="1719.375" y="2434.8591549295775"/>
         </scene>
         <!--Result View Controller-->
         <scene sceneID="lei-lL-1R7">
@@ -1589,6 +1605,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Kge-pt-Eor"/>
-        <segue reference="6QC-pj-mOz"/>
+        <segue reference="4a1-uC-Tvm"/>
     </inferredMetricsTieBreakers>
 </document>

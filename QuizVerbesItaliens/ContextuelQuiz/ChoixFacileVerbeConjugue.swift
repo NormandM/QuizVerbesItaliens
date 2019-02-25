@@ -59,25 +59,12 @@ class ChoixFacileVerbeConjugue {
             verbeChoisiEtConjugue[5] = auxiliereArray[5] + " " +  participe + terminaison.5
         }
         if(infinitif.caseInsensitiveCompare(infinitifMutate) != .orderedSame){
-            let participeHolder = participe
-            if participe.premiereLettreIsVoyelle() || auxiliereArray[0].premiereLettreIsVoyelle(){
-                verbeChoisiEtConjugue[0] = "mi \(verbeChoisiEtConjugue[0])"
-            }
-            participe = participeHolder
-            if participe.premiereLettreIsVoyelle() || auxiliereArray[1].premiereLettreIsVoyelle(){
-                verbeChoisiEtConjugue[1] = "ti \(verbeChoisiEtConjugue[1])"
-            }
-            participe = participeHolder
-            if participe.premiereLettreIsVoyelle() || auxiliereArray[2].premiereLettreIsVoyelle(){
-                verbeChoisiEtConjugue[2] = "si \(verbeChoisiEtConjugue[2])"
-            }
-            participe = participeHolder
-            if participe.premiereLettreIsVoyelle() || auxiliereArray[5].premiereLettreIsVoyelle(){
-                verbeChoisiEtConjugue[5] = "si \(verbeChoisiEtConjugue[5])"
-            }
+            verbeChoisiEtConjugue[0] = "mi \(verbeChoisiEtConjugue[0])"
+            verbeChoisiEtConjugue[1] = "ti \(verbeChoisiEtConjugue[1])"
+            verbeChoisiEtConjugue[2] = "si \(verbeChoisiEtConjugue[2])"
+            verbeChoisiEtConjugue[5] = "si \(verbeChoisiEtConjugue[5])"
             verbeChoisiEtConjugue[3] = "ci \(verbeChoisiEtConjugue[3])"
             verbeChoisiEtConjugue[4] = "vi \(verbeChoisiEtConjugue[4])"
-            
         }
         mutateReponseBonne = reponseBonne
         for n in 0...5{

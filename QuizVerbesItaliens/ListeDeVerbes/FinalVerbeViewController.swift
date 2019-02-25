@@ -9,9 +9,6 @@
 import UIKit
 
 class FinalVerbeViewController: UIViewController {
-    var arrayVerbe: [[String]] = []
-    var selectionVerbe = ["", "", ""]
-    var noItem: Int = 0
     @IBOutlet weak var backgrounColorView: UIView!
     @IBOutlet weak var infinitif: UILabel!
     @IBOutlet weak var mode: UILabel!
@@ -30,46 +27,41 @@ class FinalVerbeViewController: UIViewController {
     @IBOutlet weak var sixth: UILabel!
     let screenSize: CGRect = UIScreen.main.bounds
     let fonts = FontsAndConstraintsOptions()
+    var verbInfinitif = String()
+    var modeVerb = String()
+    var temp = String()
+    typealias ListedVerb = Verb
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = ""
-        var n = 0
-        for verb in arrayVerbe{
-            if verb[0] == selectionVerbe[1] && verb[1] == selectionVerbe[2] && verb[2] == selectionVerbe[0]{
-                noItem = n
-                break
-            }
-            n = n + 1
-        }
-        let verbeItalien = VerbeItalien(verbArray: arrayVerbe, n: noItem)
-      
-        let helper = Helper()
-        infinitif.text = helper.capitalize(word: verbeItalien.verbe)
-        mode.text = helper.capitalize(word: verbeItalien.mode)
-        temps.text = helper.capitalize(word: verbeItalien.temps)
-        premier.text = verbeItalien.premier
-        deuxieme.text = verbeItalien.deuxieme
-        troisieme.text = verbeItalien.troisieme
-        quatrieme.text = verbeItalien.quatrieme
-        cinquieme.text = verbeItalien.cinquieme
-        sixieme.text = verbeItalien.sixieme
-        let personneVerbe = Personne(verbArray: verbeItalien)
-        if verbeItalien.verbe == "bisognare" || verbeItalien.verbe == "piovere"{
-            first.text = "   "
-            second.text = "  "
-            third.text = personneVerbe.third
-            fourth.text = "  "
-            fifth.text = "  "
-            sixth.text = "  "
-        }else{
-            first.text = personneVerbe.first
-            second.text = personneVerbe.second
-            third.text = personneVerbe.third
-            fourth.text = personneVerbe.fourth
-            fifth.text = personneVerbe.fifth
-            sixth.text = personneVerbe.sixth
-            
-        }
+        let chosenVerb = ChosenVerb(infinitif: verbInfinitif, mode: modeVerb, temp: temp)
+        let verb: ListedVerb = chosenVerb.conjugatedVerb
+        infinitif.text = verb.verbInfinitif.capitalizingFirstLetter()
+        mode.text = verb.mode.capitalizingFirstLetter()
+        temps.text = verb.temp.capitalizingFirstLetter()
+        premier.text = verb.firstPersonVerb
+        deuxieme.text = verb.secondPersonVerb
+        troisieme.text = verb.thirdPersonVerb
+        quatrieme.text = verb.fourthPersonVerb
+        cinquieme.text = verb.fifthPersonVerb
+        sixieme.text = verb.sixthPersonVerb
+        let choixDeLaPersonne1 = ChoixDuPronom(mode:  verb.mode, temps: verb.temp, infinitif: verb.verbInfinitif, personne: "1", conjugatedVerb: verb.firstPersonVerb)
+        let choixDeLaPersonne2 = ChoixDuPronom(mode:  verb.mode, temps: verb.temp, infinitif: verb.verbInfinitif, personne: "2", conjugatedVerb: verb.secondPersonVerb)
+        let choixDeLaPersonne3 = ChoixDuPronom(mode:  verb.mode, temps: verb.temp, infinitif: verb.verbInfinitif, personne: "3", conjugatedVerb: verb.thirdPersonVerb)
+        let choixDeLaPersonne4 = ChoixDuPronom(mode:  verb.mode, temps: verb.temp, infinitif: verb.verbInfinitif, personne: "4", conjugatedVerb: verb.fourthPersonVerb)
+        let choixDeLaPersonne5 = ChoixDuPronom(mode:  verb.mode, temps: verb.temp, infinitif: verb.verbInfinitif, personne: "5", conjugatedVerb: verb.fifthPersonVerb)
+        let choixDeLaPersonne6 = ChoixDuPronom(mode:  verb.mode, temps: verb.temp, infinitif: verb.verbInfinitif, personne: "6", conjugatedVerb: verb.sixthPersonVerb)
+        first.text = choixDeLaPersonne1.pronom
+        second.text = choixDeLaPersonne2.pronom
+        third.text = choixDeLaPersonne3.pronom
+        fourth.text = choixDeLaPersonne4.pronom
+        fifth.text = choixDeLaPersonne5.pronom
+        sixth.text = choixDeLaPersonne6.pronom
+        
+    }
+
+    override func viewWillAppear(_ animated: Bool) {
+        self.title = "Verbo coniugato"
+        backgrounColorView.layer.cornerRadius = 50
         infinitif.font = fonts.largeBoldFont
         mode.font = fonts.largeFont
         temps.font = fonts.largeFont
@@ -85,11 +77,6 @@ class FinalVerbeViewController: UIViewController {
         fourth.font = fonts.smallFont
         fifth.font = fonts.smallFont
         sixth.font = fonts.smallFont
-    }
-
-    override func viewWillAppear(_ animated: Bool) {
-        self.title = "Verbo coniugato"
-        backgrounColorView.layer.cornerRadius = 50
     }
     
 

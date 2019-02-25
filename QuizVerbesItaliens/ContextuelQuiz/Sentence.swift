@@ -22,8 +22,8 @@ struct Sentences {
         self.selectedSentences = selectedSentences
         self.indexSentence = indexSentence
         infinitif = selectedSentences[indexSentence][4]
-        tempsDuVerbe = selectedSentences[indexSentence][0]
-        modeDuverbe = selectedSentences[indexSentence][1]
+        tempsDuVerbe = selectedSentences[indexSentence][1]
+        modeDuverbe = selectedSentences[indexSentence][0]
         reponseBonne = selectedSentences[indexSentence][3]
         var string_to_color = "(" + infinitif + ")"
         let sentenceQuestion = selectedSentences[indexSentence][2] + " " + string_to_color + " " + selectedSentences[indexSentence][5]

@@ -49,17 +49,16 @@ class TempsVerbesChoisisViewController: UIViewController, UITableViewDataSource,
             var tempCond = [String]()
             var tempsImp = [String]()
             for temp in tempsEtMode{
-                if temp[1] == "Indicativo"{
+                if temp[1].lowercased().capitalizingFirstLetter() == "Indicativo"{
                     tempsInd.append(temp[0])
-                }else if temp[1] == "Congiuntivo"{
+                }else if temp[1].lowercased().capitalizingFirstLetter() == "Congiuntivo"{
                     tempSubj.append(temp[0])
-                }else if temp[1] == "Condizionale"{
+                }else if temp[1].lowercased().capitalizingFirstLetter() == "Condizionale"{
                     tempCond.append(temp[0])
-                }else if temp[1] == "Imperativo"{
+                }else if temp[1].lowercased().capitalizingFirstLetter() == "Imperativo"{
                     tempsImp.append(temp[0])
                 }
             }
-            
             temps = [tempsInd, tempSubj, tempCond, tempsImp]
             var n = 0
             for temp in temps {
@@ -80,24 +79,24 @@ class TempsVerbesChoisisViewController: UIViewController, UITableViewDataSource,
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         var header: String = ""
         if tableView == self.tableViewTemps {
-            
             header = mode[section]
         }
         if tableView == self.tableViewVerbes{
             header = "Infinitivo"
         }
+        tableView.sectionHeaderHeight = UITableViewAutomaticDimension;
+        tableView.estimatedSectionHeaderHeight = 25
         return header
     }
     func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
         let header: UITableViewHeaderFooterView = view as! UITableViewHeaderFooterView //recast your view as a UITableViewHeaderFooterView
-        header.contentView.backgroundColor = UIColor(red: 151/255, green: 156/255, blue: 159/255, alpha: 1.0) //make the background color light blue
+        header.contentView.backgroundColor = UIColor(red: 178/255, green: 208/255, blue: 198/255, alpha: 1.0)
         header.textLabel?.textAlignment = .center
         header.textLabel!.textColor = UIColor.white //make the text white
+        header.textLabel?.font = fonts.normalBoldFont
         header.alpha = 1.0 //make the header transparent
     }
-    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 40.0
-    }
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         var count:Int?
         if tableView == self.tableViewTemps {
@@ -121,7 +120,6 @@ class TempsVerbesChoisisViewController: UIViewController, UITableViewDataSource,
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         var cell: UITableViewCell?
-        
         if tableView == self.tableViewTemps {
             cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
             cell?.textLabel!.text = temps[indexPath.section][indexPath.row]
@@ -130,6 +128,8 @@ class TempsVerbesChoisisViewController: UIViewController, UITableViewDataSource,
             cell = tableView.dequeueReusableCell(withIdentifier: "Cell1", for: indexPath)
             cell?.textLabel!.text = verbeInfinitiFinal[indexPath.row]
         }
+        cell!.textLabel?.textColor = UIColor.black
+        cell!.textLabel?.font =  fonts.normalItaliqueBoldFont
         return (cell)!
     }
     @IBAction func termine(_ sender: Any) {

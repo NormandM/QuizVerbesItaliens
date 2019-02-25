@@ -26,19 +26,18 @@ class ResultViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        testCompltete = true
-        UserDefaults.standard.set(self.testCompltete, forKey: "testCompltete")
-        resultat.text = "\(goodResponse + aideCount)/\(totalProgress)"
+        goodResponse = Double(UserDefaults.standard.integer(forKey: "thisQuizGoodAnswer"))
+        aideCount = Double(UserDefaults.standard.integer(forKey: "thisQuizHintAnswer"))
+        badResponse = Double(UserDefaults.standard.integer(forKey: "thisQuizBadAnswer"))
+        resultat.text = "\(Int(goodResponse + aideCount))/\(Int(totalProgress))"
         let result = Double(goodResponse + aideCount)/Double(totalProgress)
         let resultPercent = String(round(result*100)) + " %"
-        
-        // Do any additional setup after loading the view.
         if result == 1.0{
-            message.text = "Perfetto! "
+            message.text = "Parfait! "
         }else if result < 1 && Double(result) >= 0.75 {
-            message.text = "\(resultPercent) Molto bene!"
+            message.text = "\(resultPercent) Très bien!"
         }else if Double(result) >= 0.6 && Double(result) < 0.75 {
-            message.text = "\(resultPercent) Bene!"
+            message.text = "\(resultPercent) Pas Mal!"
         }else if result >= 0 && Double(result) < 0.6 {
             message.text = "\(resultPercent) Prova di nuovo!"
         }
@@ -52,13 +51,6 @@ class ResultViewController: UIViewController {
         termineButton.layer.cornerRadius = termineButton.frame.height/2
         setupChart()
     }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "unwindToQuizController" {
-            let controller = segue.destination as! QuizController
-            controller.testCompltete = testCompltete
-        }
-    }
     func setupChart() {
         let entrieBon = goodResponse
         let entrieMal = badResponse
@@ -68,7 +60,7 @@ class ResultViewController: UIViewController {
     }
     
     // MARK: - Navigation
-    @IBAction func termine(_ sender: Any) {
+    @IBAction func termine(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
         switch wichQuiz {
         case .toContexteViewController:

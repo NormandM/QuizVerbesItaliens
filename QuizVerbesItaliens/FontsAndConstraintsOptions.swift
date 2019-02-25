@@ -37,7 +37,6 @@ struct FontsAndConstraintsOptions {
         var largeItalique = UIFont()
         var largeItaliqueBold = UIFont()
         var screenType = ScreenDimension.iPhone5
-        print(surfaceScreen)
         if surfaceScreen < 200000 {
             screenType = .iPhone5
             small = UIFont(name: "HelveticaNeue",size: 9.0)!

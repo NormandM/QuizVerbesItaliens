@@ -16,17 +16,13 @@ class VerbListViewController: UIViewController, UITableViewDataSource, UITableVi
     var leTemps: String = ""
     var verbeTotal = ["", "", ""]
     let fontsAndConstraints = FontsAndConstraintsOptions()
-
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var searchBar: UISearchBar!
-    
     var searchActive : Bool = false
     var filtered:[String] = []
-
     var arrayVerbe: [[String]] = []
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Scegliere un verbo"
         tableView.delegate = self
         tableView.dataSource = self
         searchBar.delegate = self
@@ -36,10 +32,12 @@ class VerbListViewController: UIViewController, UITableViewDataSource, UITableVi
             }
         }
         func alpha (_ s1: String, s2: String) -> Bool {
-            return s1 < s2
+            return s1.folding(options: .diacriticInsensitive, locale: .current) < s2.folding(options: .diacriticInsensitive, locale: .current)
         }
         listeVerbe = listeVerbe.sorted(by: alpha)
-
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        self.title = "Scegliere un verbo"
     }
     // Setting up the searchBar active: Ttrue/False
     func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
@@ -72,18 +70,15 @@ class VerbListViewController: UIViewController, UITableViewDataSource, UITableVi
         }
         self.tableView.reloadData()
     }
-    
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if(searchActive) {
             return filtered.count
         }
         return listeVerbe.count;
     }
-    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")! as UITableViewCell;
         cell.textLabel?.textColor = UIColor.black
@@ -93,7 +88,6 @@ class VerbListViewController: UIViewController, UITableViewDataSource, UITableVi
         } else {
             cell.textLabel?.text = listeVerbe[indexPath.row];
         }
-        
         return cell;
     }
     // MARK: - Navigation
@@ -104,7 +98,7 @@ class VerbListViewController: UIViewController, UITableViewDataSource, UITableVi
                 backItem.title = ""
                 navigationItem.backBarButtonItem = backItem // This will show in the next view controller being pushed
                 let controller = segue.destination as! tempsDeVerbeTableViewController
-                controller.verbeInfinitif = verbeChoisi
+                controller.verbInfinitif = verbeChoisi
                 controller.arrayVerbe = arrayVerbe
                 
             }
