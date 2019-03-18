@@ -33,11 +33,11 @@ class ResultViewController: UIViewController {
         let result = Double(goodResponse + aideCount)/Double(totalProgress)
         let resultPercent = String(round(result*100)) + " %"
         if result == 1.0{
-            message.text = "Parfait! "
+            message.text = "Perfetto! "
         }else if result < 1 && Double(result) >= 0.75 {
-            message.text = "\(resultPercent) Très bien!"
+            message.text = "\(resultPercent) Molto bene!"
         }else if Double(result) >= 0.6 && Double(result) < 0.75 {
-            message.text = "\(resultPercent) Pas Mal!"
+            message.text = "\(resultPercent) Bene!"
         }else if result >= 0 && Double(result) < 0.6 {
             message.text = "\(resultPercent) Prova di nuovo!"
         }
