@@ -31,6 +31,7 @@ class SpecificVerbViewController: UIViewController, UITableViewDataSource, UITab
         tableView.dataSource = self
         searchBar.delegate = self
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "OK", style: .plain, target: self, action: #selector(showQuiz))
+        navigationItem.rightBarButtonItem?.tintColor = UIColor(red: 27/255, green: 96/255, blue: 94/255, alpha: 1.0)
         func alpha (_ s1: String, s2: String) -> Bool {
             return s1.folding(options: .diacriticInsensitive, locale: .current) < s2.folding(options: .diacriticInsensitive, locale: .current)
         }
@@ -86,7 +87,6 @@ class SpecificVerbViewController: UIViewController, UITableViewDataSource, UITab
         // invert the value of checked
         self.listeVerbeAny[id][1] = !(listeVerbeAny[id][1] as! Bool)
         lista = self.searchBar.text == "" ? self.listeVerbeAny : self.arrayFilter
-        
         let cellAnyArray = lista[indexPath.row] as! [Any]
         let cellCheck = cellAnyArray[1] as! Bool
         let cell = tableView.cellForRow(at: indexPath)
@@ -122,6 +122,7 @@ class SpecificVerbViewController: UIViewController, UITableViewDataSource, UITab
                 let backItem = UIBarButtonItem()
                 backItem.title = ""
                 navigationItem.backBarButtonItem = backItem // This will show in the next view controller being pushed
+                navigationItem.backBarButtonItem?.tintColor = UIColor(red: 27/255, green: 96/255, blue: 94/255, alpha: 1.0)
                 let controller = segue.destination as! QuizController
                 controller.arrayVerb = arrayVerb
                 controller.arraySelectionTempsEtMode = arraySelectionTempsEtMode

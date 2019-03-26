@@ -29,14 +29,14 @@ struct Sentences {
         let sentenceQuestion = selectedSentences[indexSentence][2] + " " + string_to_color + " " + selectedSentences[indexSentence][5]
         var range = (sentenceQuestion as NSString).range(of: string_to_color)
         attributeQuestion = NSMutableAttributedString.init(string: sentenceQuestion)
-        attributeQuestion.addAttribute(NSAttributedStringKey.foregroundColor, value: UIColor(red: 178/255, green: 208/255, blue: 198/255, alpha: 1.0) , range: range)
+        attributeQuestion.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor(red: 178/255, green: 208/255, blue: 198/255, alpha: 1.0) , range: range)
         string_to_color = reponseBonne
         let sentenceBonneReponse = selectedSentences[indexSentence][2] + " " + reponseBonne + " " + selectedSentences[indexSentence][5]
         range = (sentenceBonneReponse as NSString).range(of: string_to_color)
         attributeBonneReponse = NSMutableAttributedString.init(string: sentenceBonneReponse)
-        attributeBonneReponse.addAttribute(NSAttributedStringKey.foregroundColor, value: UIColor.black , range: range)
+        attributeBonneReponse.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.black , range: range)
         attributeMauvaiseReponse = NSMutableAttributedString.init(string: sentenceBonneReponse)
-        attributeMauvaiseReponse.addAttribute(NSAttributedStringKey.foregroundColor, value: UIColor(red: 218/255, green: 69/255, blue: 49/255, alpha: 1.0) , range: range)
+        attributeMauvaiseReponse.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor(red: 218/255, green: 69/255, blue: 49/255, alpha: 1.0) , range: range)
         
     }
 }

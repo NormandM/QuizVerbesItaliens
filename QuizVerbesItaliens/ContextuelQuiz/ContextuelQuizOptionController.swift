@@ -68,7 +68,7 @@ class ContextuelQuizOptionController: UITableViewController {
             if let text = cell2.textLabel?.text{
                 textArray = [text, modes[indexPath.section]]
             }
-            if let n = arraySelectionTempsEtMode.index(of: textArray){
+            if let n = arraySelectionTempsEtMode.firstIndex(of: textArray){
                 arraySelectionTempsEtMode.remove(at: n)
             }
         }
@@ -87,6 +87,7 @@ class ContextuelQuizOptionController: UITableViewController {
             let backItem = UIBarButtonItem()
             backItem.title = ""
             navigationItem.backBarButtonItem = backItem
+            navigationItem.backBarButtonItem?.tintColor = UIColor(red: 27/255, green: 96/255, blue: 94/255, alpha: 1.0)
             let controller = segue.destination as! ContextuelQuizViewController
             controller.modeEtTemps = arraySelectionTempsEtMode
             controller.difficulté = difficulté

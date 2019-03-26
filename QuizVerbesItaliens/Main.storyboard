@@ -17,6 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.1058823529" green="0.37254901959999998" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="02S-el-J4J" style="IBUITableViewCellStyleDefault" id="xaG-72-3WV">
                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
@@ -45,6 +46,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Title" id="7wk-wq-T2o">
                         <barButtonItem key="rightBarButtonItem" title="OK" id="aPQ-b5-XMj">
+                            <color key="tintColor" red="0.1058823529" green="0.37254901959999998" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="okButtonPressed:" destination="Z1N-eS-HOx" id="WJT-Hn-dPY"/>
                             </connections>
@@ -178,6 +180,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="icA-AY-uB3">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.1058823529" green="0.37254901959999998" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <searchBar key="tableHeaderView" contentMode="redraw" id="Jrd-bh-ZMb">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
@@ -639,7 +642,9 @@
                                     <constraint firstAttribute="height" constant="40" id="oAo-fR-3iX"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
-                                <state key="normal" title="✔︎"/>
+                                <state key="normal" title="✔︎">
+                                    <color key="titleColor" red="0.1058823529" green="0.37254901959999998" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="checkButton:" destination="oID-fK-mC5" eventType="touchUpInside" id="Hpl-9b-77H"/>
                                 </connections>
@@ -923,6 +928,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.1058823529" green="0.37254901959999998" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="S5t-kx-wgp" style="IBUITableViewCellStyleDefault" id="yCN-KL-WdQ">
                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
@@ -952,6 +958,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Title" id="1pE-zs-X0t">
                         <barButtonItem key="rightBarButtonItem" title="OK" id="qi3-np-XcY">
+                            <color key="tintColor" red="0.1058823529" green="0.37254901959999998" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="OK:" destination="idh-K5-ngx" id="p7R-WT-6lb"/>
                             </connections>
@@ -994,7 +1001,9 @@
                                     <constraint firstAttribute="width" secondItem="Pog-f3-XG4" secondAttribute="height" multiplier="3:4" id="zWF-c8-YEL"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
-                                <state key="normal" title="✔︎"/>
+                                <state key="normal" title="✔︎">
+                                    <color key="titleColor" red="0.1058823529" green="0.37254901959999998" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="checkButton:" destination="inl-r6-tYo" eventType="touchUpInside" id="CHA-bt-WEh"/>
                                 </connections>
@@ -1604,7 +1613,7 @@
         <image name="StatistiquesNew" width="178.08000183105469" height="186.24000549316406"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Kge-pt-Eor"/>
-        <segue reference="4a1-uC-Tvm"/>
+        <segue reference="wVP-YM-I8f"/>
+        <segue reference="6QC-pj-mOz"/>
     </inferredMetricsTieBreakers>
 </document>

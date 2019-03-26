@@ -34,7 +34,7 @@ class QuizOptionsController: UITableViewController {
     override func viewWillAppear(_ animated: Bool) {
         self.title = "Scegliere i tempi"
         tableView.estimatedRowHeight = 100
-        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.rowHeight = UITableView.automaticDimension
     }
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
@@ -75,7 +75,7 @@ class QuizOptionsController: UITableViewController {
             if let text = cell2.textLabel?.text{
                 textArray = [text, modes[indexPath.section]]
             }
-            if let n = arraySelectionTempsEtMode.index(of: textArray){
+            if let n = arraySelectionTempsEtMode.firstIndex(of: textArray){
                 arraySelectionTempsEtMode.remove(at: n)
             }
         }
@@ -95,6 +95,7 @@ class QuizOptionsController: UITableViewController {
             let backItem = UIBarButtonItem()
             backItem.title = ""
             navigationItem.backBarButtonItem = backItem
+            navigationItem.backBarButtonItem?.tintColor = UIColor(red: 27/255, green: 96/255, blue: 94/255, alpha: 1.0)
             let controller = segue.destination as! QuizController
             controller.arrayVerb = arrayVerb
             controller.arraySelectionTempsEtMode = arraySelectionTempsEtMode
@@ -105,6 +106,7 @@ class QuizOptionsController: UITableViewController {
             let backItem = UIBarButtonItem()
             backItem.title = ""
             navigationItem.backBarButtonItem = backItem
+            navigationItem.backBarButtonItem?.tintColor = UIColor(red: 27/255, green: 96/255, blue: 94/255, alpha: 1.0)
             let controller = segue.destination as! SpecificVerbViewController
             controller.arraySelectionTempsEtMode = arraySelectionTempsEtMode
             controller.arrayVerb = arrayVerb

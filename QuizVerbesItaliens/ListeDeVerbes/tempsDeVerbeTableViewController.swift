@@ -28,7 +28,7 @@ class tempsDeVerbeTableViewController: UITableViewController {
      }
     override func viewWillAppear(_ animated: Bool) {
         tableView.estimatedRowHeight = 100
-        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.rowHeight = UITableView.automaticDimension
     }
     
     // MARK: - Table view data source
@@ -56,6 +56,7 @@ class tempsDeVerbeTableViewController: UITableViewController {
                 let backItem = UIBarButtonItem()
                 backItem.title = ""
                 navigationItem.backBarButtonItem = backItem
+                navigationItem.backBarButtonItem?.tintColor = UIColor(red: 27/255, green: 96/255, blue: 94/255, alpha: 1.0)
                 let temp = temps[indexPath.section][indexPath.row]
                 let mode = modes[indexPath.section]
                 let controller = segue.destination as! FinalVerbeViewController

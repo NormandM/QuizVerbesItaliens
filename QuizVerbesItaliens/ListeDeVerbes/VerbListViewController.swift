@@ -97,6 +97,7 @@ class VerbListViewController: UIViewController, UITableViewDataSource, UITableVi
                 let backItem = UIBarButtonItem()
                 backItem.title = ""
                 navigationItem.backBarButtonItem = backItem // This will show in the next view controller being pushed
+                navigationItem.backBarButtonItem?.tintColor = UIColor(red: 27/255, green: 96/255, blue: 94/255, alpha: 1.0)
                 let controller = segue.destination as! tempsDeVerbeTableViewController
                 controller.verbInfinitif = verbeChoisi
                 controller.arrayVerbe = arrayVerbe
