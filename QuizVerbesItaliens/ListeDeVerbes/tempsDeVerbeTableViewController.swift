@@ -24,7 +24,7 @@ class tempsDeVerbeTableViewController: UITableViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Scegliere il tempo"
+        self.title = "Scegliere il tempo".localized
      }
     override func viewWillAppear(_ animated: Bool) {
         tableView.estimatedRowHeight = 100

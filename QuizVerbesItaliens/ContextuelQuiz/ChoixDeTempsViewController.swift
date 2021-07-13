@@ -22,11 +22,11 @@ class ChoixDeTempsViewController: UIViewController, UITableViewDataSource, UITab
     let fonts = FontsAndConstraintsOptions()
     override func viewDidLoad() {
         super.viewDidLoad()
-        titleLabel.text = "Le sue scelte per il Quiz"
+        titleLabel.text = "Le sue scelte per il Quiz".localized
         titleLabel.backgroundColor = UIColor(red: 178/255, green: 208/255, blue: 198/255, alpha: 1.0)
         titleLabel.textColor = UIColor.white
         lesTemps.textColor = UIColor.white
-        lesTemps.text =  "I Tempi"
+        lesTemps.text =  "I Tempi".localized
         lesTemps.backgroundColor = UIColor(red: 178/255, green: 208/255, blue: 198/255, alpha: 1.0)
         tableViewTemps.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
         for temp in tempsEtMode {

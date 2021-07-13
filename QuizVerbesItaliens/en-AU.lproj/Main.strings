@@ -1,0 +1,204 @@
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "02S-el-J4J"; */
+"02S-el-J4J.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Terminé"; ObjectID = "0PR-wN-xBO"; */
+"0PR-wN-xBO.normalTitle" = "Terminé";
+
+/* Class = "UILabel"; text = "Temps"; ObjectID = "0vY-oZ-lDw"; */
+"0vY-oZ-lDw.text" = "Temps";
+
+/* Class = "UILabel"; text = "Mode"; ObjectID = "1a6-j5-ezd"; */
+"1a6-j5-ezd.text" = "Mode";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "1pE-zs-X0t"; */
+"1pE-zs-X0t.title" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Aiuto"; ObjectID = "4Zn-ov-aJs"; */
+"4Zn-ov-aJs.normalTitle" = "Hints";
+
+/* Class = "UIButton"; normalTitle = "Aiuto"; ObjectID = "4mB-T4-Etp"; */
+"4mB-T4-Etp.normalTitle" = "Hints";
+
+/* Class = "UILabel"; text = "I Verbi"; ObjectID = "4s8-W5-UkL"; */
+"4s8-W5-UkL.text" = "Verbs";
+
+/* Class = "UILabel"; text = "Mode"; ObjectID = "4wE-Ga-Aeb"; */
+"4wE-Ga-Aeb.text" = "Mode";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5fU-GR-1a2"; */
+"5fU-GR-1a2.text" = "Label";
+
+/* Class = "UILabel"; text = "Deuxième"; ObjectID = "6d0-2n-X3O"; */
+"6d0-2n-X3O.text" = "Deuxième";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6xA-pX-spM"; */
+"6xA-pX-spM.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "7wk-wq-T2o"; */
+"7wk-wq-T2o.title" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Traduzione"; ObjectID = "C2z-4g-xHg"; */
+"C2z-4g-xHg.normalTitle" = "Translation";
+
+/* Class = "UILabel"; text = "que nous"; ObjectID = "DP5-uw-Xie"; */
+"DP5-uw-Xie.text" = "que nous";
+
+/* Class = "UILabel"; text = "QUIZ DI BASE"; ObjectID = "FgS-1B-LXd"; */
+"FgS-1B-LXd.text" = "BASIC QUIZ";
+
+/* Class = "UILabel"; text = "cinquième"; ObjectID = "Fqm-cq-Kls"; */
+"Fqm-cq-Kls.text" = "cinquième";
+
+/* Class = "UIButton"; normalTitle = "Finito"; ObjectID = "G3B-DZ-THb"; */
+"G3B-DZ-THb.normalTitle" = "Finished";
+
+/* Class = "UILabel"; text = "que vous"; ObjectID = "GIE-F4-bZg"; */
+"GIE-F4-bZg.text" = "que vous";
+
+/* Class = "UILabel"; text = "I Tempi"; ObjectID = "GlX-9H-0FN"; */
+"GlX-9H-0FN.text" = "Tenses";
+
+/* Class = "UILabel"; text = "Troisième"; ObjectID = "Ird-QJ-pTq"; */
+"Ird-QJ-pTq.text" = "Troisième";
+
+/* Class = "UILabel"; text = "Résultats"; ObjectID = "Jpv-EN-deA"; */
+"Jpv-EN-deA.text" = "Résultats";
+
+/* Class = "UILabel"; text = "que je"; ObjectID = "Liq-av-Ezu"; */
+"Liq-av-Ezu.text" = "que je";
+
+/* Class = "UILabel"; text = "que tu"; ObjectID = "MWm-0t-fFk"; */
+"MWm-0t-fFk.text" = "que tu";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "MYF-4n-nid"; */
+"MYF-4n-nid.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "✔︎"; ObjectID = "Pog-f3-XG4"; */
+"Pog-f3-XG4.normalTitle" = "✔︎";
+
+/* Class = "UIButton"; normalTitle = "Continuare"; ObjectID = "RBi-iG-ENh"; */
+"RBi-iG-ENh.normalTitle" = "Continue";
+
+/* Class = "UIButton"; normalTitle = "Altro!"; ObjectID = "ROu-X5-Ly0"; */
+"ROu-X5-Ly0.normalTitle" = "Next!";
+
+/* Class = "UIButton"; normalTitle = "Cancellare tutte le statistiche"; ObjectID = "RiC-G7-28W"; */
+"RiC-G7-28W.normalTitle" = "Erase all statistics";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "S5t-kx-wgp"; */
+"S5t-kx-wgp.text" = "Title";
+
+/* Class = "UILabel"; text = "LISTA DEI VERBI"; ObjectID = "ScX-7Q-aGo"; */
+"ScX-7Q-aGo.text" = "VERBS LIST";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "TjH-Jc-B73"; */
+"TjH-Jc-B73.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "✔︎"; ObjectID = "X1f-KL-LtW"; */
+"X1f-KL-LtW.normalTitle" = "✔︎";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "XdN-u6-ZMN"; */
+"XdN-u6-ZMN.text" = "Title";
+
+/* Class = "UILabel"; text = "Risultati del quiz"; ObjectID = "ZSx-jA-qpg"; */
+"ZSx-jA-qpg.text" = "Quiz Results";
+
+/* Class = "UIBarButtonItem"; title = "OK"; ObjectID = "aPQ-b5-XMj"; */
+"aPQ-b5-XMj.title" = "OK";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "aVI-bU-vB0"; */
+"aVI-bU-vB0.text" = "Label";
+
+/* Class = "UILabel"; text = "qu'ils"; ObjectID = "bD5-8o-bHT"; */
+"bD5-8o-bHT.text" = "qu'ils";
+
+/* Class = "UILabel"; text = "sixième"; ObjectID = "bqF-Hs-eKk"; */
+"bqF-Hs-eKk.text" = "sixième";
+
+/* Class = "UILabel"; text = "STATISTICHE"; ObjectID = "cqH-V0-2qy"; */
+"cqH-V0-2qy.text" = "STATISTICS";
+
+/* Class = "UILabel"; text = "qu'ils"; ObjectID = "dtd-oM-Pai"; */
+"dtd-oM-Pai.text" = "qu'ils";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "e62-BO-8s4"; */
+"e62-BO-8s4.text" = "Title";
+
+/* Class = "UILabel"; text = "Les Temps"; ObjectID = "fIT-7r-8PA"; */
+"fIT-7r-8PA.text" = "Les Temps";
+
+/* Class = "UILabel"; text = "Parfait!"; ObjectID = "hda-jk-KAL"; */
+"hda-jk-KAL.text" = "Parfait!";
+
+/* Class = "UILabel"; text = "quatrième"; ObjectID = "hk1-IV-ok2"; */
+"hk1-IV-ok2.text" = "quatrième";
+
+/* Class = "UILabel"; text = "QUIZ CONTESTUALE"; ObjectID = "idI-s0-BO1"; */
+"idI-s0-BO1.text" = "CONTEXTUAL QUIZ";
+
+/* Class = "UIButton"; normalTitle = "Tempi scelti"; ObjectID = "ip4-ey-hWI"; */
+"ip4-ey-hWI.normalTitle" = "Tenses chosen";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jX2-Bx-9vD"; */
+"jX2-Bx-9vD.text" = "Label";
+
+/* Class = "UILabel"; text = "Mode"; ObjectID = "jww-Vv-cYO"; */
+"jww-Vv-cYO.text" = "Mode";
+
+/* Class = "UILabel"; text = "che loro"; ObjectID = "k3I-S1-AKU"; */
+"k3I-S1-AKU.text" = "che loro";
+
+/* Class = "UIButton"; normalTitle = "Scegli il verbo"; ObjectID = "l8L-H2-kXI"; */
+"l8L-H2-kXI.normalTitle" = "Choose verb";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "lHy-YT-so4"; */
+"lHy-YT-so4.text" = "Label";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "nMD-W6-RVz"; */
+"nMD-W6-RVz.text" = "Title";
+
+/* Class = "UILabel"; text = "che loro"; ObjectID = "nRg-UO-v85"; */
+"nRg-UO-v85.text" = "che loro";
+
+/* Class = "UILabel"; text = "Le sue scelte per il Quiz"; ObjectID = "oyo-TD-V8Z"; */
+"oyo-TD-V8Z.text" = "Your choices for the Quiz";
+
+/* Class = "UIBarButtonItem"; title = "OK"; ObjectID = "qi3-np-XcY"; */
+"qi3-np-XcY.title" = "OK";
+
+/* Class = "UIButton"; normalTitle = "Scegli il verbo"; ObjectID = "rZU-0K-Mmo"; */
+"rZU-0K-Mmo.normalTitle" = "Choose verb";
+
+/* Class = "UIButton"; normalTitle = "Altro!"; ObjectID = "tfY-II-Gdh"; */
+"tfY-II-Gdh.normalTitle" = "Next!";
+
+/* Class = "UILabel"; text = "Temps"; ObjectID = "tjh-Qr-gIn"; */
+"tjh-Qr-gIn.text" = "Temps";
+
+/* Class = "UIButton"; normalTitle = "Finito"; ObjectID = "v4Q-fe-HXC"; */
+"v4Q-fe-HXC.normalTitle" = "Finished";
+
+/* Class = "UILabel"; text = "Vos choix pour le Quiz"; ObjectID = "vBl-Mb-TUi"; */
+"vBl-Mb-TUi.text" = "Vos choix pour le Quiz";
+
+/* Class = "UILabel"; text = "Temps"; ObjectID = "vU4-P8-aES"; */
+"vU4-P8-aES.text" = "Temps";
+
+/* Class = "UILabel"; text = "Premier"; ObjectID = "wje-H5-coK"; */
+"wje-H5-coK.text" = "Premier";
+
+/* Class = "UILabel"; text = "Apps"; ObjectID = "wjk-Ac-GaL"; */
+"wjk-Ac-GaL.text" = "Apps";
+
+/* Class = "UIButton"; normalTitle = "Terminé"; ObjectID = "ww0-R2-XhQ"; */
+"ww0-R2-XhQ.normalTitle" = "Terminé";
+
+/* Class = "UILabel"; text = "Verbe"; ObjectID = "y6q-V8-8gX"; */
+"y6q-V8-8gX.text" = "Verbe";
+
+/* Class = "UIButton"; normalTitle = "Tempi scelti"; ObjectID = "yj6-La-jfc"; */
+"yj6-La-jfc.normalTitle" = "Tenses chosen";
+
+/* Class = "UILabel"; text = "Infinitif"; ObjectID = "zai-TP-YkW"; */
+"zai-TP-YkW.text" = "Infinitif";

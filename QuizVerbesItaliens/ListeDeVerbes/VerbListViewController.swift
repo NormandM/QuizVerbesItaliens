@@ -37,7 +37,7 @@ class VerbListViewController: UIViewController, UITableViewDataSource, UITableVi
         listeVerbe = listeVerbe.sorted(by: alpha)
     }
     override func viewWillAppear(_ animated: Bool) {
-        self.title = "Scegliere un verbo"
+        self.title = "Scegliere un verbo".localized
     }
     // Setting up the searchBar active: Ttrue/False
     func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {

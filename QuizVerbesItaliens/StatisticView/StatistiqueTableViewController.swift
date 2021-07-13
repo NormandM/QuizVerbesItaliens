@@ -16,16 +16,19 @@ class StatistiqueTableViewController: UITableViewController {
     let modeAndTemp = ModeAndTemp()
     lazy var modes = modeAndTemp.mode
     lazy var temps = modeAndTemp.temp
+    var numberOfVerbs = 0
+    var selectedMode = ""
+    var selectedTemp = ""
+    var listeVerbe: [String] = []
     var itemFinal: [[String]] = []
     let dataController = DataController.sharedInstance
     let fonts = FontsAndConstraintsOptions()
-    var  arrayFinal = [[(Int,Int,Int, String)]]()
-    var arrayStringFinal = [[String]]()
     let managedObjectContext = DataController.sharedInstance.managedObjectContext
     lazy var fetchRequest: NSFetchRequest<NSFetchRequestResult> = {
         let request  = NSFetchRequest<NSFetchRequestResult>(entityName: ItemVerbe.identifier)
         return request
     }()
+
     var items: [ItemVerbe] = []
     override func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
         let header: UITableViewHeaderFooterView = view as! UITableViewHeaderFooterView //recast your view as a UITableViewHeaderFooterView
@@ -36,10 +39,10 @@ class StatistiqueTableViewController: UITableViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        fetchingData()
+        
     }
     override func viewDidAppear(_ animated: Bool) {
-        self.title = "Statistiche"
+        self.title = "Statistiche".localized
         remiseAZeroButton.layer.cornerRadius = remiseAZeroButton.frame.height / 2.0
         remiseAZeroButton.titleLabel?.font = fonts.normalBoldFont
     }
@@ -61,17 +64,50 @@ class StatistiqueTableViewController: UITableViewController {
         cell.labelForCell.font = fonts.normalItaliqueBoldFont
         cell.labelForCell.textAlignment = .center
         cell.labelForCell.numberOfLines = 0
+        cell.labelForCell.lineBreakMode = .byWordWrapping
+        let temp = temps[indexPath.section][indexPath.row]
+        let mode = modes[indexPath.section]
+        let resultArray = FetchResult.fetchingData(selectedMode: mode, selectedTemp: temp, listeVerbe: listeVerbe)
+        let result = FetchResult.resultPertermp(resultArray: resultArray.0)
         cell.labelForCell.text = """
         \(temps[indexPath.section][indexPath.row]):
-        \(arrayStringFinal[indexPath.section][indexPath.row])
+        \(result.3)
         """
-        let entrieBon = Double(arrayFinal[indexPath.section][indexPath.row].0)
-        let entrieAide = Double(arrayFinal[indexPath.section][indexPath.row].1)
-        let entrieMal = Double(arrayFinal[indexPath.section][indexPath.row].2)
-        let pieChartSetUp = PieChartSetUp(entrieBon: entrieBon, entrieMal: entrieMal, entrieAide: entrieAide, pieChartView: cell.viewForCell )
+        let goodResult = Double(result.0)
+        let badResult = Double(result.1)
+        let goodResultWithHint = Double(result.2)
+        let pieChartSetUp = PieChartSetUp(entrieBon: goodResult, entrieMal: badResult, entrieAide: goodResultWithHint, pieChartView: cell.viewForCell )
         cell.viewForCell.data = pieChartSetUp.piechartData
         return cell
     }
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        selectedMode = modes[indexPath.section]
+        selectedTemp = temps[indexPath.section][indexPath.row]
+        numberOfVerbs = numberOfVerbsForSelection(indexPath: indexPath)
+        if numberOfVerbs > 0 {
+            performSegue(withIdentifier: "showDetailStat", sender: nil)
+        }
+        
+    }
+    override func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
+        numberOfVerbs = numberOfVerbsForSelection(indexPath: indexPath)
+        showAlertInfoVerbs()
+    }
+
+    // MARK: - Navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showDetailStat"{
+            let controller = segue.destination as! DetailStatTableViewController
+            let backItem = UIBarButtonItem()
+            backItem.title = ""
+            navigationItem.backBarButtonItem = backItem
+            controller.selectedMode = selectedMode
+            controller.selectedTemp = selectedTemp
+            controller.listeVerbe = listeVerbe
+        }
+
+    }
+
     //////////////////////////////////////
     // MARK: All Buttons and actions
     //////////////////////////////////////
@@ -87,56 +123,29 @@ class StatistiqueTableViewController: UITableViewController {
         } catch {
             // Error Handl
         }
-        fetchingData()
         tableView.reloadData()
     }
     ////////////////////////////////////////////
     // MARK: ALL FUNCTIONS
     ///////////////////////////////////////////
-    func fetchingData() {
-        var resultArray = [(Int, Int, Int, String)]()
-        var resultStringArray = [String]()
-        var n = 0
+    func numberOfVerbsForSelection(indexPath: IndexPath) -> Int{
+        selectedMode = modes[indexPath.section]
+        selectedTemp = temps[indexPath.section][indexPath.row]
+        let resultArray = FetchResult.fetchingData(selectedMode: selectedMode, selectedTemp: selectedTemp, listeVerbe: listeVerbe)
+        let tuppleOfArrays = FetchResult.resultPerVerb(resultArray: resultArray.1)
+        print(tuppleOfArrays.1)
+        numberOfVerbs = tuppleOfArrays.1.count
+        return numberOfVerbs
+    }
 
-        for mode in modes{
-            for temp in temps[n]{
-                let result = FetchRequest.evaluate(modeVerb: mode.lowercased().capitalizingFirstLetter(), tempsVerb: temp)
-                resultArray.append(result)
-                resultStringArray.append(result.3)
-            }
-            n = n + 1
-        }
-        var indexResult = 0
-        var arrayIndcatif = [(Int, Int, Int, String)]()
-        var arrayStringIndicatif = [String]()
-        var arraySubjonctif = [(Int, Int, Int, String)]()
-        var arrayStringSubjonctif = [String]()
-        var arrayConditionnel = [(Int, Int, Int, String)]()
-        var arrayStringConditionnel = [String]()
-        var arrayImpératif = [(Int, Int, Int, String)]()
-        var arrayStringImpératif = [String]()
-        for _ in temps[0]{
-            arrayIndcatif.append(resultArray[indexResult])
-            arrayStringIndicatif.append(resultStringArray[indexResult])
-            indexResult = indexResult + 1
-        }
-        for _ in temps[1] {
-            arraySubjonctif.append(resultArray[indexResult])
-            arrayStringSubjonctif.append(resultStringArray[indexResult])
-            indexResult = indexResult + 1
-            
-        }
-        for _ in temps[2] {
-            arrayConditionnel.append(resultArray[indexResult])
-            arrayStringConditionnel.append(resultStringArray[indexResult])
-            indexResult = indexResult + 1
-        }
-        for _ in temps[3] {
-            arrayImpératif.append(resultArray[indexResult])
-            arrayStringImpératif.append(resultStringArray[indexResult])
-            indexResult = indexResult + 1
-        }
-        arrayFinal = [arrayIndcatif, arraySubjonctif, arrayConditionnel, arrayImpératif]
-        arrayStringFinal = [arrayStringIndicatif, arrayStringSubjonctif, arrayStringConditionnel, arrayStringImpératif]
+    func showAlertInfoVerbs () {
+        let formatedString = "Numero di verbi studiati\nper questo tempo verbale %d".localized
+//        let alertController = UIAlertController(title: "Numero di verbi studiati\nper questo tempo verbale: \(numberOfVerbs)".localized , message: "Fare clic su Grafico per vedere più dettagli".localized, preferredStyle: .alert)
+        let alertController = UIAlertController(title: String(format: formatedString, numberOfVerbs) , message: "Fare clic su Grafico per vedere più dettagli".localized, preferredStyle: .alert)
+        alertController.popoverPresentationController?.sourceView = self.view
+        alertController.popoverPresentationController?.sourceRect = tableView.rectForHeader(inSection: 1)
+        let okAction = UIAlertAction(title: "OK".localized, style: .cancel, handler: nil)
+        alertController.addAction(okAction)
+        present(alertController, animated: true, completion: nil)
     }
 }

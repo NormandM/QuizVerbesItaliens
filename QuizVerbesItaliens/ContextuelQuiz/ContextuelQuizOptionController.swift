@@ -26,7 +26,7 @@ class ContextuelQuizOptionController: UITableViewController {
         header.alpha = 1.0 //make the header transparent
     }
     override func viewWillAppear(_ animated: Bool) {
-        self.title = "Scegliere i tempi"
+        self.title = "Scegliere i tempi".localized
     }
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
@@ -95,10 +95,10 @@ class ContextuelQuizOptionController: UITableViewController {
         }
     }
     func showAlert () {
-        let alertController = UIAlertController(title: "È necessario scegliere almeno un tempo verbale", message: nil, preferredStyle: .alert)
+        let alertController = UIAlertController(title: "È necessario scegliere almeno un tempo verbale".localized, message: nil, preferredStyle: .alert)
         alertController.popoverPresentationController?.sourceView = self.view
         alertController.popoverPresentationController?.sourceRect = tableView.rectForHeader(inSection: 1)
-        let okAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+        let okAction = UIAlertAction(title: "OK".localized, style: .cancel, handler: nil)
         alertController.addAction(okAction)
         present(alertController, animated: true, completion: nil)
     }

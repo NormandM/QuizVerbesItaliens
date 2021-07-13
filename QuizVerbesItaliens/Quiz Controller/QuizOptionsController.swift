@@ -32,7 +32,7 @@ class QuizOptionsController: UITableViewController {
         header.alpha = 1.0 //make the header transparent
     }
     override func viewWillAppear(_ animated: Bool) {
-        self.title = "Scegliere i tempi"
+        self.title = "Scegliere i tempi".localized
         tableView.estimatedRowHeight = 100
         tableView.rowHeight = UITableView.automaticDimension
     }
@@ -113,17 +113,17 @@ class QuizOptionsController: UITableViewController {
         }
     }
     func showAlertNoVerbChosen () {
-        let alertController = UIAlertController(title: "È necessario scegliere almeno un tempo verbale", message: nil, preferredStyle: .alert)
+        let alertController = UIAlertController(title: "È necessario scegliere almeno un tempo verbale".localized, message: nil, preferredStyle: .alert)
         alertController.popoverPresentationController?.sourceView = self.view
         alertController.popoverPresentationController?.sourceRect = tableView.rectForHeader(inSection: 1)
-        let okAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+        let okAction = UIAlertAction(title: "OK".localized, style: .cancel, handler: nil)
         alertController.addAction(okAction)
         present(alertController, animated: true, completion: nil)
     }
     func showAlertChoisirOption () {
-        let alert = UIAlertController(title: "Verbi Italiani Quiz", message: "Scegli un’opzione", preferredStyle: UIAlertController.Style.alert)
-        alert.addAction(UIAlertAction(title: "Tutti i verbi", style: UIAlertAction.Style.default, handler: {(alert: UIAlertAction!) in self.tousLesverbesAction()}))
-        alert.addAction(UIAlertAction(title: "Scegliere i verbi", style: UIAlertAction.Style.default, handler: {(alert: UIAlertAction!) in self.specifierUnVerbe()}))
+        let alert = UIAlertController(title: "Verbi Italiani Quiz".localized, message: "Scegli un’opzione".localized, preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "Tutti i verbi".localized, style: UIAlertAction.Style.default, handler: {(alert: UIAlertAction!) in self.tousLesverbesAction()}))
+        alert.addAction(UIAlertAction(title: "Scegliere i verbi".localized, style: UIAlertAction.Style.default, handler: {(alert: UIAlertAction!) in self.specifierUnVerbe()}))
         self.present(alert, animated: true, completion: nil)
     }
     func tousLesverbesAction() {

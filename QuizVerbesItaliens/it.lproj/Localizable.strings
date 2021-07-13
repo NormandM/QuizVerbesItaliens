@@ -1,0 +1,42 @@
+/*
+  Localizable.strings
+  QuizVerbesItaliens
+
+  Created by Normand Martin on 2021-07-06.
+  Copyright © 2021 Normand Martin. All rights reserved.
+*/
+"Scegliere un'opzione" = "Scegliere un'opzione";
+"Scegliere un verbo" = "Scegliere un verbo";
+"Scegliere il tempo" = "Scegliere il tempo";
+"Verbo coniugato" = "Verbo coniugato";
+"Scegliere i tempi" = "Scegliere i tempi";
+"È necessario scegliere almeno un tempo verbale" = "È necessario scegliere almeno un tempo verbale";
+"OK" = "OK";
+"Verbi Italiani Quiz" = "Verbi Italiani Quiz";
+"Scegli un’opzione" = "Scegli un’opzione";
+"Tutti i verbi" = "Tutti i verbi";
+"Scegliere i verbi" = "Scegliere i verbi";
+"Scegliere di 1 a 10 verbi" = "Scegliere di 1 a 10 verbi";
+"Si deve scegliere almeno 1 verbo e un massimo di 10" = "Si deve scegliere almeno 1 verbo e un massimo di 10";
+"Non esiste alcun imperativo per questi verbi:" = "Non esiste alcun imperativo per questi verbi:";
+"potere, dovere, piovere. Fare un'altra scelta" = "potere, dovere, piovere. Fare un'altra scelta";
+"Scegli il verbo" = "Scegli il verbo";
+"Perfetto!" = "Perfetto!";
+"%@ Molto Bene!" = "%@ Molto Bene!";
+"%@ Bene!" = "%@ Bene!";
+"%@ Prova di nuovo!" = "%@ Prova di nuovo!";
+"Coniuga il verbo" = "Coniuga il verbo";
+"Ben fatto!" = "Ben fatto!";
+"Sbagliato..." = "Sbagliato...";
+"Le sue scelte per il Quiz" = "Le sue scelte per il Quiz";
+"I Tempi" = "I Tempi";
+"Corretto: %@" = "Corretto: %@";
+"Con l'aiuto: %@" = "Con l'aiuto: %@";
+"Sbaliato: %@" =  "Sbaliato: %@";
+"Risultato:\n%@" = "Risultato:\n%@";
+"Statistiche" = "Statistiche";
+"Numero di verbi studiati\nper questo tempo verbale %d" = "Numero di verbi studiati\nper questo tempo verbale %d";
+"Fare clic su Grafico per vedere più dettagli" = "Fare clic su Grafico per vedere più dettagli";
+"Corretto" = "Corretto";
+"Sbaliato" = "Sbaliato";
+"Con l'aiuto" = "Con l'aiuto";

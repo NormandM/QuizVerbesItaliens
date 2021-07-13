@@ -1,0 +1,42 @@
+/* 
+  Localizable.strings
+  QuizVerbesItaliens
+
+  Created by Normand Martin on 2021-07-06.
+  Copyright © 2021 Normand Martin. All rights reserved.
+*/
+"Scegliere un'opzione" = "Elija una opcion";
+"Scegliere un verbo" = "Elija una opcion";
+"Scegliere il tempo" = "Escoja el tiempo verbal";
+"Verbo coniugato" = "Verbo conjugado";
+"Scegliere i tempi" = "Escoja los tiempos";
+"È necessario scegliere almeno un tempo verbale" = "Elija por lo menos un tiempo verbal";
+"OK" = "Listo";
+"Verbi Italiani Quiz" = "Prueba verbos italianos";
+"Scegli un’opzione" = "Elija una opcion";
+"Tutti i verbi" = "Todos los verbos";
+"Scegliere i verbi" = "Elija los verbos";
+"Scegliere di 1 a 10 verbi" = "Escoger de 1 a 10 verbos";
+"Si deve scegliere almeno 1 verbo e un massimo di 10" = "Debe elegir al menos 1 verbo y un máximo de 10";
+"Non esiste alcun imperativo per questi verbi:" = "No hay imperativo para estos verbos:";
+"potere, dovere, piovere. Fare un'altra scelta" = "potere, dovere, piovere. Haga otra selección";
+"Scegli il verbo" = "Escoja un verbo";
+"Perfetto!" = "¡Perfecto!";
+"%@ Molto Bene!" = "%@ ¡Muy bien!";
+"%@ Bene!" = "%@ ¡Bien!";
+"%@ Prova di nuovo!" = "%@ Intentar otra vez";
+"Coniuga il verbo" = "Conjugare el verbo";
+"Ben fatto!" = "¡Bien hecho!";
+"Sbagliato..." = "Incorrecto";
+"Le sue scelte per il Quiz" = "Su selección para la prueba";
+"I Tempi" = "Los tempos verbales";
+"Corretto: %@" = "Correcto: %@";
+"Con l'aiuto: %@" = "Con ayuda: %@";
+"Sbaliato: %@" =  "Incorrecto: %@";
+"Risultato:\n%@" = "Resultados:\n%@";
+"Statistiche" = "Estadísticas";
+"Numero di verbi studiati\nper questo tempo verbale %d" = "Número de verbos estudiados\npor este tiempo %d";
+"Fare clic su Grafico per vedere più dettagli" = "Haga clic en el Gráfico para ver más detalles";
+"Corretto" = "Correcto";
+"Sbaliato" = "Incorrecto";
+"Con l'aiuto" = "Con ayuda";
