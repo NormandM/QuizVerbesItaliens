@@ -27,7 +27,6 @@
 		8E48A2362693ABE400545F86 /* chime_clickbell_octave_up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E48A2352693ABE400545F86 /* chime_clickbell_octave_up.mp3 */; };
 		8E48A23B2693ABF100545F86 /* etc_error_drum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E48A23A2693ABF100545F86 /* etc_error_drum.mp3 */; };
 		8E48A2432694DA7C00545F86 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E48A2422694DA7C00545F86 /* SoundPlayer.swift */; };
-		8E48A24B2694F24300545F86 /* extensionLocalisation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E48A24A2694F24300545F86 /* extensionLocalisation.swift */; };
 		8E548DD421EA7CA20046C963 /* ContextuelItalien.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E548DD321EA7CA20046C963 /* ContextuelItalien.plist */; };
 		8E548FC021EE933B0046C963 /* FrenchToEnglish.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E548FBF21EE933B0046C963 /* FrenchToEnglish.plist */; };
 		8E548FC221F3CB910046C963 /* FontsAndConstraintsOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E548FC121F3CB910046C963 /* FontsAndConstraintsOptions.swift */; };
@@ -50,6 +49,7 @@
 		8E7F05EE1C2F2C36003A6F21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E7F05EC1C2F2C36003A6F21 /* LaunchScreen.storyboard */; };
 		8E7F05F91C2F2C38003A6F21 /* QuizVerbesItaliensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F05F81C2F2C38003A6F21 /* QuizVerbesItaliensTests.swift */; };
 		8E7F06041C2F2C39003A6F21 /* QuizVerbesItaliensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F06031C2F2C39003A6F21 /* QuizVerbesItaliensUITests.swift */; };
+		8E7FC6A726B5D56200726939 /* extensionLocalisation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FC6A626B5D56200726939 /* extensionLocalisation.swift */; };
 		8E869BBA1FAFAC360067E835 /* LogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E869BB91FAFAC360067E835 /* LogoViewController.swift */; };
 		8E869BC41FAFB4810067E835 /* Acoustic Trio.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8E869BC31FAFB4810067E835 /* Acoustic Trio.wav */; };
 		8E869BC61FAFB4850067E835 /* Error Warning.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8E869BC51FAFB4850067E835 /* Error Warning.wav */; };
@@ -103,7 +103,6 @@
 		8E175BB726826DAB009D627D /* FetchRequestForVerb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchRequestForVerb.swift; sourceTree = "<group>"; };
 		8E175BC126826FB4009D627D /* DetailStatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailStatTableViewController.swift; sourceTree = "<group>"; };
 		8E175BC626827A80009D627D /* FirstStatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstStatTableViewCell.swift; sourceTree = "<group>"; };
-		8E1CA7FD269A2685004A08D4 /* QuizVerbesItaliensFLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = QuizVerbesItaliensFLUITests.xctest; path = "/Users/normandmartin/Desktop/IOSProjects/QuizVerbesItaliens/build/Debug-iphoneos/QuizVerbesItaliensFLUITests.xctest"; sourceTree = "<absolute>"; };
 		8E1D3DDE1EB51F6800482BC9 /* OptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
 		8E1D3DE01EB51F7200482BC9 /* VerbListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerbListViewController.swift; sourceTree = "<group>"; };
 		8E1D3DE21EB51F7E00482BC9 /* tempsDeVerbeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tempsDeVerbeTableViewController.swift; sourceTree = "<group>"; };
@@ -118,7 +117,6 @@
 		8E48A2352693ABE400545F86 /* chime_clickbell_octave_up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chime_clickbell_octave_up.mp3; sourceTree = "<group>"; };
 		8E48A23A2693ABF100545F86 /* etc_error_drum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = etc_error_drum.mp3; sourceTree = "<group>"; };
 		8E48A2422694DA7C00545F86 /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
-		8E48A24A2694F24300545F86 /* extensionLocalisation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionLocalisation.swift; sourceTree = "<group>"; };
 		8E548DD321EA7CA20046C963 /* ContextuelItalien.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ContextuelItalien.plist; sourceTree = "<group>"; };
 		8E548FBF21EE933B0046C963 /* FrenchToEnglish.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FrenchToEnglish.plist; sourceTree = "<group>"; };
 		8E548FC121F3CB910046C963 /* FontsAndConstraintsOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontsAndConstraintsOptions.swift; sourceTree = "<group>"; };
@@ -150,6 +148,7 @@
 		8E7F05FF1C2F2C39003A6F21 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7F06031C2F2C39003A6F21 /* QuizVerbesItaliensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuizVerbesItaliensUITests.swift; path = QuizVerbesItaliensUITests/QuizVerbesItaliensUITests.swift; sourceTree = SOURCE_ROOT; };
 		8E7F06051C2F2C39003A6F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = QuizVerbesItaliensUITests/Info.plist; sourceTree = SOURCE_ROOT; };
+		8E7FC6A626B5D56200726939 /* extensionLocalisation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensionLocalisation.swift; sourceTree = "<group>"; };
 		8E869BB91FAFAC360067E835 /* LogoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoViewController.swift; sourceTree = "<group>"; };
 		8E869BC31FAFB4810067E835 /* Acoustic Trio.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Acoustic Trio.wav"; sourceTree = "<group>"; };
 		8E869BC51FAFB4850067E835 /* Error Warning.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Error Warning.wav"; sourceTree = "<group>"; };
@@ -179,6 +178,7 @@
 		8E9858C026960ED6001085B2 /* en-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-CA"; path = "en-CA.lproj/Main.strings"; sourceTree = "<group>"; };
 		8E9858C126960ED6001085B2 /* en-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-CA"; path = "en-CA.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		8E9858C226960ED6001085B2 /* en-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-CA"; path = "en-CA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		8E9F9BCE26ADDB3E00579F2F /* QuizVerbesItaliensFLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizVerbesItaliensFLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EAE0D3B2220A17F000E90E8 /* VerbInfinitif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerbInfinitif.swift; sourceTree = "<group>"; };
 		8EAE0D3D2220A18C000E90E8 /* ModeAndTempStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeAndTempStruct.swift; sourceTree = "<group>"; };
 		8EAE0D3F2220A1FF000E90E8 /* Verb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Verb.swift; sourceTree = "<group>"; };
@@ -260,7 +260,6 @@
 				8E7F05EC1C2F2C36003A6F21 /* LaunchScreen.storyboard */,
 				8E869BB91FAFAC360067E835 /* LogoViewController.swift */,
 				8E1D3DDE1EB51F6800482BC9 /* OptionsViewController.swift */,
-				8E48A24A2694F24300545F86 /* extensionLocalisation.swift */,
 			);
 			path = IntroductionControllers;
 			sourceTree = "<group>";
@@ -285,8 +284,8 @@
 			children = (
 				8E175BC126826FB4009D627D /* DetailStatTableViewController.swift */,
 				8E1D3DEC1EB51FB200482BC9 /* StatistiqueTableViewController.swift */,
-				8E175BC626827A80009D627D /* FirstStatTableViewCell.swift */,
 				8E54904021F4F4F60046C963 /* StatistiqueViewCell.swift */,
+				8E175BC626827A80009D627D /* FirstStatTableViewCell.swift */,
 				8E54904221F4F4FC0046C963 /* PieChartSetUp.swift */,
 				8E175BB726826DAB009D627D /* FetchRequestForVerb.swift */,
 				8EC1D8D3268BA55200D011E7 /* FetchResultFoeOneTemp.swift */,
@@ -325,6 +324,7 @@
 				8E7F05E01C2F2C35003A6F21 /* QuizVerbesItaliens.app */,
 				8E7F05F41C2F2C37003A6F21 /* Tests.xctest */,
 				8E7F05FF1C2F2C39003A6F21 /* Tests.xctest */,
+				8E9F9BCE26ADDB3E00579F2F /* QuizVerbesItaliensFLUITests.xctest */,
 			);
 			name = Products;
 			path = ..;
@@ -339,6 +339,7 @@
 				8E54906621F807B40046C963 /* ItalianVerbsList.plist */,
 				8E54904421F53D940046C963 /* DictAvoirEtre.plist */,
 				8E548DD321EA7CA20046C963 /* ContextuelItalien.plist */,
+				8E7FC6A626B5D56200726939 /* extensionLocalisation.swift */,
 				8E96046B2694FC7F002CFE68 /* Localizable.strings */,
 				8E548FC321F3CBB30046C963 /* IntroductionControllers */,
 				8E548FC521F3CC300046C963 /* ListeDeVerbes */,
@@ -445,7 +446,7 @@
 			);
 			name = QuizVerbesItaliensFLUITests;
 			productName = QuizVerbesItaliensFLUITests;
-			productReference = 8E1CA7FD269A2685004A08D4 /* QuizVerbesItaliensFLUITests.xctest */;
+			productReference = 8E9F9BCE26ADDB3E00579F2F /* QuizVerbesItaliensFLUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		8E7F05DF1C2F2C35003A6F21 /* QuizVerbesItaliens */ = {
@@ -739,6 +740,7 @@
 				8EAE0D3C2220A17F000E90E8 /* VerbInfinitif.swift in Sources */,
 				8E175BB826826DAB009D627D /* FetchRequestForVerb.swift in Sources */,
 				8E175BC726827A80009D627D /* FirstStatTableViewCell.swift in Sources */,
+				8E7FC6A726B5D56200726939 /* extensionLocalisation.swift in Sources */,
 				8E548FC821F3CF630046C963 /* ScreenDimension.swift in Sources */,
 				8E1D3DE31EB51F7E00482BC9 /* tempsDeVerbeTableViewController.swift in Sources */,
 				8E54904321F4F4FC0046C963 /* PieChartSetUp.swift in Sources */,
@@ -756,7 +758,6 @@
 				8E54903D21F4DA590046C963 /* UnwindSegueChoice.swift in Sources */,
 				8EC1D8D4268BA55200D011E7 /* FetchResultFoeOneTemp.swift in Sources */,
 				8E1D3DDF1EB51F6800482BC9 /* OptionsViewController.swift in Sources */,
-				8E48A24B2694F24300545F86 /* extensionLocalisation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1019,7 +1020,7 @@
 				INFOPLIST_FILE = QuizVerbesItaliens/Info.plist;
 				"INSTALL_PATH[sdk=*]" = "$(LOCAL_APPS_DIR)";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.3;
+				MARKETING_VERSION = 3.5;
 				PRODUCT_BUNDLE_IDENTIFIER = NM.ItalianVerbsQuiz;
 				PRODUCT_NAME = QuizVerbesItaliens;
 				PROVISIONING_PROFILE = "";
@@ -1044,7 +1045,7 @@
 				INFOPLIST_FILE = QuizVerbesItaliens/Info.plist;
 				"INSTALL_PATH[sdk=*]" = "$(LOCAL_APPS_DIR)";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.3;
+				MARKETING_VERSION = 3.5;
 				PRODUCT_BUNDLE_IDENTIFIER = NM.ItalianVerbsQuiz;
 				PRODUCT_NAME = QuizVerbesItaliens;
 				PROVISIONING_PROFILE = "";

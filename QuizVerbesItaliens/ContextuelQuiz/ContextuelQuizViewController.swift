@@ -22,6 +22,10 @@ class ContextuelQuizViewController: UIViewController, NSFetchedResultsController
     @IBOutlet weak var checkButton: UIButton!
     @IBOutlet weak var verbResponseButton: UIButton!
     @IBOutlet var verbHintButton: [UIButton]!
+    
+    @IBOutlet weak var tempsChoisiConstraint: NSLayoutConstraint!
+    @IBOutlet weak var tempConstraint: NSLayoutConstraint!
+    @IBOutlet weak var modeConstraint: NSLayoutConstraint!
     var soundURL: NSURL?
     var soundID:SystemSoundID = 0
     var textFieldIsActivated = false
@@ -124,7 +128,23 @@ class ContextuelQuizViewController: UIViewController, NSFetchedResultsController
         UIView.beginAnimations( "animateView", context: nil)
         UIView.setAnimationBeginsFromCurrentState(true)
         UIView.setAnimationDuration(movementDuration )
-        self.view.frame = self.view.frame.offsetBy(dx: 0,  dy: movement)
+        let newRatio = movement/view.frame.height
+        if up{
+            self.view.frame = self.view.frame.offsetBy(dx: 0,  dy: movement)
+            print(-newRatio)
+            print(view.frame.height)
+
+            modeConstraint.constant = -newRatio * view.frame.height
+            tempConstraint.constant = -newRatio * view.frame.height
+            tempsChoisiConstraint.constant = -newRatio * view.frame.height
+            textFieldIsActivated = true
+        }else{
+            self.view.frame = self.view.frame.offsetBy(dx: 0,  dy: -movement)
+            modeConstraint.constant = 0.35
+            tempConstraint.constant = 0.45
+            tempsChoisiConstraint.constant = 0.6
+            textFieldIsActivated = false
+        }
         UIView.commitAnimations()
     }
     @objc func keyBoardWillChange(notification: Notification) {
@@ -134,23 +154,26 @@ class ContextuelQuizViewController: UIViewController, NSFetchedResultsController
         }
         if notification.name == UIResponder.keyboardWillShowNotification && !textFieldIsActivated{
             textFieldIsActivated = true
-            animateViewMoving(true, moveValue: keyBoardRec.height - distanceFromTextField + 5)
+            let moveValue = keyBoardRec.height - distanceFromTextField + 5
+            animateViewMoving(true, moveValue: moveValue)
+            if moveValue > 100 {tempsEtverbesChoisiButton.isHidden = true}
         }else if notification.name == UIResponder.keyboardWillHideNotification{
             textFieldIsActivated = false
-            animateViewMoving(true, moveValue: distanceFromTextField - keyBoardRec.height - 5)
+            animateViewMoving(false, moveValue: distanceFromTextField - keyBoardRec.height - 5)
+            tempsEtverbesChoisiButton.isHidden = false
         }
     }
     @objc func textFieldShouldReturn(_ reponse: UITextField) -> Bool {
-        verbTextField.resignFirstResponder()
         userRespone = verbTextField.text!
         afterUserResponse()
+        verbTextField.resignFirstResponder()
         checkButton.setTitleColor(UIColor.gray, for: .disabled)
         suggestionButton.isEnabled = false
         suggestionButton.backgroundColor = UIColor(red: 178/255, green: 208/255, blue: 198/255, alpha: 1.0)
         verbTextField.isHidden = true
         suggestionButton.isEnabled = false
         suggestionButton.backgroundColor = UIColor(red: 178/255, green: 208/255, blue: 198/255, alpha: 1.0)
-        verbResponseButton.isHidden = true
+        verbResponseButton.isHidden = false
         checkButton.isHidden = true
         return true
     }

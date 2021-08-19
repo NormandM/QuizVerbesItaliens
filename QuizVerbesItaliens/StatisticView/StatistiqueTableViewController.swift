@@ -133,14 +133,12 @@ class StatistiqueTableViewController: UITableViewController {
         selectedTemp = temps[indexPath.section][indexPath.row]
         let resultArray = FetchResult.fetchingData(selectedMode: selectedMode, selectedTemp: selectedTemp, listeVerbe: listeVerbe)
         let tuppleOfArrays = FetchResult.resultPerVerb(resultArray: resultArray.1)
-        print(tuppleOfArrays.1)
         numberOfVerbs = tuppleOfArrays.1.count
         return numberOfVerbs
     }
 
     func showAlertInfoVerbs () {
         let formatedString = "Numero di verbi studiati\nper questo tempo verbale %d".localized
-//        let alertController = UIAlertController(title: "Numero di verbi studiati\nper questo tempo verbale: \(numberOfVerbs)".localized , message: "Fare clic su Grafico per vedere più dettagli".localized, preferredStyle: .alert)
         let alertController = UIAlertController(title: String(format: formatedString, numberOfVerbs) , message: "Fare clic su Grafico per vedere più dettagli".localized, preferredStyle: .alert)
         alertController.popoverPresentationController?.sourceView = self.view
         alertController.popoverPresentationController?.sourceRect = tableView.rectForHeader(inSection: 1)

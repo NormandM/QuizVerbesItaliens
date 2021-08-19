@@ -36,16 +36,12 @@ class ResultViewController: UIViewController {
             message.text = "Perfetto!".localized
         }else if result < 1 && Double(result) >= 0.75 {
         let formatedString = "%@ Molto Bene!".localized
-
-//            message.text = "\(resultPercent) Molto bene!".localized
         message.text = String(format: formatedString, resultPercent)
         }else if Double(result) >= 0.6 && Double(result) < 0.75 {
             let formatedString = "%@ Bene!".localized
-//            message.text = "\(resultPercent) Bene!".localized
             message.text = String(format: formatedString, resultPercent)
         }else if result >= 0 && Double(result) < 0.6 {
             let formatedString = "%@ Prova di nuovo!".localized
-//            message.text = "\(resultPercent) Prova di nuovo!".localized
             message.text = String(format: formatedString, resultPercent)
         }
     }

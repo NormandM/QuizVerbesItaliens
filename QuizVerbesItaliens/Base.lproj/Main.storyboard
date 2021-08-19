@@ -888,16 +888,21 @@
                         <outlet property="barreProgression" destination="ld3-bF-y9Z" id="RlL-AW-YJ8"/>
                         <outlet property="checkButton" destination="X1f-KL-LtW" id="WG2-g9-Pgd"/>
                         <outlet property="mode" destination="jww-Vv-cYO" id="TQu-5i-tUa"/>
+                        <outlet property="modeConstraint" destination="NPM-L2-Ga8" id="OrL-jF-e3D"/>
                         <outlet property="personne" destination="nRg-UO-v85" id="pXf-aS-0QV"/>
                         <outlet property="personneResponse" destination="k3I-S1-AKU" id="4XJ-38-8pg"/>
                         <outlet property="reponse" destination="wZt-zL-082" id="dcm-AJ-vsH"/>
                         <outlet property="suggestionButton" destination="4Zn-ov-aJs" id="yJg-Yv-E5q"/>
+                        <outlet property="tempChoisiConstraint" destination="JVR-Li-hK3" id="wbn-tZ-aJR"/>
+                        <outlet property="tempConstraint" destination="MSb-oJ-ijg" id="Skw-Qd-VVG"/>
                         <outlet property="temps" destination="tjh-Qr-gIn" id="d1V-tY-8Go"/>
                         <outlet property="tempsChoisiButton" destination="ip4-ey-hWI" id="EYd-hc-aKV"/>
                         <outlet property="traductionAnglaiseButton" destination="C2z-4g-xHg" id="gqV-TZ-Mcb"/>
+                        <outlet property="traductionButtonConstraint" destination="DR7-eN-XQM" id="ZJ4-sQ-f1y"/>
                         <outlet property="uneAutreQuestionButton" destination="ROu-X5-Ly0" id="7yI-47-haJ"/>
                         <outlet property="verbResponseButton" destination="l8L-H2-kXI" id="wbj-pO-h8U"/>
                         <outlet property="verbe" destination="y6q-V8-8gX" id="9fQ-Ei-UCT"/>
+                        <outlet property="verbeVerticalConstraint" destination="Zfa-LK-MxO" id="TI5-e2-5ad"/>
                         <outlet property="wrongAnswerCorrection" destination="aVI-bU-vB0" id="WPw-s0-dQv"/>
                         <outletCollection property="verbHintButton" destination="dPr-S3-Qk9" collectionClass="NSMutableArray" id="AFS-tw-FOt"/>
                         <outletCollection property="verbHintButton" destination="s2s-2M-Klf" collectionClass="NSMutableArray" id="bCB-CT-EhK"/>
@@ -1200,9 +1205,12 @@
                     <connections>
                         <outlet property="barreProgression" destination="Ap3-DR-4CE" id="Ulc-3q-CGs"/>
                         <outlet property="checkButton" destination="Pog-f3-XG4" id="gUY-8i-CkN"/>
+                        <outlet property="modeConstraint" destination="bAa-tL-3KF" id="AJn-Gw-2iB"/>
                         <outlet property="modeLabel" destination="1a6-j5-ezd" id="pWC-zQ-RwX"/>
                         <outlet property="sentenceLabel" destination="5fU-GR-1a2" id="B7q-p7-QKt"/>
                         <outlet property="suggestionButton" destination="4mB-T4-Etp" id="WfO-WX-m9C"/>
+                        <outlet property="tempConstraint" destination="SAR-6a-nFh" id="iFl-KQ-Ja0"/>
+                        <outlet property="tempsChoisiConstraint" destination="Ok3-d0-72Y" id="Hk8-BP-Mn5"/>
                         <outlet property="tempsEtverbesChoisiButton" destination="yj6-La-jfc" id="yPd-za-Zxk"/>
                         <outlet property="tempsLabel" destination="vU4-P8-aES" id="yQT-XC-jb7"/>
                         <outlet property="uneAutreQuestionButton" destination="tfY-II-Gdh" id="j5C-fa-0QT"/>
@@ -1485,7 +1493,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VcT-jC-BWE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-699" y="973"/>
+            <point key="canvasLocation" x="-529" y="973"/>
         </scene>
         <!--Statistique Table View Controller-->
         <scene sceneID="C2S-tX-bZb">

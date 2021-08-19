@@ -39,15 +39,11 @@ class DetailStatTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! FirstStatTableViewCell
         if forImprovementArray != [] {
             var formatedText = "Corretto: %@".localized
-//            cell.rightAnswerLabel.text = "Corretto: \(forImprovementArray[indexPath.section][indexPath.row][2])".localized
             cell.rightAnswerLabel.text = String(format: formatedText, forImprovementArray[indexPath.section][indexPath.row][2])
-//            cell.rightwithHintLabel.text = "Con l'aiuto: \(forImprovementArray[indexPath.section][indexPath.row][1])".localized
             formatedText = "Con l'aiuto: %@".localized
             cell.rightwithHintLabel.text = String(format: formatedText, (forImprovementArray[indexPath.section][indexPath.row][1]))
             formatedText = "Sbaliato: %@".localized
-//            cell.wrongAnswerLabel.text = "Sbaliato: \(forImprovementArray[indexPath.section][indexPath.row][3])".localized
             cell.wrongAnswerLabel.text = String(format: formatedText, (forImprovementArray[indexPath.section][indexPath.row][3]))
-//            cell.percentRightLabel.text = "Risultato:\n\(forImprovementArray[indexPath.section][indexPath.row][4])".localized
             formatedText = "Risultato:\n%@".localized
             cell.percentRightLabel.text = String(format: formatedText, (forImprovementArray[indexPath.section][indexPath.row][4]))
 
