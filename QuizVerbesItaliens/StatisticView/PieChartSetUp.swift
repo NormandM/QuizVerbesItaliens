@@ -25,24 +25,28 @@ struct PieChartSetUp {
         self.entrieAide = entrieAide
         self.pieChartView = pieChartView
         var pieDataLocal = ChartData()
-        pieChartView.chartDescription?.enabled = false
+        pieChartView.chartDescription.enabled = false
         pieChartView.drawHoleEnabled = false
         pieChartView.rotationAngle = 0
         pieChartView.rotationEnabled = false
         pieChartView.isUserInteractionEnabled = false
         pieChartView.legend.enabled = true
         let legend = pieChartView.legend
-        let lengendEntry1 = LegendEntry(label: "Corretto".localized, form: .default, formSize: .nan, formLineWidth: .leastNonzeroMagnitude, formLineDashPhase: .leastNormalMagnitude, formLineDashLengths: nil, formColor: cBon)
-        let lengendEntry2 = LegendEntry(label: "Sbaliato".localized, form: .default, formSize: .nan, formLineWidth: .leastNormalMagnitude, formLineDashPhase: .leastNormalMagnitude, formLineDashLengths: nil, formColor: cMal)
-        let lengendEntry3 = LegendEntry(label: "Con l'aiuto".localized, form: .default, formSize: .nan, formLineWidth: .leastNormalMagnitude, formLineDashPhase: .leastNormalMagnitude, formLineDashLengths: nil, formColor: cAide)
-        let legengEntry4 = LegendEntry(label: "", form: .default, formSize: .nan, formLineWidth: .leastNormalMagnitude, formLineDashPhase: .leastNormalMagnitude, formLineDashLengths: nil, formColor: cTrnasparent)
+//        let lengendEntry1 = LegendEntry(label: "Corretto".localized, form: .default, formSize: .nan, formLineWidth: .leastNonzeroMagnitude, formLineDashPhase: .leastNormalMagnitude, formLineDashLengths: nil, formColor: cBon)
+        let lengendEntry1 = LegendEntry(label: "Corretto".localized)
+        lengendEntry1.labelColor = cBon
+        let lengendEntry2 = LegendEntry(label: "Sbaliato".localized)
+        lengendEntry2.labelColor = cMal
+        let lengendEntry3 = LegendEntry(label: "Con l'aiuto".localized)
+        lengendEntry3.labelColor = cAide
+        let legengEntry4 = LegendEntry(label: "")
         legend.horizontalAlignment = .center
         var entries : [PieChartDataEntry] = Array()
         let casesPie = [entrieBon,entrieMal,entrieAide]
         switch casesPie {
         case [entrieBon,0,0]:
             entries.append(PieChartDataEntry(value: entrieBon, label: ""))
-            let dataSet = PieChartDataSet(values: entries, label: "")
+            let dataSet = PieChartDataSet(entries: entries, label: "")
             var legendEntryArray: [LegendEntry] = []
             if entrieBon == 0.0 {
                 dataSet.colors = [cTrnasparent]
@@ -56,7 +60,7 @@ struct PieChartSetUp {
             dataSet.drawValuesEnabled = false
         case [0,entrieMal,0]:
             entries.append(PieChartDataEntry(value: entrieMal, label: ""))
-            let dataSet = PieChartDataSet(values: entries, label: "")
+            let dataSet = PieChartDataSet(entries: entries, label: "")
             dataSet.colors = [cMal]
             let legendEntryArray = [lengendEntry2]
             legend.setCustom(entries: legendEntryArray)
@@ -64,7 +68,7 @@ struct PieChartSetUp {
             dataSet.drawValuesEnabled = false
         case [0,0,entrieAide]:
             entries.append(PieChartDataEntry(value: entrieAide, label: ""))
-            let dataSet = PieChartDataSet(values: entries, label: "")
+            let dataSet = PieChartDataSet(entries: entries, label: "")
             dataSet.colors = [cAide]
             let legendEntryArray = [lengendEntry3]
             legend.setCustom(entries: legendEntryArray)
@@ -73,7 +77,7 @@ struct PieChartSetUp {
         case [entrieBon,entrieMal,0]:
             entries.append(PieChartDataEntry(value: entrieBon, label: ""))
             entries.append(PieChartDataEntry(value: entrieMal, label: ""))
-            let dataSet = PieChartDataSet(values: entries, label: "")
+            let dataSet = PieChartDataSet(entries: entries, label: "")
             dataSet.colors = [cBon, cMal]
             let legendEntryArray = [lengendEntry1, lengendEntry2]
             legend.setCustom(entries: legendEntryArray)
@@ -82,7 +86,7 @@ struct PieChartSetUp {
         case [entrieBon,0,entrieAide]:
             entries.append(PieChartDataEntry(value: entrieBon, label: ""))
             entries.append(PieChartDataEntry(value: entrieAide, label: ""))
-            let dataSet = PieChartDataSet(values: entries, label: "")
+            let dataSet = PieChartDataSet(entries: entries, label: "")
             dataSet.colors = [cBon, cAide]
             let legendEntryArray = [lengendEntry1,lengendEntry3]
             legend.setCustom(entries: legendEntryArray)
@@ -91,7 +95,7 @@ struct PieChartSetUp {
         case[0,entrieMal,entrieAide]:
             entries.append(PieChartDataEntry(value: entrieMal, label: ""))
             entries.append(PieChartDataEntry(value: entrieAide, label: ""))
-            let dataSet = PieChartDataSet(values: entries, label: "")
+            let dataSet = PieChartDataSet(entries: entries, label: "")
             dataSet.colors = [cMal, cAide]
             let legendEntryArray = [lengendEntry2, lengendEntry3]
             legend.setCustom(entries: legendEntryArray)
@@ -101,7 +105,7 @@ struct PieChartSetUp {
             entries.append(PieChartDataEntry(value: entrieAide, label: ""))
             entries.append(PieChartDataEntry(value: entrieBon, label: ""))
             entries.append(PieChartDataEntry(value: entrieMal, label: ""))
-            let dataSet = PieChartDataSet(values: entries, label: "")
+            let dataSet = PieChartDataSet(entries: entries, label: "")
             let legendEntryArray = [lengendEntry1, lengendEntry2, lengendEntry3]
             legend.setCustom(entries: legendEntryArray)
             dataSet.colors = [cAide, cBon, cMal]

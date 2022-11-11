@@ -41,7 +41,7 @@ class SelectVerb {
         }
         for verbs in verbSelection {
             
-            if verbs[0] == "impératif"{
+            if verbs[0] == "Imperativo"{
                 verbSelectionRandom.append([verbs[0], verbs[1], verbs[2], verbs[4], "2"])
                 verbSelectionRandom.append([verbs[0], verbs[1], verbs[2], verbs[5], "3"] )
                 verbSelectionRandom.append([verbs[0], verbs[1], verbs[2], verbs[6], "4"] )

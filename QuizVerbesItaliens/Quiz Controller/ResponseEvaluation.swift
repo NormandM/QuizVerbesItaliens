@@ -48,12 +48,15 @@ struct ResponseEvaluation {
                 itemVerbeUpdate.setValue(itemVerbe.bonneReponseTemps, forKey: "bonneReponseTemps")
                 let thisQuizHintAnswer = UserDefaults.standard.integer(forKey: "thisQuizHintAnswer")
                 UserDefaults.standard.set(thisQuizHintAnswer + 1, forKey: "thisQuizHintAnswer")
+                print("thisQuizHintAnswer: \(UserDefaults.standard.integer(forKey: "thisQuizHintAnswer"))")
                 quizResultString = QuizResult.help.rawValue
             }else{
                 itemVerbe.bonneReponse = itemVerbe.bonneReponse + 1
                 itemVerbeUpdate.setValue(itemVerbe.bonneReponse, forKey: "bonneReponse")
                 let thisQuizGoodAnswer = UserDefaults.standard.integer(forKey: "thisQuizGoodAnswer")
+                print(thisQuizGoodAnswer)
                 UserDefaults.standard.set(thisQuizGoodAnswer + 1, forKey: "thisQuizGoodAnswer")
+                print("thisQuizGoodAnswer: \(UserDefaults.standard.integer(forKey: "thisQuizGoodAnswer"))")
                 quizResultString = QuizResult.good.rawValue
             }
         }else{
@@ -61,6 +64,7 @@ struct ResponseEvaluation {
             itemVerbeUpdate.setValue(itemVerbe.mauvaiseReponse, forKey: "mauvaiseReponse")
             let thisQuizBadAnswer = UserDefaults.standard.integer(forKey: "thisQuizBadAnswer")
             UserDefaults.standard.set(thisQuizBadAnswer + 1, forKey: "thisQuizBadAnswer")
+            print("thisQuizBadAnswer: \(UserDefaults.standard.integer(forKey: "thisQuizBadAnswer"))")
             quizResultString = QuizResult.bad.rawValue
         }
         itemVerbeUpdate.setValue(infinitif, forKey: "verbeInfinitif")

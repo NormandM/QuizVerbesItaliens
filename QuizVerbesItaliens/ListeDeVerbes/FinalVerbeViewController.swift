@@ -9,6 +9,7 @@
 import UIKit
 
 class FinalVerbeViewController: UIViewController {
+    let notificationCenter = NotificationCenter.default
     @IBOutlet weak var backgrounColorView: UIView!
     @IBOutlet weak var infinitif: UILabel!
     @IBOutlet weak var mode: UILabel!
@@ -25,6 +26,7 @@ class FinalVerbeViewController: UIViewController {
     @IBOutlet weak var fourth: UILabel!
     @IBOutlet weak var fifth: UILabel!
     @IBOutlet weak var sixth: UILabel!
+    @IBOutlet weak var listenLabel: UILabel!
     let screenSize: CGRect = UIScreen.main.bounds
     let fonts = FontsAndConstraintsOptions()
     var verbInfinitif = String()
@@ -50,12 +52,21 @@ class FinalVerbeViewController: UIViewController {
         let choixDeLaPersonne4 = ChoixDuPronom(mode:  verb.mode, temps: verb.temp, infinitif: verb.verbInfinitif, personne: "4", conjugatedVerb: verb.fourthPersonVerb)
         let choixDeLaPersonne5 = ChoixDuPronom(mode:  verb.mode, temps: verb.temp, infinitif: verb.verbInfinitif, personne: "5", conjugatedVerb: verb.fifthPersonVerb)
         let choixDeLaPersonne6 = ChoixDuPronom(mode:  verb.mode, temps: verb.temp, infinitif: verb.verbInfinitif, personne: "6", conjugatedVerb: verb.sixthPersonVerb)
+        listenLabel.text = "Clicca sul verbo\nper ascoltare la pronuncia".localized
         first.text = choixDeLaPersonne1.pronom
         second.text = choixDeLaPersonne2.pronom
         third.text = choixDeLaPersonne3.pronom
         fourth.text = choixDeLaPersonne4.pronom
         fifth.text = choixDeLaPersonne5.pronom
         sixth.text = choixDeLaPersonne6.pronom
+        let voiceStopped = Notification.Name("voiceStopped")
+        notificationCenter.addObserver(self,selector: #selector(voiceDidTerminate),name: voiceStopped,object: nil)
+        premier.clickLabel()
+        deuxieme.clickLabel()
+        troisieme.clickLabel()
+        quatrieme.clickLabel()
+        cinquieme.clickLabel()
+        sixieme.clickLabel()
         
     }
 
@@ -77,6 +88,18 @@ class FinalVerbeViewController: UIViewController {
         fourth.font = fonts.smallFont
         fifth.font = fonts.smallFont
         sixth.font = fonts.smallFont
+
+        
+    }
+    @objc func voiceDidTerminate(_ notification: NSNotification){
+        print("Voice did stop")
+        premier.textColor = .black
+        deuxieme.textColor = .black
+        troisieme.textColor = .black
+        quatrieme.textColor = .black
+        cinquieme.textColor = .black
+        sixieme.textColor = .black
+    
     }
     
 

@@ -10,16 +10,14 @@ import Foundation
 import AVFoundation
 class SoundPlayer {
     var player: AVAudioPlayer?
-    func playSound(soundName: String, type: String, soundState: String) {
-        if soundState == "speaker.slash" {
-            if let path = Bundle.main.path(forResource: soundName, ofType: type){
-                let url = URL(fileURLWithPath: path)
-                do {
-                    player = try AVAudioPlayer(contentsOf: url)
-                    player?.play()
-                } catch {
-                    // couldn't load file :(
-                }
+    func playSound(soundName: String, type: String) {
+        if let path = Bundle.main.path(forResource: soundName, ofType: type){
+            let url = URL(fileURLWithPath: path)
+            do {
+                player = try AVAudioPlayer(contentsOf: url)
+                player?.play()
+            } catch {
+                // couldn't load file :(
             }
         }
     }

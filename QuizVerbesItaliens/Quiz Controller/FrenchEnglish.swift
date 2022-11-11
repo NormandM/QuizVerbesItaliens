@@ -11,8 +11,11 @@ class FrenchToEnglish {
     
     func getDict() -> [String: String]{
         var dicFrenchEnglish = [String: String]()
-        if let plistPath = Bundle.main.path(forResource: "FrenchToEnglish", ofType: "plist"){
+        if let plistPath = Bundle.main.path(forResource: "ItalianToEnglish".localized, ofType: "plist"){
             dicFrenchEnglish = NSDictionary(contentsOfFile: plistPath) as! [String: String]
+        }
+        for (verb) in dicFrenchEnglish {
+            print("\(verb.key),\(verb.value)")
         }
         return dicFrenchEnglish
     }

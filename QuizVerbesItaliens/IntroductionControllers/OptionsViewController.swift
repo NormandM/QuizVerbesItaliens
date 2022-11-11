@@ -13,7 +13,7 @@ class OptionsViewController: UIViewController {
     @IBOutlet weak var quizDeBase: UILabel!
     @IBOutlet weak var quizContextuel: UILabel!
     @IBOutlet weak var statistiques: UILabel!
-    var soundState = UserDefaults.standard.string(forKey: "soundState")
+ //   var soundState = UserDefaults.standard.string(forKey: "soundState")
     var arrayVerbe: [[String]] = []
     var listeVerbe: [String] = []
     let currentCount = UserDefaults.standard.integer(forKey: "launchCount")
@@ -23,10 +23,9 @@ class OptionsViewController: UIViewController {
         UserDefaults.standard.set(0, forKey: "thisQuizGoodAnswer")
         UserDefaults.standard.set(0, forKey: "thisQuizBadAnswer")
         if currentCount >= 10 {
-            if #available(iOS 10.3, *) {
-                SKStoreReviewController.requestReview()
-                UserDefaults.standard.set(0, forKey: "launchCount")
-            }
+        SKStoreReviewController.requestReview()
+        UserDefaults.standard.set(0, forKey: "launchCount")
+         
         }
         
         if let plistPath = Bundle.main.path(forResource: "ItalianVerbsList", ofType: "plist"),
@@ -42,10 +41,6 @@ class OptionsViewController: UIViewController {
                 return s1.folding(options: .diacriticInsensitive, locale: .current) < s2.folding(options: .diacriticInsensitive, locale: .current)
             }
             listeVerbe = listeVerbe.sorted(by: alpha)
-        }
-        if !soundStateInitialized(soundState: "soundState"){
-            soundState = "speaker.slash"
-            UserDefaults.standard.setValue(soundState, forKey: "soundState")
         }
     }
     override func viewWillAppear(_ animated: Bool) {
@@ -82,7 +77,8 @@ class OptionsViewController: UIViewController {
         navigationItem.backBarButtonItem = backItem
         navigationItem.backBarButtonItem?.tintColor = UIColor(red: 27/255, green: 96/255, blue: 94/255, alpha: 1.0)
     }
-    func soundStateInitialized(soundState: String) -> Bool {
-        return UserDefaults.standard.object(forKey: soundState) != nil
-    }
+//    func soundStateInitialized(soundState: String) -> Bool {
+//        return UserDefaults.standard.object(forKey: soundState) != nil
+//    }
 }
+
